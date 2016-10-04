@@ -1,0 +1,20 @@
+[Profile]
+Name=Default Profile
+SameSizeAsVideo=0
+ThumbHeight=300
+ThumbWidth=300
+Brightness=0
+Contrast=0
+Sharpness=0
+Trimthumb=0
+Cropthumb=0
+ResampleFilter=0
+JpegQuality=90
+JpegDPI=72
+OutputFileFolder=
+OutputFileName=
+OutputFilePrefix=
+OutputFileCountPrefix=-
+OutputFileCounter=01
+OutputFileSuffix=
+OutputFileType=jpg

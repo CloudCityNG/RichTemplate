@@ -1,0 +1,35 @@
+﻿Imports System
+Imports System.Data
+Imports System.Configuration
+Imports System.Collections
+Imports System.Web
+Imports System.Web.Security
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+Imports System.Web.UI.WebControls.WebParts
+Imports System.Web.UI.HtmlControls
+
+Partial Public Class admin_processLogin
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+        If Request.QueryString("myUserNameForLogin") <> "" Then
+            Session("adminID") = Request.QueryString("uid")
+
+            'Get the Language and obtain the language code from the Language DB
+            Dim strLanguagePreference As String = "en-US" 'Default Language
+            If Not Request.QueryString("uid") Is Nothing Then
+                Dim intAdminUserID As Integer = Convert.ToInt32(Request.QueryString("uid"))
+                Dim dtAdminUser As DataTable = AdminUserDAL.GetAdminUser_ByID(intAdminUserID)
+                If dtAdminUser.Rows.Count > 0 Then
+                    strLanguagePreference = dtAdminUser.Rows(0)("LanguageCode").ToString()
+                End If
+            End If
+            LanguageDAL.CurrentLanguage = strLanguagePreference
+
+            Response.Redirect("/admin/")
+        Else
+            Response.Redirect("/richadmin/")
+        End If
+    End Sub
+End Class

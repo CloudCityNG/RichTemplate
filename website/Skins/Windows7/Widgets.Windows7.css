@@ -1,0 +1,5 @@
+.RadToolBar_Windows7 .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  _background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+  background-repeat: no-repeat; }
+

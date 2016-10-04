@@ -1,0 +1,83 @@
+.RadDropDownList_Windows7 {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Windows7 .rddlInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #c2cedb;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: -webkit-linear-gradient(top, #f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -moz-linear-gradient(top, #f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -ms-linear-gradient(top, #f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -o-linear-gradient(top, #f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: linear-gradient(top, #f4f8fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+  .RadDropDownList_Windows7 .rddlEmptyMessage,
+  .RadDropDownList_Windows7 .rddlDefaultMessage {
+    color: #a7a7a7;
+    font-style: italic; }
+  .RadDropDownList_Windows7 .rddlIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -21px -20px; }
+  .RadDropDownList_Windows7 .rddlHovered {
+    border-color: #c2dbfb;
+    color: #1e395b;
+    background-color: #e7ecf5;
+    background-image: -webkit-linear-gradient(top, #fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%);
+    background-image: -moz-linear-gradient(top, #fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%);
+    background-image: -ms-linear-gradient(top, #fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%);
+    background-image: -o-linear-gradient(top, #fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%);
+    background-image: linear-gradient(top, #fcfdfe 0%, #f7f8fb 50%, #edf2f9 50%, #e7ecf5 100%); }
+    .RadDropDownList_Windows7 .rddlHovered .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Windows7 .rddlFocused {
+    border-color: #9bc9ff;
+    color: #1e395b;
+    background-color: #dde8f6;
+    background-image: -webkit-linear-gradient(top, #f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -moz-linear-gradient(top, #f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -ms-linear-gradient(top, #f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: -o-linear-gradient(top, #f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%);
+    background-image: linear-gradient(top, #f3f7fa 0%, #e9f2fb 50%, #dde7f5 50%, #dde8f6 100%); }
+    .RadDropDownList_Windows7 .rddlFocused .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Windows7 .rddlDisabled {
+    border-color: #dddddd;
+    color: #a7a7a7;
+    background-color: #e7e7e7;
+    background-image: -webkit-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%);
+    background-image: -moz-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%);
+    background-image: -ms-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%);
+    background-image: -o-linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%);
+    background-image: linear-gradient(top, #f7f7f7 0%, #e7e7e7 100%); }
+    .RadDropDownList_Windows7 .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Windows7 {
+  border-color: #c1dbfc;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddlPopup_Windows7 .rddlHeader,
+  .rddlPopup_Windows7 rddlFooter {
+    color: black;
+    background-color: #f1f5fb; }
+  .rddlPopup_Windows7 .rddlHeader {
+    border-bottom-color: #c1dbfc; }
+  .rddlPopup_Windows7 rddlFooter {
+    border-top-color: #c1dbfc; }
+  .rddlPopup_Windows7 .rddlItemHovered {
+    color: #1e395b;
+    background-color: #eef6ff; }
+  .rddlPopup_Windows7 .rddlItemSelected {
+    color: #1e395b;
+    background-color: #c3dcfc; }
+  .rddlPopup_Windows7 .rddlItemDisabled {
+    color: #a7a7a7;
+    background-color: transparent; }
+  .rddlPopup_Windows7 .rddlItemLoading {
+    color: #1e395b;
+    background-color: #eef6ff; }

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Email_AddEdit_BodyHeading" xml:space="preserve">
+    <value>Complete the form below to update this email template</value>
+  </data>
+  <data name="Email_AddEdit_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Email_AddEdit_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Email_AddEdit_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Email_AddEdit_DenotesRequired" xml:space="preserve">
+    <value>Denotes required information</value>
+  </data>
+  <data name="Email_AddEdit_EmailBody_Html" xml:space="preserve">
+    <value>Email Body (Html version)</value>
+  </data>
+  <data name="Email_AddEdit_EmailBody_Text" xml:space="preserve">
+    <value>Email Body (Text version)</value>
+  </data>
+  <data name="Email_AddEdit_EmailDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Email_AddEdit_EmailReplyToEmailAddress" xml:space="preserve">
+    <value>'Reply To' Email Address</value>
+  </data>
+  <data name="Email_AddEdit_EmailReplyToName" xml:space="preserve">
+    <value>'Reply To' Name</value>
+  </data>
+  <data name="Email_AddEdit_EmailSenderEmailAddress" xml:space="preserve">
+    <value>Sender Email Address</value>
+  </data>
+  <data name="Email_AddEdit_EmailSenderName" xml:space="preserve">
+    <value>Sender Name</value>
+  </data>
+  <data name="Email_AddEdit_EmailSubject" xml:space="preserve">
+    <value>Email Subject Line</value>
+  </data>
+  <data name="Email_AddEdit_EmailTemplateName" xml:space="preserve">
+    <value>Email Template Name</value>
+  </data>
+  <data name="Email_AddEdit_Header" xml:space="preserve">
+    <value>Add/Edit Email Template</value>
+  </data>
+  <data name="Email_AddEdit_InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid Email Address</value>
+  </data>
+  <data name="Email_AddEdit_RequiredMessage" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Email_AddEdit_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Email_AddEdit_StatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Email_AddEdit_StatusArchive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="Email_AddEdit_Tab_Content_Heading" xml:space="preserve">
+    <value>Basic Email Template Information</value>
+  </data>
+  <data name="Email_AddEdit_Tab_Content_SubHeading" xml:space="preserve">
+    <value>Enter the basic email template information below.</value>
+  </data>
+  <data name="Email_Default_BodyHeading" xml:space="preserve">
+    <value>Below you can Update Email Templates.</value>
+  </data>
+  <data name="Email_Default_GridDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Email_Default_GridEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Email_Default_GridEmailStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Email_Default_GridEmailStatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Email_Default_GridEmailStatusArchive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="Email_Default_GridEmailSubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Email_Default_GridEmailTemplateName" xml:space="preserve">
+    <value>Email Template</value>
+  </data>
+  <data name="Email_Default_Header" xml:space="preserve">
+    <value>Welcome - Manage Email Templates</value>
+  </data>
+  <data name="Email_Default_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>email templates in</value>
+  </data>
+  <data name="Email_Default_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Email_AddEdit_EmailBody_AvailableParameters" xml:space="preserve">
+    <value>Available Parameters for Email Body</value>
+  </data>
+  <data name="Email_AddEdit_EmailBody_AvailableParameters_NoneAvailable" xml:space="preserve">
+    <value>No Parameters are available for this Email Body</value>
+  </data>
+  <data name="Email_AddEdit_EmailRecipientEmailAddress" xml:space="preserve">
+    <value>Recipient Email Addresss</value>
+  </data>
+  <data name="Email_AddEdit_EmailRecipientEmailAddress_Instructions" xml:space="preserve">
+    <value>As this is an email to an Administrator, you can specify a list of email address here seperated by a comma (no spaces), and the emails will then be sent to these email addresses.</value>
+  </data>
+</root>

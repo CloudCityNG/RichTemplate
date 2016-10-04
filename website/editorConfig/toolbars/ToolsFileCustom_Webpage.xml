@@ -1,0 +1,89 @@
+<root>	
+	<tools>
+		<tool name="Bold"/>
+		<tool name="Italic"/>
+		<tool name="Underline"/>
+		<tool name="StrikeThrough" />
+		<tool name="Superscript" />
+		<tool name="Subscript" />
+
+		<tool separator="true"/>
+
+
+		<tool name="JustifyLeft"/>
+		<tool name="JustifyCenter"/>
+		<tool name="JustifyRight"/>
+		<tool name="JustifyFull"/>
+		
+		<tool separator="true"/>
+		
+		<tool name="Outdent"/>
+		<tool name="Indent"/>
+		<tool name="InsertOrderedList"/>
+		<tool name="InsertUnorderedList"/>
+		
+		<tool separator="true"/>
+
+		<tool name="ImageManager" shortcut="CTRL+M"/>
+		<tool name="DocumentManager" />
+		<tool name="FlashManager" />
+		<tool name="MediaManager" />
+	
+		<tool separator="true"/>
+
+		<tool name="InsertTable"/>
+		<tool name="InsertSymbol"/>
+			
+
+
+	</tools>
+	<tools>
+        <tool name ="InsertSpecialLink" Text="Insert Special Link" />
+        <tool name ="InsertAnchorLink" Text="Insert Anchor Link" />
+		<tool name="LinkManager" />
+		<tool name="Unlink" />
+
+		<tool separator="true"/>
+
+		<tool name="FormatBlock"/>
+		<tool name="ApplyClass"/>
+		<tool name="FontName"/>
+		<tool name="FontSize"/>
+		<tool name="ForeColor"/>
+
+
+
+	</tools>
+	<tools>
+
+
+	
+		
+
+		<tool name="AjaxSpellCheck"/>
+		<tool name="Cut"/>
+		<tool name="Copy"/>
+		<tool name="PasteStrip"/>
+		<tool name="FormatStripper" />
+		
+		<tool separator="true"/>
+		
+		<tool name="Undo"/>
+		<tool name="Redo"/>
+	
+		<tool separator="true"/>
+
+		<tool name="FindAndReplace" />
+
+		<tool separator="true"/>
+		
+		<tool name="InsertParagraph" />
+		<tool name="InsertHorizontalRule" />
+
+		<tool name="ToggleScreenMode" />
+
+	</tools>
+
+	
+
+</root>

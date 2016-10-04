@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Staff_AddEdit_Biography" xml:space="preserve">
+    <value>Personal Bio</value>
+  </data>
+  <data name="Staff_AddEdit_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Staff_AddEdit_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_AddEdit_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Staff_AddEdit_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Staff_AddEdit_CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="Staff_AddEdit_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_AddEdit_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Staff_AddEdit_EditingRecord" xml:space="preserve">
+    <value>Editing Record</value>
+  </data>
+  <data name="Staff_AddEdit_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Staff_AddEdit_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Staff_AddEdit_Expired" xml:space="preserve">
+    <value>Expired!</value>
+  </data>
+  <data name="Staff_AddEdit_FavouriteUrl" xml:space="preserve">
+    <value>Favourite Website/URL</value>
+  </data>
+  <data name="Staff_AddEdit_FirstName" xml:space="preserve">
+    <value> First Name</value>
+  </data>
+  <data name="Staff_AddEdit_GeoLocation" xml:space="preserve">
+    <value>Would you like to provide geolocation?</value>
+  </data>
+  <data name="Staff_AddEdit_GeolocationNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Staff_AddEdit_GeolocationYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Staff_AddEdit_Header" xml:space="preserve">
+    <value>Add/Edit Staff Member</value>
+  </data>
+  <data name="Staff_AddEdit_EmailAddress_InvalidEmail" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="Staff_AddEdit_Keywords" xml:space="preserve">
+    <value>Keywords</value>
+  </data>
+  <data name="Staff_AddEdit_KeywordsMessage" xml:space="preserve">
+    <value>Enter a coma seperated list of keywords for more precise searching.</value>
+  </data>
+  <data name="Staff_AddEdit_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Staff_AddEdit_MobilePhone" xml:space="preserve">
+    <value>Mobile Phone</value>
+  </data>
+  <data name="Staff_AddEdit_StaffPosition_NotSpecified" xml:space="preserve">
+    <value>Not-Specified</value>
+  </data>
+  <data name="Staff_AddEdit_AddressOfficeNumber" xml:space="preserve">
+    <value>Office Number</value>
+  </data>
+  <data name="Staff_AddEdit_OfficePhone" xml:space="preserve">
+    <value>Office Phone</value>
+  </data>
+  <data name="Staff_AddEdit_PersonalUrl" xml:space="preserve">
+    <value>Personal Homepage/URL</value>
+  </data>
+  <data name="Staff_AddEdit_StaffPosition" xml:space="preserve">
+    <value>Job Position</value>
+  </data>
+  <data name="Staff_AddEdit_RequiredMessage" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Staff_AddEdit_Salutation" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="Staff_AddEdit_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Staff_AddEdit_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Staff_AddEdit_StatusActive" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="Staff_AddEdit_StatusArchive" xml:space="preserve">
+    <value>archive</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_Content" xml:space="preserve">
+    <value>Staff Member Content</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_Content_Heading" xml:space="preserve">
+    <value>Basic Staff Member Information</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_Content_SubHeading" xml:space="preserve">
+    <value>Enter the basic staff member information below.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridFullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridVersion" xml:space="preserve">
+    <value>Version #</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridRevisionDate" xml:space="preserve">
+    <value>Revision Date</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_Heading" xml:space="preserve">
+    <value>Content Revision History</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_SubHeading" xml:space="preserve">
+    <value>Below is a list of all revisions made to this record. You can view and even restore previous versions of the data.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SearchTags" xml:space="preserve">
+    <value>Search Tags</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SearchTags_AddSearchTags" xml:space="preserve">
+    <value>Add Additional Search Tags</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SearchTags_Heading" xml:space="preserve">
+    <value>Content Search Tags</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SearchTags_SubHeading" xml:space="preserve">
+    <value>Assign content search tags for advanced searching and taxonomy.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO" xml:space="preserve">
+    <value>SEO Content</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO_Heading" xml:space="preserve">
+    <value>SEO Head Tag Information</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO_MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO_MetaKeywords" xml:space="preserve">
+    <value>Meta Keywords</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO_MetaTitle" xml:space="preserve">
+    <value>Meta Title</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_SEO_SubHeading" xml:space="preserve">
+    <value>Enter meta data to be inserted into the head section of the page for better SEO.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups" xml:space="preserve">
+    <value>Users &amp; Groups</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_Groups" xml:space="preserve">
+    <value>Groups with access to this content</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_GroupsUnAuthenticated" xml:space="preserve">
+    <value>All UN-AUTHENTICATED Users</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_GroupsUnAuthenticatedDescription" xml:space="preserve">
+    <value>Content avaliable to all un-authenticated users ONLY</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_GroupsAuthenticated" xml:space="preserve">
+    <value>All AUTHENTICATED Members</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_GroupsAuthenticatedDescription" xml:space="preserve">
+    <value>Content avaliable to all authenticated members ONLY</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_Heading" xml:space="preserve">
+    <value>Content Security Settings</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_SubHeading" xml:space="preserve">
+    <value>Select who can view this content below. Individual accounts override group accounts.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_UserGroups_Users" xml:space="preserve">
+    <value>Individual Users with access to this content</value>
+  </data>
+  <data name="Staff_AddEdit_Uncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage_InvalidFileType" xml:space="preserve">
+    <value>Invalid File Type.</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage_Message" xml:space="preserve">
+    <value>Use the upload boxes below to upload a file for this staff member.</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage_Requirements" xml:space="preserve">
+    <value>Accepted file types:(.jpg, .gif, .png). Maximum size limit: 100kb</value>
+  </data>
+  <data name="Staff_Default_ActiveRecords" xml:space="preserve">
+    <value>Staff Member Entries</value>
+  </data>
+  <data name="Staff_Default_Grid_AddNewEntry" xml:space="preserve">
+    <value>Add a new staff member</value>
+  </data>
+  <data name="Staff_Default_ArchiveRecords" xml:space="preserve">
+    <value>Archived Staff Member Entries</value>
+  </data>
+  <data name="Staff_Default_BodyHeading" xml:space="preserve">
+    <value>Below you can add, edit and delete staff member entries.</value>
+  </data>
+  <data name="Staff_Default_Configure" xml:space="preserve">
+    <value>Configure Staff Member</value>
+  </data>
+  <data name="Staff_Default_GridDateCreated" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="Staff_Default_GridDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_Default_GridDeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_Default_GridEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Staff_Default_GridEmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Staff_Default_GridFullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Staff_Default_GridStaffPosition" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Staff_Default_Header" xml:space="preserve">
+    <value>Manage Staff Member Entries</value>
+  </data>
+  <data name="Staff_Default_ManageCategories" xml:space="preserve">
+    <value>Manage Staff Member Categories</value>
+  </data>
+  <data name="Staff_Default_ManagePositions" xml:space="preserve">
+    <value>Manage Staff Member Positions</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Staff_StaffPosition_AddEdit_Header" xml:space="preserve">
+    <value>Add/Edit Staff Positions</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_ButtonInsert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Staff_StaffPosition_AddNewEntry" xml:space="preserve">
+    <value>Add a new staff position</value>
+  </data>
+  <data name="Staff_StaffPosition_GridDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_StaffPosition_GridDeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_StaffPosition_GridEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Staff_StaffPosition_GridStaffPosition" xml:space="preserve">
+    <value>Staff Position</value>
+  </data>
+  <data name="_SiteWide_Category_BodyHeading" xml:space="preserve">
+    <value>Below you can modify your staff categories.</value>
+  </data>
+  <data name="_SiteWide_Category_Heading" xml:space="preserve">
+    <value>Staff Categories</value>
+  </data>
+  <data name="_SiteWide_Category_ReturnToModule" xml:space="preserve">
+    <value>Return to Staff Members</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_BodyHeading" xml:space="preserve">
+    <value>Below you can modify your staff module options.</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_Heading" xml:space="preserve">
+    <value>Staff Module Configuration</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_ReturnToModule" xml:space="preserve">
+    <value>Return to Staff Members</value>
+  </data>
+  <data name="Staff_StaffPosition_ReturnToModule" xml:space="preserve">
+    <value>Return to Staff Members</value>
+  </data>
+  <data name="_SiteWide_SearchTags_ReturnToModule" xml:space="preserve">
+    <value>Return to Staff Members</value>
+  </data>
+  <data name="_SiteWide_RichTemplate_List_Modules_ModuleName" xml:space="preserve">
+    <value>Staff Members</value>
+  </data>
+  <data name="Staff_Default_GridStaffPosition_NotSpecified" xml:space="preserve">
+    <value>Not-Specified</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridEmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridStaffPosition" xml:space="preserve">
+    <value>Staff Position</value>
+  </data>
+  <data name="Staff_AddEdit_UploadImage_MaxFileSizeExceeded" xml:space="preserve">
+    <value>Max file size exceeded.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_DeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_EditingRecord" xml:space="preserve">
+    <value>Editing Record</value>
+  </data>
+  <data name="Staff_Preview_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Staff_Preview_ButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Staff_Preview_ButtonRollBack" xml:space="preserve">
+    <value>Roll Back</value>
+  </data>
+  <data name="Staff_Preview_Expired" xml:space="preserve">
+    <value>Expired!</value>
+  </data>
+  <data name="Staff_Preview_Header" xml:space="preserve">
+    <value>Preview/Rollback Staff Member</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_DateCreated" xml:space="preserve">
+    <value>Archive Record Created</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_StatusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_StatusArchive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_UnCategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_Version" xml:space="preserve">
+    <value>Version Number</value>
+  </data>
+  <data name="Staff_Preview_RollBackComplete_Body" xml:space="preserve">
+    <value>You have successfully restored your previous copy</value>
+  </data>
+  <data name="Staff_Preview_RollBackComplete_Heading" xml:space="preserve">
+    <value>Rollback Complete!</value>
+  </data>
+  <data name="Staff_Preview_Biography" xml:space="preserve">
+    <value>Biography</value>
+  </data>
+  <data name="Staff_Preview_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Staff_Preview_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Staff_Preview_FavouriteURL" xml:space="preserve">
+    <value>Favourite Website</value>
+  </data>
+  <data name="Staff_Preview_Homepage" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="Staff_Preview_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Staff_Preview_Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="Staff_Preview_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Staff_Preview_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Staff_Preview_StartDateEndDateSeperator" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Staff_Preview_StartDateLabel" xml:space="preserve">
+    <value>Joined on</value>
+  </data>
+  <data name="_SiteWide_AdminUser_Default_ModuleName" xml:space="preserve">
+    <value>Staff Members</value>
+  </data>
+  <data name="_SiteWide_AdminUser_AddEdit_ModuleName" xml:space="preserve">
+    <value>Staff Members</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_GridVersion_Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="Staff_Preview_InformationBox_Version_Current" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_AddNewEntry" xml:space="preserve">
+    <value>Add a new staff category</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>staff categories in</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>archives in</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Staff_Default_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>staff members in</value>
+  </data>
+  <data name="Staff_Default_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Staff_StaffPosition_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>staff positions in</value>
+  </data>
+  <data name="Staff_StaffPosition_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Staff_Default_Grid_Expired" xml:space="preserve">
+    <value>Expired!</value>
+  </data>
+  <data name="Staff_Default_Key_Expired" xml:space="preserve">
+    <value>This represents a staff record that has expired and therefore is no longer active.</value>
+  </data>
+  <data name="Staff_AddEdit_Tab_History_DeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected staff history items?</value>
+  </data>
+  <data name="Staff_Default_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected staff members?</value>
+  </data>
+  <data name="Staff_StaffPosition_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected staff positions?</value>
+  </data>
+  <data name="_SiteWide_Category_Default_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected staff categories?</value>
+  </data>
+  <data name="Staff_AddEdit_AssociateWithSite" xml:space="preserve">
+    <value>Associate this staff member with this site only or all sites</value>
+  </data>
+  <data name="Staff_AddEdit_AssociateWithSite_AllSites" xml:space="preserve">
+    <value>All Sites</value>
+  </data>
+  <data name="Staff_AddEdit_AssociateWithSite_ThisSiteOnly" xml:space="preserve">
+    <value>This Site Only</value>
+  </data>
+  <data name="Staff_AddEdit_AssociateWithSite_PublicMessage" xml:space="preserve">
+    <value>This is a public staff member created by</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_GridAvailableForAllSites" xml:space="preserve">
+    <value>Available For All Sites</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_Header" xml:space="preserve">
+    <value>Manage Staff Member Positions</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_Required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_StaffPosition" xml:space="preserve">
+    <value>Staff Position</value>
+  </data>
+  <data name="_SiteWide_Comment_AddEditModule_Heading" xml:space="preserve">
+    <value>Staff Member Comment Moderation</value>
+  </data>
+  <data name="_SiteWide_Comment_AddEditModule_HeadingBody" xml:space="preserve">
+    <value>Below you can edit and delete staff member comments.</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected staff member comments?</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>staff comments in</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Heading" xml:space="preserve">
+    <value>Staff Member Comment Moderation</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_HeadingBody" xml:space="preserve">
+    <value>Below you can edit and delete staff member comments.</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_ModuleName" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_ReturnToModule" xml:space="preserve">
+    <value>Return to Staff Members</value>
+  </data>
+  <data name="Staff_StaffPosition_EditTemplate_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Staff_StaffPosition_GridDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Staff_Default_Key_AvailableToAllSites" xml:space="preserve">
+    <value>Staff record is available to all sites</value>
+  </data>
+  <data name="Staff_Preview_RollBack_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to roll back to this particular staff version?</value>
+  </data>
+  <data name="Staff_Preview_ModuleName" xml:space="preserve">
+    <value>Staff Members</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_ModuleLocation" xml:space="preserve">
+    <value>Staff Module URL</value>
+  </data>
+</root>

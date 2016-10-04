@@ -1,0 +1,17 @@
+.RadToolTip_Default {
+  background-color: white;
+  color: #333333;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadToolTip_Default .rtTitleWrapper .rtTitle {
+    color: #333333; }
+  .RadToolTip_Default .rtClose {
+    background-image: url('../Default/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Default .rtContent {
+    background-color: white;
+    color: #333333; }
+  .RadToolTip_Default .rtCallout {
+    background-image: url('../Default/ToolTip/Callouts.gif'); }
+  .RadToolTip_Default.rtLoading {
+    background-image: url('../Default/Common/loading.gif'); }
+

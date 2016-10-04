@@ -1,0 +1,288 @@
+﻿/* Document Manager RadTree (found in: ROOT/documentLibrary/default.aspx) */
+.tblDocumentManager .rtIn
+{
+    background: none !important;
+    border: none !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    vertical-align: top !important;
+}
+.tblDocumentManager .rtMinus, .tblDocumentManager .rtPlus
+{
+    vertical-align: middle !important;
+    margin-top:10px !IMPORTANT;
+}
+.tblDocumentManager .rtIn > .inner_rtIn
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+}
+
+.tblDocumentManager .rtSelected .rtIn > .inner_rtIn
+{
+    background-color: #C4DDFC !important;
+    border: solid 1px #8FB0D6 !important;
+    padding: 3px 2px 2px !important;
+}
+
+.tblDocumentManager .save img
+{
+    width:15px;
+    height:15px;
+    vertical-align:middle;
+}
+
+.fileSize
+{
+    vertical-align: middle;
+}
+
+
+/* Admin Section RadTree (found in: ROOT/admin/richtemplate_list_sections.aspx) */
+.divSectionTree .rtIn, .divSectionTree .rtTop, .divSectionTree .rtMid, .divSectionTree .rtBot
+{
+    background: none !important;
+    border: none !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 3px 0px 3px 0px !important;
+    vertical-align: top !important;
+}
+.divSectionTree .rtIn > .inner_rtIn
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+}
+
+.divSectionTree .rtSelected .rtIn > .inner_rtIn
+{
+    background-color: #C4DDFC !important;
+    border: solid 1px #8FB0D6 !important;
+    padding: 3px 2px 2px !important;
+}
+
+.divSectionTree .rtMinus, .divSectionTree .rtPlus, .divSectionTree .rtSp
+{
+    display: none !important;
+}
+
+.divSectionTree li.rtLI span.inner_rtIn
+{
+    position:absolute;
+}
+
+.divSectionTree .rtImg_root
+{
+    vertical-align: top;
+}
+.divSectionTree .inner_rtIn
+{
+    font-family: verdana,helvetica;
+    font-size: 14px;
+}
+.divSectionTree .rtIn
+{
+    cursor: pointer;
+}
+
+
+/* Admin Modules RadTree (found in: ROOT/admin/richtemplate_list_modules.aspx) */
+.divModuleTree .rtIn, .divModuleTree .rtTop, .divModuleTree .rtMid, .divModuleTree .rtBot
+{
+    background: none !important;
+    border: none !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 3px 0px 3px 0px !important;
+    vertical-align: top !important;
+}
+.divModuleTree .rtIn > span.inner_rtIn
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+}
+
+.divModuleTree .rtSelected .rtIn > span.inner_rtIn
+{
+    background-color: #C4DDFC !important;
+    border: solid 1px #8FB0D6 !important;
+    padding: 3px 2px 2px !important;
+}
+.divModuleTree .rtSelected .rtIn > span.inactive
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+    border: none !important;
+    background: none !important;
+}
+
+.divModuleTree .rtMinus, .divModuleTree .rtPlus, .divModuleTree .rtSp
+{
+    display: none !important;
+}
+
+.divModuleTree .rtImg_root
+{
+    vertical-align: top;
+}
+.divModuleTree .inner_rtIn
+{
+    font-family: verdana,helvetica;
+    font-size: 14px;
+}
+.divModuleTree .rtIn
+{
+    cursor: pointer;
+}
+.divModuleTree .rtIn > .inactive
+{
+    cursor: default;
+}
+
+/* Admin Website Administration RadTree (found in: ROOT/admin/richtemplate_list_administration.aspx) */
+.divWebsiteAdministrationTree .rtIn, .divWebsiteAdministrationTree .rtTop, .divWebsiteAdministrationTree .rtMid, .divWebsiteAdministrationTree .rtBot
+{
+    background: none !important;
+    border: none !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 3px 0px 3px 0px !important;
+    vertical-align: top !important;
+}
+.divWebsiteAdministrationTree .rtIn > .inner_rtIn
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+}
+
+.divWebsiteAdministrationTree .rtSelected .rtIn > .inner_rtIn
+{
+    background-color: #C4DDFC !important;
+    border: solid 1px #8FB0D6 !important;
+    padding: 3px 2px 2px !important;
+}
+
+.divWebsiteAdministrationTree .rtMinus, .divWebsiteAdministrationTree .rtPlus, .divWebsiteAdministrationTree .rtSp
+{
+    display: none !important;
+}
+
+.divWebsiteAdministrationTree .rtImg_root
+{
+    vertical-align: top;
+}
+.divWebsiteAdministrationTree .inner_rtIn
+{
+    font-family: verdana,helvetica;
+    font-size: 14px;
+}
+.divWebsiteAdministrationTree .rtIn
+{
+    cursor: pointer;
+}
+
+/* Admin Pages RadTree (found in: ROOT/admin/richtemplate_list_pages.aspx) */
+.divPagesTree .rtIn, .divPagesTree .rtTop, .divPagesTree .rtMid, .divPagesTree .rtBot
+{
+    background: none !important;
+    border: none !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 3px 0px 3px 0px !important;
+    vertical-align: top !important;
+    font: verdana,arial,helvetica,sans-serif !important;
+}
+
+.divPagesTree .rtTop, .divPagesTree .rtMid, .divPagesTree .rtBot
+{
+    border-top: solid 1px #D2E3FC !important;
+    position:relative;
+    display:block;
+}
+.divPagesTree a
+{
+    /*text-decoration: none;*/
+}
+
+.divPagesTree ul, .divPagesTree li, .divPages .rtIn, .divPagesTree li > div
+{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.divPagesTree .rtIn > .inner_rtIn
+{
+    margin-left: 1px !important;
+    padding: 4px 3px 3px !important;
+    vertical-align: middle !important;
+}
+
+.divPagesTree .rtSelected .rtIn > .inner_rtIn
+{
+    background-color: #C4DDFC !important;
+    border: solid 1px #8FB0D6 !important;
+    padding: 3px 2px 2px !important;
+}
+
+.divPagesTree .rtLI
+{
+    background-image:none !IMPORTANT;
+}
+.divPagesTree .rtMinus, .divPagesTree .rtPlus, .divPagesTree .rtSp
+{
+    /*  display: none !Important;   */
+}
+
+.divPagesTree .rtMinus, .divPagesTree .rtPlus, .divPagesTree .rtSp
+{
+   margin:12px 0px 0px 0px !Important;
+   position:absolute !Important;
+   background-image: url('/skins/missing/treeview/arrows.png') !IMPORTANT;
+   /*   top:16px !Important;    */
+   left:20px;
+}
+
+.divPagesTree .rtImg_root
+{
+    vertical-align: top;
+}
+.divPagesTree .inner_rtIn
+{
+    font-family: verdana,helvetica;
+    font-size: 14px;
+}
+.divPagesTree .rtIn
+{
+    /*cursor: pointer;*/
+    width: 100%;
+}
+
+.divPagesTree .rtPlus
+{
+    background-image: url('/skins/missing/treeview/arrows.png');
+    background-position:0 0; 
+    background-repeat:no-repeat;
+    cursor:pointer;
+    display:inline-block;
+    font-size:0;
+    height:11px;
+    margin:8px 7px 0 -0px;
+    padding:0;
+    vertical-align:top;
+    width:11px; 
+    float:left;
+}
+.divPagesTree .rtExpand:hover
+{
+    background-position:0 -22px; 
+}
+
+.divPagesTree li .webpage > div
+{
+    position:absolute;
+    top:15px;
+    height:16px;
+}
+
+

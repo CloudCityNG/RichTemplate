@@ -1,0 +1,721 @@
+date/time         : 2009-07-07, 12:18:59, 865ms
+computer name     : RPRIEST
+user name         : steinlanglie <admin>
+registered owner  : Microsoft / Microsoft
+operating system  : Windows Vista x64 Service Pack 1 build 6001
+system language   : English
+system up time    : 11 days 2 hours
+program up time   : 53 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU E6550 @ 2.33GHz
+physical memory   : 875/4029 MB (free/total)
+free disk space   : (C:) 12.11 GB
+display mode      : 1680x1050, 32 bit
+process id        : $1c9c
+allocated memory  : 115.30 MB
+executable        : FrameShots.exe
+exec. date/time   : 2008-03-11 11:34
+version           : 3.0.1.0
+compiled with     : Delphi 2006/07
+madExcept version : 3.0g
+callstack crc     : $6740724a, $8b664d6f, $8b664d6f
+exception number  : 1
+exception class   : EInvalidOp
+exception message : Invalid floating point operation.
+
+main thread ($20cc):
+6740724a +000 quartz.dll
+00649202 +012 FrameShots.exe DirectShowVideoControl 2160  +4 TDirectShowVideoControl.Pause
+00649634 +034 FrameShots.exe DirectShowVideoControl 2389  +8 TDirectShowVideoControl.SetPositionReferenceTime
+006495f5 +009 FrameShots.exe DirectShowVideoControl 2368  +1 TDirectShowVideoControl.SetPosition
+0064929c +018 FrameShots.exe DirectShowVideoControl 2187  +4 TDirectShowVideoControl.PreviousChapter
+00655b69 +011 FrameShots.exe OdieVideoControl        484  +2 TOdieVideoControl.PreviousChapter
+0066b75d +011 FrameShots.exe ufrmMain               1284  +2 TfrmMain.btnPreviousChapterClick
+004adb64 +064 FrameShots.exe Controls                        TControl.Click
+004ecdb0 +000 FrameShots.exe ComCtrls                        TToolButton.Click
+004adfdf +06b FrameShots.exe Controls                        TControl.WMLButtonUp
+004ad65f +2bb FrameShots.exe Controls                        TControl.WndProc
+004ad2ec +024 FrameShots.exe Controls                        TControl.Perform
+004b0e76 +0aa FrameShots.exe Controls                        GetControlAtPos
+004b0f3e +0a6 FrameShots.exe Controls                        TWinControl.ControlAtPos
+004ad2ec +024 FrameShots.exe Controls                        TControl.Perform
+004b1149 +0a1 FrameShots.exe Controls                        TWinControl.IsControlMouseMsg
+004b1511 +3b5 FrameShots.exe Controls                        TWinControl.WndProc
+004f1725 +241 FrameShots.exe ComCtrls                        TToolBar.WndProc
+004b0d80 +02c FrameShots.exe Controls                        TWinControl.MainWndProc
+004747c0 +014 FrameShots.exe Classes                         StdWndProc
+76ec90fb +00a USER32.dll                                     DispatchMessageA
+004cb308 +0fc FrameShots.exe Forms                           TApplication.ProcessMessage
+004cb342 +00a FrameShots.exe Forms                           TApplication.HandleMessage
+004cb637 +0b3 FrameShots.exe Forms                           TApplication.Run
+0067031c +0e8 FrameShots.exe FrameShots               87 +15 initialization
+757ee4a3 +00c kernel32.dll                                   BaseThreadInitThunk
+
+thread $1f9c (TIEStarter): <suspended>
+005b3782 +3fe FrameShots.exe iemview TImageEnMView.Create
+
+thread $b54:
+7577ec58 +23 kernel32.dll             GetQueuedCompletionStatus
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+759422fa +00 RPCRT4.dll
+
+thread $1960:
+7577137a +4c kernel32.dll             SleepEx
+75770c83 +0a kernel32.dll             Sleep
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+754d2beb +00 ole32.dll
+
+thread $1224:
+76ee67eb +26 USER32.dll               GetMessageW
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+6739b098 +00 quartz.dll
+
+thread $1a98:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+76f92d90 +6e msvcrt.dll               _beginthreadex
+
+thread $210:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+76f92d90 +6e msvcrt.dll               _beginthreadex
+
+thread $1c6c:
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+67402a42 +00 quartz.dll
+
+thread $211c:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+5372eaf2 +00 d3d9.dll
+
+thread $1e30:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+77976aae +60 ntdll.dll                bsearch
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+5382a657 +00 d3d9.dll
+
+thread $ef8:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+5372eaf2 +00 d3d9.dll
+
+thread $17ec:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+77976aae +60 ntdll.dll                bsearch
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+5382a657 +00 d3d9.dll
+
+thread $1134: <priority:15>
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+67367e9b +00 quartz.dll
+
+thread $1010: <priority:15>
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+682f8136 +00 dsound.dll
+
+thread $2290: <priority:15>
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+682f8136 +00 dsound.dll
+
+thread $1cd8: <priority:1>
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+57dbabe6 +00 qasf.dll
+
+thread $1fb4:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by main thread ($20cc) at:
+57dbabe6 +00 qasf.dll
+
+thread $1b3c:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+76f92d90 +6e msvcrt.dll               _beginthreadex
+
+thread $1f90:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+533cb9ca +00 wmvdecod.dll
+
+thread $1b44:
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+533cba0e +00 wmvdecod.dll
+
+thread $1d78:
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+533cba36 +00 wmvdecod.dll
+
+thread $d48:
+7577126a +89 kernel32.dll             WaitForSingleObjectEx
+757711d3 +0d kernel32.dll             WaitForSingleObject
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+53476000 +00 wmvdecod.dll
+
+thread $215c:
+7578c671 +8c kernel32.dll             SignalObjectAndWait
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1fb4 at:
+53476023 +00 wmvdecod.dll
+
+thread $1784:
+779fa747 +38 ntdll.dll     EtwpNotificationThread
+757ee4a3 +0c kernel32.dll  BaseThreadInitThunk
+
+thread $1f0c: <priority:-3>
+7577e914 +00 kernel32.dll             WaitForMultipleObjectsEx
+757749d4 +13 kernel32.dll             WaitForMultipleObjects
+0044fe1d +0d FrameShots.exe madExcept CallThreadProcSafe
+0044fe87 +37 FrameShots.exe madExcept ThreadExceptFrame
+757ee4a3 +0c kernel32.dll             BaseThreadInitThunk
+>> created by thread $1224 at:
+68302110 +00 dsound.dll
+
+modules:
+00400000 FrameShots.exe       3.0.1.0            C:\Program Files (x86)\FrameShots3
+04390000 fshots.dll                              C:\Program Files (x86)\FrameShots3
+045d0000 TortoiseOverlays.dll 1.0.5.14479        C:\Program Files (x86)\Common Files\TortoiseOverlays
+04740000 TortoiseStub.dll     1.6.2.16344        C:\Program Files (x86)\TortoiseSVN\bin
+04790000 intl3_tsvn.dll       0.14.4.0           C:\Program Files (x86)\TortoiseSVN\bin
+04810000 TortoiseSVN.dll      1.6.2.16344        C:\Program Files (x86)\TortoiseSVN\bin
+06ab0000 nvd3dum.dll          7.15.11.7813       C:\Windows\system32
+10000000 qtmlClient.dll       7.0.3.50           C:\Program Files (x86)\FrameShots3
+4f720000 AcGenral.DLL         6.0.6001.18165     C:\Windows\AppPatch
+50490000 wmvcore.dll          11.0.6001.7001     C:\Windows\system32
+510f0000 browseui.dll         6.0.6001.18000     C:\Windows\system32
+518e0000 devenum.dll          6.6.6001.18000     C:\Windows\system32
+51c90000 thumbcache.dll       6.0.6001.18000     C:\Windows\SysWOW64
+51fc0000 WMADMOD.DLL          11.0.6001.7000     C:\Windows\SysWOW64
+52120000 ntshrui.dll          6.0.6001.18000     C:\Windows\system32
+53390000 wmvdecod.dll         11.0.6001.7000     C:\Windows\SysWOW64
+53710000 d3d9.dll             6.0.6001.18000     C:\Windows\system32
+53a80000 WMASF.DLL            11.0.6001.7000     C:\Windows\system32
+54770000 qdvd.dll             6.6.6001.18000     C:\Windows\system32
+54a40000 MFPlat.DLL           11.0.6001.7000     C:\Windows\SysWOW64
+54a80000 joy.cpl              6.0.6001.18000     C:\Windows\system32
+57d90000 qasf.dll             11.0.6001.7000     C:\Windows\system32
+59830000 dinput8.dll          6.0.6001.18000     C:\Windows\system32
+59d00000 DUser.dll            6.0.6001.18000     C:\Windows\system32
+59d30000 LINKINFO.dll         6.0.6000.16386     C:\Windows\system32
+59f80000 dinput.dll           6.0.6000.16386     C:\Windows\system32
+5a430000 SHDOCVW.dll          6.0.6001.18000     C:\Windows\system32
+5b270000 olepro32.dll         6.0.6001.18000     C:\Windows\system32
+5b290000 avifil32.dll         6.0.6001.18000     C:\Windows\system32
+5da60000 d3d8thk.dll          6.0.6000.16386     C:\Windows\system32
+5f2e0000 WindowsCodecs.dll    6.0.6001.18131     C:\Windows\system32
+67350000 quartz.dll           6.6.6001.18063     C:\Windows\system32
+682f0000 dsound.dll           6.0.6001.18000     C:\Windows\system32
+68360000 MSVCP90.dll          9.0.30729.1        C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.1_none_e163563597edeada
+68530000 DXVA2.DLL            6.0.6001.18000     C:\Windows\system32
+687a0000 msdmo.dll            6.6.6001.18000     C:\Windows\system32
+68b30000 ieframe.dll          8.0.6001.18702     C:\Windows\SysWOW64
+6df40000 POWRPROF.dll         6.0.6001.18000     C:\Windows\system32
+6df90000 ACTXPRXY.DLL         6.0.6001.18000     C:\Windows\SysWow64
+6dff0000 PROPSYS.dll          7.0.6001.16503     C:\Windows\system32
+6e5e0000 tiptsf.dll           6.0.6001.18000     C:\Program Files (x86)\Common Files\microsoft shared\ink
+6e670000 mlang.dll            6.0.6001.18000     C:\Windows\system32
+6e760000 msshsq.dll           7.0.6001.16503     C:\Windows\System32
+6ee60000 libaprutil_tsvn.dll  1.3.4.0            C:\Program Files (x86)\TortoiseSVN\bin
+6eec0000 libapr_tsvn.dll      1.3.3.0            C:\Program Files (x86)\TortoiseSVN\bin
+6fd90000 SHFOLDER.dll         6.0.6000.16386     C:\Windows\system32
+6fda0000 midimap.dll          6.0.6001.18000     C:\Windows\system32
+6fdb0000 audioeng.dll         6.0.6001.18000     C:\Windows\system32
+6fe20000 AUDIOSES.DLL         6.0.6001.18000     C:\Windows\system32
+6fe50000 MSVCR90.dll          9.0.30729.1        C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.1_none_e163563597edeada
+6ff30000 ddraw.dll            6.0.6001.18000     C:\Windows\system32
+70110000 sfc.dll              6.0.6000.16386     C:\Windows\system32
+70120000 MMDevAPI.DLL         6.0.6001.18000     C:\Windows\system32
+71450000 sfc_os.DLL           6.0.6001.18000     C:\Windows\system32
+71530000 mscms.dll            6.0.6001.18000     C:\Windows\system32
+715a0000 ShimEng.dll          6.0.6000.16386     C:\Windows\system32
+715e0000 dwmapi.dll           6.0.6001.18000     C:\Windows\system32
+715f0000 DCIMAN32.dll         6.0.6000.16386     C:\Windows\system32
+71600000 msacm32.drv          6.0.6001.18000     C:\Windows\system32
+71610000 AVRT.dll             6.0.6001.18000     C:\Windows\SysWOW64
+71650000 wdmaud.drv           6.0.6001.18000     C:\Windows\system32
+71680000 MPR.dll              6.0.6001.18000     C:\Windows\system32
+71af0000 ksuser.dll           6.0.6000.16386     C:\Windows\system32
+71b00000 winspool.drv         6.0.6001.18000     C:\Windows\system32
+724f0000 gdiplus.dll          5.2.6001.18065     C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.6001.18065_none_9e7abe2ec9c13222
+72700000 UxTheme.dll          6.0.6001.18000     C:\Windows\system32
+72790000 MSVFW32.dll          6.0.6001.18000     C:\Windows\system32
+72a00000 MSACM32.dll          6.0.6001.18000     C:\Windows\system32
+72b60000 slc.dll              6.0.6001.18000     C:\Windows\system32
+731c0000 wsock32.dll          6.0.6001.18000     C:\Windows\system32
+73c50000 NTMARTA.DLL          6.0.6001.18000     C:\Windows\system32
+73c80000 NETAPI32.dll         6.0.6001.18157     C:\Windows\system32
+73d00000 OLEACC.dll           4.2.5406.0         C:\Windows\system32
+73f40000 WINMM.dll            6.0.6001.18000     C:\Windows\system32
+74010000 SAMLIB.dll           6.0.6001.18000     C:\Windows\system32
+74030000 apphelp.dll          6.0.6001.18000     C:\Windows\system32
+74070000 cscapi.dll           6.0.6001.18000     C:\Windows\system32
+740a0000 rsaenh.dll           6.0.6001.18000     C:\Windows\system32
+74b80000 CRYPT32.dll          6.0.6001.18000     C:\Windows\system32
+74c80000 comctl32.dll         6.10.6001.18000    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6001.18000_none_5cdbaa5a083979cc
+74e30000 USERENV.dll          6.0.6001.18000     C:\Windows\system32
+74e50000 MSASN1.dll           6.0.6000.16386     C:\Windows\system32
+74e70000 WINTRUST.dll         6.0.6001.18000     C:\Windows\system32
+74fc0000 MSWSOCK.dll          6.0.6001.18000     C:\Windows\system32
+75030000 version.dll          6.0.6001.18000     C:\Windows\system32
+75040000 dhcpcsvc6.DLL        6.0.6001.18000     C:\Windows\system32
+75070000 WINNSI.DLL           6.0.6001.18000     C:\Windows\system32
+75080000 dhcpcsvc.DLL         6.0.6001.18000     C:\Windows\system32
+75390000 DNSAPI.dll           6.0.6001.18000     C:\Windows\system32
+753f0000 IPHLPAPI.DLL         6.0.6001.18000     C:\Windows\system32
+75440000 Secur32.dll          6.0.6001.18215     C:\Windows\syswow64
+754a0000 ole32.dll            6.0.6001.18000     C:\Windows\syswow64
+755f0000 MSCTF.dll            6.0.6001.18000     C:\Windows\syswow64
+756c0000 LPK.DLL              6.0.6001.18000     C:\Windows\syswow64
+756d0000 comdlg32.dll         6.0.6001.18000     C:\Windows\syswow64
+75750000 Normaliz.dll         6.0.6000.16386     C:\Windows\syswow64
+75760000 kernel32.dll         6.0.6001.18215     C:\Windows\syswow64
+75870000 imagehlp.dll         6.0.6001.18000     C:\Windows\syswow64
+758a0000 WS2_32.dll           6.0.6001.18000     C:\Windows\syswow64
+758d0000 WLDAP32.dll          6.0.6001.18000     C:\Windows\syswow64
+75920000 RPCRT4.dll           6.0.6001.18051     C:\Windows\syswow64
+75a10000 NSI.dll              6.0.6001.18000     C:\Windows\syswow64
+75a20000 ADVAPI32.dll         6.0.6001.18000     C:\Windows\syswow64
+75af0000 IMM32.DLL            6.0.6001.18000     C:\Windows\system32
+75b50000 CLBCatQ.DLL          2001.12.6931.18000 C:\Windows\syswow64
+75be0000 urlmon.dll           8.0.6001.18702     C:\Windows\syswow64
+75d20000 SHLWAPI.dll          6.0.6001.18000     C:\Windows\syswow64
+75d80000 shell32.dll          6.0.6001.18167     C:\Windows\syswow64
+76890000 PSAPI.DLL            6.0.6000.16386     C:\Windows\syswow64
+76930000 oleaut32.dll         6.0.6001.18000     C:\Windows\syswow64
+769c0000 USP10.dll            1.626.6001.18000   C:\Windows\syswow64
+76a40000 SETUPAPI.dll         6.0.6001.18000     C:\Windows\syswow64
+76bd0000 iertutil.dll         8.0.6001.18702     C:\Windows\syswow64
+76dc0000 WININET.dll          8.0.6001.18702     C:\Windows\syswow64
+76eb0000 USER32.dll           6.0.6001.18000     C:\Windows\syswow64
+76f80000 msvcrt.dll           7.0.6001.18000     C:\Windows\syswow64
+77030000 GDI32.dll            6.0.6001.18159     C:\Windows\syswow64
+77940000 ntdll.dll            6.0.6001.18000     C:\Windows\SysWOW64
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01ac smss.exe                  0
+0230 csrss.exe                 0
+025c wininit.exe               0
+0270 csrss.exe                 1
+0294 services.exe              0
+02a0 lsass.exe                 0
+02a8 lsm.exe                   0
+033c svchost.exe               0
+036c nvvsvc.exe                0
+0384 winlogon.exe              1
+03ac svchost.exe               0
+03d4 svchost.exe               0
+00c0 svchost.exe               0
+0138 svchost.exe               0
+0164 svchost.exe               0
+01dc audiodg.exe               0
+0224 svchost.exe               0
+0274 SLsvc.exe                 0
+0448 svchost.exe               0
+0508 svchost.exe               0
+05e4 spoolsv.exe               0
+05fc svchost.exe               0
+0704 svchost.exe               0
+0748 avgwdsvc.exe              0
+0764 mDNSResponder.exe         0
+07ac msftesql.exe              0
+02fc sqlservr.exe              0
+0620 avgrsa.exe                0
+0630 sqlservr.exe              0
+02d0 svchost.exe               0
+081c sqlbrowser.exe            0
+0838 sqlwriter.exe             0
+0874 svchost.exe               0
+0898 SWGVCSvc.exe              0
+0948 svchost.exe               0
+09c4 SearchIndexer.exe         0
+0a2c avgemc.exe                0
+0ae0 SQLAGENT90.EXE            0
+0b30 taskeng.exe               0
+0a44 avgcsrvx.exe              0
+0358 fdlauncher.exe            0
+0ca8 fdhost.exe                0
+0de4 rundll32.exe              1
+0eb4 taskeng.exe               1 normal
+0f8c dwm.exe                   1 high
+0f7c explorer.exe              1 normal
+0de0 MSASCui.exe               1 normal
+0658 rundll32.exe              1 normal
+04b0 sidebar.exe               1 normal
+0494 TSVNCache.exe             1 normal
+0524 msnmsgr.exe               1 normal       C:\Program Files (x86)\Windows Live\Messenger
+0f54 aim6.exe                  1 normal       C:\Program Files (x86)\AIM6
+0c64 CommitMonitor.exe         1 normal       C:\Program Files (x86)\CommitMonitor
+0f18 acrotray.exe              1 normal       C:\Program Files (x86)\Adobe\Acrobat 8.0\Acrobat
+0dbc avgtray.exe               1 normal       C:\Program Files (x86)\AVG\AVG8
+04d0 winampa.exe               1 normal       C:\Program Files (x86)\Winamp
+0e60 FNPLicensingService.exe   0
+1100 OUTLOOK.EXE               1 normal       C:\Program Files (x86)\Microsoft Office\Office12
+1178 avgcsrvx.exe              1 normal       C:\Program Files (x86)\AVG\AVG8
+13e4 sidebar.exe               1 normal
+0920 aolsoftware.exe           1 normal       C:\Program Files (x86)\AIM6
+1294 msdtc.exe                 0
+15d4 svchost.exe               0
+15e4 wlcomm.exe                1 normal       C:\Program Files (x86)\Windows Live\Contacts
+179c SqlWb.exe                 1 normal       C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE
+0d74 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+0cd8 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1388 WMSvc.exe                 0
+1460 WmiPrvSE.exe              0
+15a4 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1378 TSVNCache.exe             1 normal       C:\Program Files (x86)\TortoiseSVN\bin
+0994 taskmgr.exe               1 high
+19ec PresentationFontCache.exe 0
+1948 notepad.exe               1 normal
+0d78 Photoshop.exe             1 normal       C:\Program Files (x86)\Adobe\Adobe Photoshop CS3
+1b94 AdobeUpdater.exe          1 normal       C:\Program Files (x86)\Common Files\Adobe\Updater5
+1920 splwow64.exe              1 normal
+15dc devenv.exe                1 normal       C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE
+164c firefox.exe               1 normal       C:\Program Files (x86)\Mozilla Firefox
+0c10 dexplore.exe              1 normal       C:\Program Files (x86)\Common Files\Microsoft Shared\Help 9
+1554 wuauclt.exe               1 normal
+1288 msvsmon.exe               1 high
+1efc iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1ae8 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1f60 devenv.exe                1 normal       C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE
+2084 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1614 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+22b0 svchost.exe               0
+1d8c inetinfo.exe              0
+1df8 iexplore.exe              1 normal       C:\Program Files (x86)\Internet Explorer
+1eb8 taskeng.exe               0 below normal
+1904 cmd.exe                   0 below normal
+0e44 Robocopy.exe              0 below normal
+200c mmc.exe                   1 normal
+1f5c explorer.exe              1 normal
+1cbc SWGVC.exe                 1 normal
+2170 mobsync.exe               1 normal
+22bc SearchProtocolHost.exe    0
+1bb8 SearchFilterHost.exe      0 idle
+1c9c FrameShots.exe            1 normal       C:\Program Files (x86)\FrameShots3
+
+hardware:
++ Computer
+  - ACPI x64-based PC
++ Disk drives
+  - ST3250823AS ATA Device
+  - WDC WD800ADFS-75SLR2 ATA Device
++ Display adapters
+  - NVIDIA Quadro FX 570 (driver 7.15.11.7813)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVD+-RW GSA-H73N ATA Device
++ Floppy disk drives
+  - Floppy disk drive
++ Floppy drive controllers
+  - Standard floppy disk controller
++ Human Interface Devices
+  - HID-compliant consumer control device
+  - USB Human Interface Device
+  - USB Human Interface Device
+  - USB Human Interface Device
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 1
+  - ATA Channel 2
+  - ATA Channel 3
+  - ATA Channel 4
+  - ATA Channel 5
+  - Standard AHCI 1.0 Serial ATA Controller
++ Keyboards
+  - HID Keyboard Device
++ Mice and other pointing devices
+  - HID-compliant mouse
++ Monitors
+  - Generic PnP Monitor
+  - Generic PnP Monitor
++ Network adapters
+  - Broadcom NetXtreme Gigabit Ethernet
+  - Realtek RTL8169/8110 Family PCI GBE NIC (driver 6.217.226.2009)
+  - SonicWALL Virtual NIC (driver 10.1.0.40)
++ Ports (COM & LPT)
+  - Communications Port (COM1)
+  - ECP Printer Port (LPT1)
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
+  - Intel(R) Core(TM)2 Duo CPU     E6550  @ 2.33GHz
++ Sound, video and game controllers
+  - High Definition Audio Device
++ Storage controllers
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Power Button
+  - Direct memory access controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 244E
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Printer Port Logical Interface
+  - Programmable interrupt controller
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2934
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2935
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2936
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2937
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2938
+  - Intel(R) ICH9 Family USB Universal Host Controller - 2939
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293A
+  - Intel(R) ICH9 Family USB2 Enhanced Host Controller - 293C
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 00000000
+ebx = 028fd070
+ecx = 000020cc
+edx = 67388938
+esi = 0017f94c
+edi = 028fcf2c
+eip = 6740724a
+esp = 0017f910
+ebp = 0017f91c
+
+stack dump:
+0017f910  50 d0 8f 02 01 00 00 00 - 00 00 00 00 34 f9 17 00  P...........4...
+0017f920  ee 98 45 67 2c cf 8f 02 - 58 d0 8f 02 18 cf 8f 02  ..Eg,...X.......
+0017f930  2c cf 8f 02 70 fa 17 00 - b6 71 40 67 2c cf 8f 02  ,...p....q@g,...
+0017f940  4c f9 17 00 18 cf 8f 02 - 18 cf 8f 02 00 00 00 00  L...............
+0017f950  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f960  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f970  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f980  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f990  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9a0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9b0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9c0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9d0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9e0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017f9f0  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017fa00  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017fa10  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017fa20  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017fa30  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0017fa40  78 fa 17 00 78 fa 17 00 - 18 cf 8f 02 7c fa 17 00  x...x.......|...
+
+disassembling:
+[...]
+006491f6 2158   cmp     dword ptr [esi+$78], 0
+006491fa        jz      loc_649228
+006491fc 2160   mov     eax, [esi+$78]
+006491ff        push    eax
+00649200        mov     eax, [eax]
+00649202      > call    dword ptr [eax+$20]
+00649205        test    eax, $80000000
+0064920a        setz    al
+0064920d        neg     al
+0064920f        sbb     eax, eax
+00649211        cmp     eax, 1
+[...]
+
+Filters:
+ASF Reader
+  Class ID : {187463A0-5BB7-11D3-ACBE-0080C75E246E}
+  Library : qasf.dll
+  File : C:\Users\Public\Videos\Sample Videos\Bear.wmv
+  Output Pins
+    Raw Audio 0
+      Connected To : Pin "in0" on filter "WMAudio Decoder DMO"
+      Connection Format Type : WMFORMAT_WaveFormatEx
+      Connection Major Type : MEDIATYPE_Audio
+      Connection Sub Type : WMMEDIASUBTYPE_WMAudioV8 - {00000161-0000-0010-8000-00AA00389B71}
+      Format: Unknown, Hertz: 48000, Bit rate: 768000, Channels: 2
+    Raw Video 1
+      Connected To : Pin "in0" on filter "WMVideo Decoder DMO"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : WMMEDIASUBTYPE_WMV3 - {33564D57-0000-0010-8000-00AA00389B71}
+      Format: Windows Media Video 3, FourCC: WMV3, Bits: 24, Size: 720x480, Aspect: 720:480
+WMVideo Decoder DMO
+  Class ID : {94297043-BD82-4DFD-B0DE-8177739C6D20}
+  Library : qasf.dll
+  Input Pins
+    in0
+      Connected To : Pin "Raw Video 1" on filter "ASF Reader"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : WMMEDIASUBTYPE_WMV3 - {33564D57-0000-0010-8000-00AA00389B71}
+      Format: Windows Media Video 3, FourCC: WMV3, Bits: 24, Size: 720x480, Aspect: 720:480
+  Output Pins
+    out0
+      Connected To : Pin "XForm In" on filter "Improved Sample Grabber"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : MEDIASUBTYPE_YUY2 - {32595559-0000-0010-8000-00AA00389B71}
+      Format: RAW YUV 4:2:2, FourCC: YUY2, Bits: 16, Size: 720x480, Aspect: 720:480
+Improved Sample Grabber
+  Class ID : {3C78B8E2-6C4D-11D1-ADE2-0000F3754B99}
+  Library : Unknown
+  Input Pins
+    XForm In
+      Connected To : Pin "out0" on filter "WMVideo Decoder DMO"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : MEDIASUBTYPE_YUY2 - {32595559-0000-0010-8000-00AA00389B71}
+      Format: RAW YUV 4:2:2, FourCC: YUY2, Bits: 16, Size: 720x480, Aspect: 720:480
+  Output Pins
+    XForm Out
+      Connected To : Pin "VMR Input0" on filter "Video Mixing Renderer"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : MEDIASUBTYPE_YUY2 - {32595559-0000-0010-8000-00AA00389B71}
+      Format: RAW YUV 4:2:2, FourCC: YUY2, Bits: 16, Size: 720x480, Aspect: 720:480
+WMAudio Decoder DMO
+  Class ID : {94297043-BD82-4DFD-B0DE-8177739C6D20}
+  Library : qasf.dll
+  Input Pins
+    in0
+      Connected To : Pin "Raw Audio 0" on filter "ASF Reader"
+      Connection Format Type : WMFORMAT_WaveFormatEx
+      Connection Major Type : MEDIATYPE_Audio
+      Connection Sub Type : WMMEDIASUBTYPE_WMAudioV8 - {00000161-0000-0010-8000-00AA00389B71}
+      Format: Unknown, Hertz: 48000, Bit rate: 768000, Channels: 2
+  Output Pins
+    out0
+      Connected To : Pin "Audio Input pin (rendered)" on filter "Audio Renderer"
+      Connection Format Type : WMFORMAT_WaveFormatEx
+      Connection Major Type : MEDIATYPE_Audio
+      Connection Sub Type : MEDIASUBTYPE_PCM - {00000001-0000-0010-8000-00AA00389B71}
+      Format: PCM, Hertz: 48000, Bit rate: 768000, Channels: 2
+Video Mixing Renderer
+  Class ID : {51B4ABF3-748F-4E3B-A276-C828330E926A}
+  Library : quartz.dll
+  Input Pins
+    VMR Input0
+      Connected To : Pin "XForm Out" on filter "Improved Sample Grabber"
+      Connection Format Type : FORMAT_VIDEOINFO2
+      Connection Major Type : MEDIATYPE_Video
+      Connection Sub Type : MEDIASUBTYPE_YUY2 - {32595559-0000-0010-8000-00AA00389B71}
+      Format: RAW YUV 4:2:2, FourCC: YUY2, Bits: 16, Size: 720x480, Aspect: 720:480
+    VMR Input1
+Audio Renderer
+  Class ID : {79376820-07D0-11CF-A24D-0020AFD79767}
+  Library : quartz.dll
+  Input Pins
+    Audio Input pin (rendered)
+      Connected To : Pin "out0" on filter "WMAudio Decoder DMO"
+      Connection Format Type : WMFORMAT_WaveFormatEx
+      Connection Major Type : MEDIATYPE_Audio
+      Connection Sub Type : MEDIASUBTYPE_PCM - {00000001-0000-0010-8000-00AA00389B71}
+      Format: PCM, Hertz: 48000, Bit rate: 768000, Channels: 2
+
+

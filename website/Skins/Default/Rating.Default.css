@@ -1,0 +1,5 @@
+.RadRating_Default a,
+.RadRating_Default a span {
+  background-image: url('Rating/Sprite.png');
+  _background-image: url('Rating/Sprite.gif'); }
+

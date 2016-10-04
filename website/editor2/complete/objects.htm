@@ -1,0 +1,57 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Insert Object</title>
+<script>
+function insertObject(sHTML)
+	{
+	if(navigator.appName.indexOf('Microsoft')!=-1)
+		{
+		//Use dialogArguments.oUtil.obj to get editor object for IE version
+		//-----------------------------------------------------------------
+		var obj=dialogArguments.oUtil.obj;
+		}
+	else
+		{
+		//Use window.opener.oUtil.obj to get editor object for Mozilla version
+		//--------------------------------------------------------------------
+		var obj=window.opener.oUtil.obj;
+		}
+	
+	//Use insertHTML() function to insert your custom html
+	obj.insertHTML(sHTML);
+	}
+</script>
+<style>
+BODY, td {font-family:Verdana, Arial, Helvetica;font-size: 12px;margin:3 3 3 3;}
+</style>
+</head>
+<body>
+<h3>Insert Custom HTML</h3>
+
+<table><tr><td>
+<a href="#" onclick="insertObject(document.getElementById('divHighlight').innerHTML)" style="cursor:pointer">
+    Insert Blue Box<br /><br />
+<!--<li onclick="insertObject(document.getElementById('divCompanyName').innerHTML)" style="cursor:pointer"><u>Insert Company Name</u></li>-->
+
+    
+        <img src="boxSample.gif" border="0" style="width: 224px; height: 84px" /><br /></a>
+    Remember to insert the box, then add
+    <br />
+    text once the box has been inserted.</li>
+
+</td></tr></table>
+
+    <p>
+        &nbsp;</p>
+
+<div id="divHighlight" style="display:none">
+	<div id="highlight"><br /></div>
+	
+</div>
+
+
+
+</body>
+</html>

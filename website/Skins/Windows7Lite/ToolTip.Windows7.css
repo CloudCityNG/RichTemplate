@@ -1,0 +1,16 @@
+.RadToolTip_Windows7 {
+  background-color: #eef4fb;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #a0afc3; }
+  .RadToolTip_Windows7 .rtTitleWrapper .rtTitle {
+    color: black; }
+  .RadToolTip_Windows7 .rtClose {
+    background-image: url('../Windows7/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Windows7 .rtContent {
+    background-color: #eef4fb;
+    color: black; }
+  .RadToolTip_Windows7 .rtCallout {
+    background-image: url('../Windows7/ToolTip/Callouts.gif'); }
+  .RadToolTip_Windows7.rtLoading {
+    background-image: url('../Windows7/Common/loading.gif'); }

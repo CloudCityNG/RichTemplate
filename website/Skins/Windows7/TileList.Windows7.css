@@ -1,0 +1,21 @@
+.RadTileList_Windows7 {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: black; }
+  .RadTileList_Windows7 .rtlistWideTile,
+  .RadTileList_Windows7 .rtlistSquareTile,
+  .RadTileList_Windows7 .rtlistPeekContent {
+    background-color: #cddaea; }
+  .RadTileList_Windows7 .rtlistGroupSeparatorVisible {
+    background-color: #dde7f2; }
+  .RadTileList_Windows7 .rtlistSelectedTile {
+    border-color: #75abec; }
+  .RadTileList_Windows7 .rtlistHoveredTile {
+    border-color: #aabfd6; }
+  .RadTileList_Windows7 .rtlistSelectedTile.rtlistHoveredTile {
+    border-color: rgba(117, 171, 236, 0.7); }
+  .RadTileList_Windows7 .rtlistSelectedTile .rtlistSelectedIcon {
+    background-image: url('TileList/rtlistSprite.png');
+    _background-image: url('TileList/rtlistSpriteIE6.png'); }
+  .RadTileList_Windows7.RadTileList .rtlistTitle {
+    color: black; }

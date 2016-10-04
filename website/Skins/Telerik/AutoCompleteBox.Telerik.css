@@ -1,0 +1,77 @@
+.RadAutoCompleteBox_Telerik {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBox_Telerik .racTokenList {
+    border-color: #8e8e8e;
+    color: black;
+    background-color: white; }
+  .RadAutoCompleteBox_Telerik .racDisabled {
+    border-color: #d0d0d0;
+    color: #8a8a8a;
+    background-color: white; }
+  .RadAutoCompleteBox_Telerik .racToken {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+  .RadAutoCompleteBox_Telerik .racTokenHovered {
+    border-color: #2ebf00;
+    color: black;
+    background-color: #63ac39;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }
+  .RadAutoCompleteBox_Telerik .racTokenSelected {
+    border-color: #239500;
+    color: black;
+    background-color: #93da59;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }
+  .RadAutoCompleteBox_Telerik .racDisabled .racToken {
+    border-color: #d2d2d2;
+    color: #8a8a8a;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+  .RadAutoCompleteBox_Telerik .racRemoveTokenLink {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -4px -1344px; }
+  .RadAutoCompleteBox_Telerik .racInput {
+    color: black;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    line-height: 16px; }
+  .RadAutoCompleteBox_Telerik .racEmptyMessage {
+    color: #8a8a8a;
+    font-style: italic; }
+
+.RadAutoCompleteBoxPopup_Telerik {
+  border-color: #828282;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadAutoCompleteBoxPopup_Telerik .racHeader,
+  .RadAutoCompleteBoxPopup_Telerik .racFooter {
+    color: black;
+    background-color: #e6e6e6; }
+  .RadAutoCompleteBoxPopup_Telerik .racHeader {
+    border-bottom-color: #828282; }
+  .RadAutoCompleteBoxPopup_Telerik .racFooter {
+    border-top-color: #828282; }
+  .RadAutoCompleteBoxPopup_Telerik .racItemHovered {
+    color: black;
+    background-color: #9ddf6c; }

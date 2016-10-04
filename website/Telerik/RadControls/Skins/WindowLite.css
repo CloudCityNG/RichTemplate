@@ -1,0 +1,235 @@
+.RadWindow {
+  /*position: absolute;*/
+  padding: 0 6px 6px;
+  word-wrap: break-word;
+  border-width: 1px;
+  border-style: solid;
+  /* Collapsed dock */
+  /* External content iframe styles */
+  /* Alert, Confrim, Prompt Dialogs */
+  /* Right to Left mode */ }
+  .RadWindow.rwRoundedCorner {
+    border-radius: 5px; }
+  .RadWindow.rwShadow {
+    box-shadow: 2px 3px 4px #828282; }
+  .RadWindow.rwPinned {
+    /*position: fixed;*/ }
+  .RadWindow .rwTitleBar {
+    position: relative;
+    margin: 0 -6px;
+    height: 25px;
+    background-position: 0 0;
+    background-repeat: repeat-x; }
+  .RadWindow .rwTitleBar:hover {
+    cursor: move; }
+  .RadWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 5px 5px 0 0; }
+  .RadWindow .rwTitleBar .rwTitleWrapper {
+    padding: 4px 10px; }
+  .RadWindow .rwIcon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 0 -3px;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    background-position: 0 -78px;
+    top: 4px;
+    left: 9px; }
+  .RadWindow .rwTitleWrapper .rwTitle {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 17px;
+    font-size: 12px;
+    font-weight: normal;
+    *zoom: 1;
+    *display: inline;
+    width: 60%;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 0; }
+  .RadWindow .rwCommands {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .RadWindow .rwCommands:hover {
+    cursor: auto; }
+  .RadWindow .rwListItem {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 8px; }
+  .RadWindow .rwListItem:last-child {
+    margin-right: 0; }
+  .RadWindow .rwListItem button {
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    display: inline-block;
+    *zoom: 1;
+    *display: block;
+    text-indent: -9999px;
+    *font-size: 0;
+    *line-height: 0; }
+  .RadWindow .rwListItem button:hover {
+    cursor: pointer; }
+  .RadWindow .rwCloseButton, .RadWindow.rwInactiveWindow .rwCloseButton:hover {
+    background-position: -2px -762px; }
+  .RadWindow .rwCloseButton:hover {
+    background-position: -22px -762px; }
+  .RadWindow .rwPinButton, .RadWindow.rwInactiveWindow .rwPinButton:hover {
+    background-position: -2px -502px; }
+  .RadWindow .rwPinButton:hover {
+    background-position: -22px -502px; }
+  .RadWindow .rwPinButton.on, .RadWindow.rwInactiveWindow .rwPinButton.on:hover {
+    background-position: -2px -482px; }
+  .RadWindow .rwPinButton.on:hover {
+    background-position: -22px -482px; }
+  .RadWindow .rwMinimizeButton,
+  .RadWindow .rwInactiveWindow .rwMinimizeButton:hover {
+    background-position: -2px -602px; }
+  .RadWindow .rwMinimizeButton:hover {
+    background-position: -22px -602px; }
+  .RadWindow .rwMaximizeButton,
+  .RadWindow .rwInactiveWindow .rwMaximizeButton:hover {
+    background-position: -2px -642px; }
+  .RadWindow .rwMaximizeButton:hover {
+    background-position: -22px -642px; }
+  .RadWindow.rwMaximizedWindow .rwMaximizeButton, .RadWindow.rwMinimizedWindow .rwMinimizeButton {
+    background-position: -2px -722px; }
+  .RadWindow.rwMaximizedWindow .rwMaximizeButton:hover, .RadWindow.rwMinimizedWindow .rwMinimizeButton:hover {
+    background-position: -22px -722px; }
+  .RadWindow .rwReloadButton,
+  .RadWindow .rwInactiveWindow .rwReloadButton:hover {
+    background-position: -2px -542px; }
+  .RadWindow .rwReloadButton:hover {
+    background-position: -22px -542px; }
+  .RadWindow .rwContent {
+    padding: 5px 10px;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto; }
+  .RadWindow .rwStatusBar {
+    position: relative;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 0 0 5px; }
+  .RadWindow .rwStatusBar input {
+    width: 85%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    border: 0;
+    font: 12px "Segoe UI",Arial,Helvetica,sans-serif; }
+  .RadWindow .rwStatusBar .rwResize {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-position: -2px -882px; }
+  .RadWindow .rwStatusBar .rwResize:hover {
+    cursor: se-resize; }
+  .RadWindow.rwCollapsed {
+    height: 25px;
+    overflow: hidden; }
+  .RadWindow.rwCollapsed.rwRoundedCorner .rwTitleBar {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px; }
+  .RadWindow.rwCollapsed .rwTitleBar {
+    *height: 25px; }
+  .RadWindow.rwMinimizedWindow {
+    padding: 0 6px;
+    height: auto !important; }
+  .RadWindow.rwMinimizedWindow.rwRoundedCorner .rwTitleBar {
+    border-radius: 5px; }
+  .RadWindow.rwMinimizedWindow .rwContent, .RadWindow.rwMinimizedWindow .rwStatusBar, .RadWindow.rwMinimizedWindow .rwPinButton, .RadWindow.rwMinimizedWindow .rwReloadButton, .RadWindow.rwMinimizedWindow .rwMaximizeButton, .RadWindow.rwMinimizedWindow .rwTopResize {
+    display: none; }
+  .RadWindow.rwMinimizedWindow .rwCommands {
+    right: 0; }
+  .RadWindow.rwMinimizedWindow .rwCommands .rwListItem {
+    margin-right: 2px; }
+  .RadWindow.rwInactiveWindow {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+  .RadWindow .rwNoTitleBar {
+    padding: 6px; }
+  .RadWindow.rwNoTitleBar .rwTitleBar, .RadWindow.rwNoStatusBar .rwStatusBar {
+    display: none; }
+  .RadWindow div.rwExternalContent {
+    padding: 0;
+    overflow: inherit; }
+  .RadWindow.rwLoading .rwExternalContent {
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .RadWindow .rwLoading.rwStatusBar {
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding: 0 0 0 25px; }
+  .RadWindow .rwDialog {
+    margin: 10px 0 0;
+    padding: 0 15px;
+    background-repeat: no-repeat;
+    background-position: 10px 0; }
+  .RadWindow .rwDialogContent {
+    padding: 0 0 10px 60px; }
+  .RadWindow .rwPromptInputContainer {
+    margin: 5px 0 0;
+    padding: 0 12px 0 0; }
+  .RadWindow .rwPromptInput {
+    width: 100%;
+    height: 17px;
+    padding: 1px 5px 2px 5px;
+    border-width: 1px;
+    border-style: solid; }
+  .RadWindow.rwRoundedCorner .rwPromptInput {
+    border-radius: 4px; }
+  .RadWindow .rwDialogButtons {
+    text-align: right; }
+  .RadWindow .rwDialogButtons input {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 0 5px; }
+  .RadWindow .rwAlertDialog {
+    background-image: url('Common/ModalDialogAlert.gif'); }
+  .RadWindow .rwConfirmDialog {
+    background-image: url('Common/ModalDialogConfirm.gif'); }
+  .RadWindow .rwPromptDialog .rwDialogContent {
+    padding: 0 0 10px 0; }
+  .RadWindow.rwRtl .rwIcon {
+    left: auto;
+    right: 9px; }
+  .RadWindow.rwRtl .rwTitleWrapper .rwTitle {
+    float: right;
+    text-align: right;
+    padding: 0 22px 0 0; }
+  .RadWindow.rwRtl .rwCommands {
+    left: 5px;
+    right: auto;
+    direction: rtl; }
+  .RadWindow.rwRtl .rwStatusBar .rwResize {
+    background-position: -2px -902px;
+    left: 0;
+    right: auto; }
+  .RadWindow.rwRtl .rwStatusBar .rwResize:hover {
+    cursor: sw-resize !important; }
+  .RadWindow.rwRtl .rwPromptInputContainer {
+    padding: 0 0 0 12px; }
+  .RadWindow.rwRtl .rwDialogButtons {
+    text-align: right; }
+

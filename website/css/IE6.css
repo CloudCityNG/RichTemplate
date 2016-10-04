@@ -1,0 +1,60 @@
+#logoInterior{
+	margin-left: 0px;
+}
+.greyRule{
+	background-color:#C9cacc;
+	height:2px;
+	overflow: hidden;
+}
+.whiteRule {
+	background-color:#ffffff;
+	height:1px;
+	overflow: hidden;
+}
+.bottomHeaderShadow{
+	background-image:url(../images/common/headerShadow.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	height:16px;
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:-2px;
+}
+#flash{
+	text-align:center;
+	background-image:url(/images/common/flashBG.jpg);
+	background-position:1px;
+	background-repeat:repeat-x;
+	width:100%;
+	height:307px;
+	margin-top:1px;
+	position:absolute;
+	
+}
+#interiorHeader{
+	text-align:right;
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	}
+	
+.flashShadow{
+	height:44px;
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-image:url(../images/common/greyShadow.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+	left:-70px;
+}
+
+#interiorHeader{
+	text-align:right;
+	width:890px;
+	margin-left:35px;
+	}

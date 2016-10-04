@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interior_SubscribeToRssFeed" xml:space="preserve">
+    <value>Subscribe to the Press Releases RSS Feed</value>
+  </data>
+  <data name="PressRelease_DefaultList_Add" xml:space="preserve">
+    <value>Add Press Release</value>
+  </data>
+  <data name="PressRelease_DefaultList_HeaderTitle" xml:space="preserve">
+    <value>Press Releases</value>
+  </data>
+  <data name="PressRelease_DefaultList_Heading" xml:space="preserve">
+    <value>Press Releases</value>
+  </data>
+  <data name="PressRelease_DefaultTree_Active" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="PressRelease_DefaultTree_Add" xml:space="preserve">
+    <value>Add Press Release</value>
+  </data>
+  <data name="PressRelease_DefaultTree_Archive" xml:space="preserve">
+    <value>archive</value>
+  </data>
+  <data name="PressRelease_DefaultTree_HeaderTitle" xml:space="preserve">
+    <value>Press Releases</value>
+  </data>
+  <data name="PressRelease_DefaultTree_Heading" xml:space="preserve">
+    <value>Press Releases</value>
+  </data>
+  <data name="PressRelease_Default_Body" xml:space="preserve">
+    <value>Replace the default page with either the default_PressReleaseList or default_PressReleaseTree!</value>
+  </data>
+  <data name="PressRelease_Default_Heading" xml:space="preserve">
+    <value>Press Release Module</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListingArchive_CategoryListingLabel" xml:space="preserve">
+    <value>Archived Categories</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListingArchive_ShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListingArchive_UnCategorized" xml:space="preserve">
+    <value>Un-categorized</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListing_CategoryListingLabel" xml:space="preserve">
+    <value>Category Listing</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListing_ShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="PressRelease_PressReleaseCategoryListing_UnCategorized" xml:space="preserve">
+    <value>Un-categorized</value>
+  </data>
+  <data name="PressRelease_PressReleaseDetail_HeaderTitle" xml:space="preserve">
+    <value>Press Releases</value>
+  </data>
+  <data name="PressRelease_PressReleaseDetail_PostedBy" xml:space="preserve">
+    <value>Posted By</value>
+  </data>
+  <data name="PressRelease_PressReleaseDetail_PostedByDefault" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="PressRelease_PressReleaseDetail_PostedBy_DateTimeSeperator" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="PressRelease_PressReleaseDetail_SearchTagLabel" xml:space="preserve">
+    <value>Search Tags</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeaterShort_Heading" xml:space="preserve">
+    <value>Current News</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeaterShort_NotAvailable" xml:space="preserve">
+    <value>No News Available Yet</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeaterShort_ReadMore" xml:space="preserve">
+    <value>DETAILS</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_CommentsAdd" xml:space="preserve">
+    <value>add a comment</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_CommentsLabel" xml:space="preserve">
+    <value>comments</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_PermanentLabel" xml:space="preserve">
+    <value>permalink</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_PostedBy" xml:space="preserve">
+    <value>Posted By</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_PostedByDefault" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_PostedBy_DateTimeSeperator" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SearchTagLabel" xml:space="preserve">
+    <value>Search Tags</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_Date" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_DateAscending" xml:space="preserve">
+    <value>Release Date Ascending</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_DateDescending" xml:space="preserve">
+    <value>Release Date Decending</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_TitleAscending" xml:space="preserve">
+    <value>Title Ascending</value>
+  </data>
+  <data name="PressRelease_PressReleaseRepeater_SortBy_TitleDescending" xml:space="preserve">
+    <value>Title Decending</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_CommentsAdd" xml:space="preserve">
+    <value>add a comment</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_CommentsLabel" xml:space="preserve">
+    <value>comments</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_PermanentLabel" xml:space="preserve">
+    <value>permalink</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_PostedBy" xml:space="preserve">
+    <value>Posted By</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_PostedByDefault" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_PostedBy_DateTimeSeperator" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SearchTagLabel" xml:space="preserve">
+    <value>Search Tags</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_Date" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_DateAscending" xml:space="preserve">
+    <value>Release Date Ascending</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_DateDescending" xml:space="preserve">
+    <value>Release Date Decending</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_TitleAscending" xml:space="preserve">
+    <value>Title Ascending</value>
+  </data>
+  <data name="PressRelease_PressReleaseTreeRepeater_SortBy_TitleDescending" xml:space="preserve">
+    <value>Title Decending</value>
+  </data>
+  <data name="PressRelease_PressReleaseTree_CategoryListingLabel" xml:space="preserve">
+    <value>Category Listing</value>
+  </data>
+  <data name="PressRelease_PressReleaseTree_ShowAll" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="PressRelease_PressReleaseTree_UnCategorized" xml:space="preserve">
+    <value>Un-categorized</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_HeaderTitle" xml:space="preserve">
+    <value>Save Press Release</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_HeadingAdd" xml:space="preserve">
+    <value>Add Press Release</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_HeadingUpdate" xml:space="preserve">
+    <value>Update Press Release</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_MainContent" xml:space="preserve">
+    <value>Main Content</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_RequiredMessage" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_ShortSummary" xml:space="preserve">
+    <value>Short Summary</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Submitted_Body" xml:space="preserve">
+    <value>Thank you for submitting a press release entry, an Administrator will approve your press release as soon as possible.</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Submitted_Heading" xml:space="preserve">
+    <value>Press Release Submitted and Awaiting Approval</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Submitted_ReturnToPressReleaseModule" xml:space="preserve">
+    <value>Click here to return to the Press Release Module</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UnCategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage" xml:space="preserve">
+    <value>Upload Image</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage_InvalidFileType" xml:space="preserve">
+    <value>Invalid File Type.</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage_MaxFileSizeExceeded" xml:space="preserve">
+    <value>Max file size exceeded.</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage_Message" xml:space="preserve">
+    <value>Use the upload boxes below to upload an image for this press release.</value>
+  </data>
+  <data name="PressRelease_SavePressRelease_UploadImage_Requirements" xml:space="preserve">
+    <value>Accepted file types:(.jpg, .gif, .png). Maximum size limit: 100kb</value>
+  </data>
+  <data name="RssFeedGen_ClickHereForMoreInformation" xml:space="preserve">
+    <value>Click Here For More Information</value>
+  </data>
+  <data name="RssFeedGen_Description" xml:space="preserve">
+    <value>List of the Latest Press Releases</value>
+  </data>
+  <data name="RssFeedGen_PostedByDefault" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="RssFeedGen_Title" xml:space="preserve">
+    <value>Press Release RSS Feed</value>
+  </data>
+  <data name="RssFeedGen_UnCategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="_SiteWide_SearchTags_ModuleName" xml:space="preserve">
+    <value>Press Release</value>
+  </data>
+</root>

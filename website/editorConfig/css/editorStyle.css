@@ -1,0 +1,193 @@
+﻿/*classes*/
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top: 16px;
+	padding-bottom: 16px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-top:16px;
+	padding-bottom: 16px;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #a90000;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+
+ul
+{
+    text-align: left;
+    margin: 25px 4px 15px -35px;
+    vertical-align: middle;
+}
+ul a
+{
+    text-align: right;
+    margin: 25px 0 35px 0;
+    color: #a90000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	font-weight:normal;
+	font-size: 15px;
+	font-style: normal;
+		line-height:normal;
+}
+ul a:hover
+{
+    text-align: right;
+    margin: 25px 0 0px 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	font-weight:normal;
+	font-size: 15px;
+	font-style: normal;	line-height:normal;
+
+}
+li
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+ul
+{
+    text-align: right;
+    margin: 0 0 0 -35px;
+    vertical-align: middle;
+	
+}
+ul a
+{
+    text-align: right;
+    margin: 0px 0 8px 0;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	font-weight:normal;
+	font-size: 15px;
+	font-style: normal;	line-height:normal;
+	
+}
+ul a:hover
+{
+    text-align: right;
+    margin: 0px 0 8px 0;
+    color: #a90000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+	font-weight:normal;
+	font-size: 15px;
+	font-style: normal;	line-height:normal;
+}
+li
+{
+    display: inline;
+    margin-right: 10px;
+}
+.floatL
+{
+    float: left;
+}
+.clear
+{
+    clear: both;
+}
+.whiteRule
+{
+    background-color: #ffffff;
+    height: 1px;
+}
+.greyRule
+{
+    background-color: #C9cacc;
+    height: 2px;
+}
+.fontDate
+{
+    color: #575757;
+    font-size: 12px;
+}
+.fontTitle
+{
+    color: #000000;
+    font-size: 14px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+.fontClearance
+{
+    color: #808080;
+    font-size: 12px;
+}
+.photo
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bottomHeaderShadow
+{
+    background-image: url(../images/common/headerShadow.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 16px;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.flashShadow
+{
+    height: 44px;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    background-image: url(../images/common/greyBarShadow.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    left: -70px;
+}
+.midRuleShadow
+{
+    width: 17px;
+    height: 388px;
+    background-image: url(../images/common/middleRuleShadow.png);
+    float: left;
+    margin-left: 25px;
+    margin-top: -36px;
+}
+.midRuleShadowInterior
+{
+    width: 22px;
+    height: 554px;
+    background-image: url(../images/common/interiorVRule.jpg);
+    float: left;
+    margin-left: 25px;
+}
+.footerMidRuleShadow
+{
+    width: 23px;
+    height: 150px;
+    background-image: url(../images/common/footerRuleShadow.jpg);
+    float: left;
+    margin-left: 25px;
+}
+
+#associationsLogoBoxes
+{
+    width: 152px;
+    margin-right: 15px;
+    margin-top: 15px;
+    float: left;
+}

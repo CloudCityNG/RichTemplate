@@ -1,0 +1,12 @@
+#logoInterior{
+	margin-left: 0px;
+}
+#logo{
+	margin-left: -40px;
+}
+#interiorHeader{
+	text-align:right;
+	width:890px;
+	margin-left:35px;
+	position:absolute;
+	}

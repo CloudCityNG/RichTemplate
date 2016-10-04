@@ -1,0 +1,137 @@
+.RadToolTip {
+  position: absolute;
+  font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  word-wrap: break-word;
+  border-width: 1px;
+  border-style: solid;
+  curosor: default;
+  /* Callouts */
+  /* Right to Left mode */ }
+  .RadToolTip.rtLoading {
+    width: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .RadToolTip .rtCallout {
+    display: none; }
+  .RadToolTip.rtVisibleCallout .rtCallout {
+    display: block; }
+  .RadToolTip.rtRoundedCorner {
+    border-radius: 5px; }
+  .RadToolTip.rtShadow {
+    box-shadow: 2px 3px 4px #828282; }
+  .RadToolTip .rtRelativeWrapper {
+    position: relative;
+    height: 100%; }
+  .RadToolTip .rtTitleBar {
+    position: relative;
+    height: 25px; }
+  .RadToolTip.rtRoundedCorner .rtTitleBar {
+    border-radius: 5px 5px 0 0; }
+  .RadToolTip .rtTitleBar .rtTitleWrapper {
+    padding: 4px 10px; }
+  .RadToolTip .rtTitleWrapper .rtTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    width: 60%;
+    height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0; }
+  .RadToolTip .rtClose {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 0;
+    border-radius: 45px;
+    display: inline-block;
+    *zoom: 1;
+    *display: block;
+    width: 18px;
+    height: 18px;
+    text-indent: -9999px;
+    *font-size: 0;
+    *line-height: 0;
+    background-position: 0 -250px;
+    background-repeat: no-repeat;
+    background-color: transparent; }
+  .RadToolTip .rtClose:hover {
+    cursor: pointer;
+    background-position: 0 -270px; }
+  .RadToolTip .rtContent {
+    padding: 5px 10px; }
+  .RadToolTip.rtRoundedCorner .rtContent {
+    border-radius: 5px; }
+  .RadToolTip.rtRoundedCorner .rtTitleBar + .rtContent {
+    border-radius: 0 0 5px 5px; }
+  .RadToolTip .rtCallout {
+    position: absolute;
+    display: block;
+    width: 11px;
+    height: 11px;
+    line-height: 0;
+    font-size: 1px; }
+  .RadToolTip .rtCalloutTopLeft {
+    background-position: 0 -25px;
+    height: 8px;
+    top: -8px;
+    left: 20px; }
+  .RadToolTip .rtCalloutTopCenter {
+    background-position: 0 0;
+    top: -10px;
+    left: 50%; }
+  .RadToolTip .rtCalloutTopRight {
+    background-position: 0 -15px;
+    top: -7px;
+    right: 20px; }
+  .RadToolTip .rtCalloutRightTop,
+  .RadToolTip .rtCalloutMiddleRight,
+  .RadToolTip .rtCalloutRightBottom {
+    background-position: 0 -33px; }
+  .RadToolTip .rtCalloutRightTop {
+    top: 15px;
+    right: -11px; }
+  .RadToolTip .rtCalloutMiddleRight {
+    top: 50%;
+    right: -11px;
+    margin-top: -5px; }
+  .RadToolTip .rtCalloutRightBottom {
+    bottom: 15px;
+    right: -11px; }
+  .RadToolTip .rtCalloutBottomLeft {
+    background-position: 0 -78px;
+    bottom: -11px;
+    left: 20px; }
+  .RadToolTip .rtCalloutBottomCenter {
+    background-position: 0 -55px;
+    bottom: -11px;
+    left: 50%; }
+  .RadToolTip .rtCalloutBottomRight {
+    background-position: 0 -66px;
+    bottom: -11px;
+    right: 20px; }
+  .RadToolTip .rtCalloutLeftTop,
+  .RadToolTip .rtCalloutMiddleLeft,
+  .RadToolTip .rtCalloutLeftBottom {
+    background-position: 0 -44px; }
+  .RadToolTip .rtCalloutLeftTop {
+    top: 15px;
+    left: -11px; }
+  .RadToolTip .rtCalloutMiddleLeft {
+    top: 50%;
+    left: -11px;
+    margin-top: -5px; }
+  .RadToolTip .rtCalloutLeftBottom {
+    bottom: 15px;
+    left: -11px; }
+  .RadToolTip.rtRtl .rtClose {
+    left: -10px;
+    right: auto; }
+

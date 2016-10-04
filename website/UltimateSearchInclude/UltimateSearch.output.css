@@ -1,0 +1,44 @@
+.OutputHighlight
+{
+	font-name:verdana;
+	font-weight:bold;
+}
+
+.OutputPageLink
+{
+	font-name:verdana;
+}
+
+.OutputCurrentPageLink
+{
+	font-name:verdana;
+	font-weight:bold;
+	color:#AD0808;
+}
+
+.OutputCounter
+{
+	font-name:verdana;
+	padding-top:4px;
+}
+
+.OutputTitle
+{
+	font-name:verdana;
+	padding-top:4px;
+}
+
+.OutputText
+{
+	font-name:verdana;
+	padding-top:1px;
+}
+
+.OutputUrl
+{
+	font-name:verdana;
+	color:gray;
+	padding-top:2px;
+	padding-bottom:4px;
+}
+

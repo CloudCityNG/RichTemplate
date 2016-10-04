@@ -1,0 +1,648 @@
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, fieldset, form, label, legend, table, caption
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: left;
+}
+
+
+/*----- @font-face----- */
+
+@font-face
+{
+    font-family: 'GeoSlab703MdBTBold';
+    src: url('../fonts/geo703b-webfont.eot');
+    src: local('GeoSlab703MdBTBold'), url('../fonts/geo703b-webfont.woff') format('woff'), url('../fonts/geo703b-webfont.ttf') format('truetype'), url('../fonts/geo703b-webfont.svg#webfontHvqPdlLy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'GeoSlab703MdBTMedium';
+    src: url('../fonts/geo703m-webfont.eot');
+    src: local('GeoSlab703MdBTMedium'), url('../fonts/geo703m-webfont.woff') format('woff'), url('../fonts/geo703m-webfont.ttf') format('truetype'), url('../fonts/geo703m-webfont.svg#webfontIag2pEDT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*----  Global Elements ----*/
+body
+{
+    color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+a
+{
+    font-weight: bold;
+    color: #cc0001;
+    text-decoration: none;
+}
+a:hover
+{
+    font-weight: bold;
+    color: #48443c;
+    text-decoration: none;
+}
+a:visited
+{
+    font-weight: bold;
+    color: #cc0001;
+    text-decoration: none;
+}
+
+#bodyTop
+{
+    background-image: url(../images/common/BG.jpg);
+    width: 100%;
+    min-height: 600px;
+}
+#mainContent hr
+{
+    height: 1px;
+    border: none;
+    background-image: url(../images/common/hr.jpg);
+    background-repeat: no-repeat;
+    margin: 10px 0;
+}
+h1
+{
+    color: #48443c;
+    text-transform: uppercase;
+    font-family: "GeoSlab703MdBTMedium" , sans-serif;
+    font: 21px 'GeoSlab703MdBTMedium' , Georgia, "Times New Roman" , Times, serif;
+    letter-spacing: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+}
+h2
+{
+    text-transform: uppercase;
+    color: #48443c;
+    font-family: "GeoSlab703MdBTBold" , sans-serif;
+    font: 21px 'GeoSlab703MdBTBold' , Georgia, "Times New Roman" , Times, serif;
+    letter-spacing: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+}
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 13px;
+}
+h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 14px;
+}
+h5
+{
+    font-family: "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    color: #e1e1e1;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+#colorMap
+{
+    text-align: right;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    float: left;
+    margin-top: 58px;
+}
+#logo
+{
+    width: 229px;
+    padding-top: 40px;
+    padding-bottom: 18px;
+    float: left;
+}
+#navContainer
+{
+    float: left;
+    width: 725px;
+    text-align: left;
+}
+#topNav ul
+{
+    text-align: right;
+    margin: 25px 4px 35px 0;
+    vertical-align: middle;
+}
+#topNav ul a
+{
+    text-align: right;
+    margin: 25px 0 35px 0;
+    color: #ab7a07;
+    font-family: "GeoSlab703MdBTBold" , sans-serif;
+    font: 14px 'GeoSlab703MdBTBold' , Georgia, "Times New Roman" , Times, serif;
+    letter-spacing: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+    text-decoration: none;
+}
+#topNav ul a:hover
+{
+    text-align: right;
+    margin: 25px 0 0px 0;
+    color: #48443c;
+    font-family: "GeoSlab703MdBTBold" , sans-serif;
+    font: 14px 'GeoSlab703MdBTBold' , Georgia, "Times New Roman" , Times, serif;
+    letter-spacing: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+    text-decoration: none;
+}
+#topNav li
+{
+    display: inline;
+    margin-right: 10px;
+}
+#mainNav ul
+{
+    text-align: right;
+    margin: 0px;
+    vertical-align: middle;
+}
+#mainNav ul a
+{
+    text-align: left;
+    margin: 0px 0 8px 0;
+    color: #48443c;
+    font-family: "GeoSlab703MdBTBold" , sans-serif;
+    font: 14px 'GeoSlab703MdBTBold' , Georgia, "Times New Roman" , Times, serif; /* letter-spacing: -1px;*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+    text-decoration: none;
+}
+#mainNav ul a:hover
+{
+    text-align: left;
+    margin: 0px 0 8px 0;
+    color: #cc0001;
+    font-family: "GeoSlab703MdBTBold" , sans-serif;
+    font: 14px 'GeoSlab703MdBTBold' , Georgia, "Times New Roman" , Times, serif; /*letter-spacing: -1px;*/
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+    text-decoration: none;
+}
+#mainNav li
+{
+    display: inline;
+    margin-right: 10px;
+}
+#header
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 960px;
+    z-index: 4;
+}
+#brownSection
+{
+    margin: 20px auto;
+    width: 940px;
+    position: relative;
+    color: #ffffff;
+}
+#quote
+{
+    bottom: 0;
+    float: right;
+    margin-right: 7px;
+    margin-top: -25px;
+}
+#brownSectionTop
+{
+    width: 940px;
+    height: 8px;
+    background-image: url(../images/common/brownBoxTop.jpg);
+    background-repeat: no-repeat;
+}
+#brownSectionMid
+{
+    width: 940px;
+    min-height: 40px;
+    background-color: #151411;
+    color: #e1e1e1;
+    font-size: 14px;
+    line-height: 18px;
+}
+.quoteOrigin
+{
+    font-size: 12px;
+}
+#brownSectionBottom
+{
+    width: 940px;
+    height: 9px;
+    background-image: url(../images/common/brownBoxBottom.jpg);
+    background-repeat: no-repeat;
+}
+#clock
+{
+    float: left;
+    width: 212px;
+    height: 61px;
+    padding-left: 11px;
+    background-image: url('/images/common/clock.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+}
+#clockFace
+{
+    font-family: Arial Narrow, Helvetica, sans-serif;
+    color: #c6c6c6;
+    font-size: 32px !important;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+    line-height: 24px;
+}
+.clockBigText
+{
+    font-family: Arial Narrow, Helvetica, sans-serif;
+    color: #c6c6c6;
+    font-size: 32px !important;
+    font-weight: bold;
+    width: 40px;
+    text-align: center;
+}
+
+.clockMonthDayYear
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    width: 100px;
+    vertical-align: top;
+    line-height: normal;
+}
+
+#randomQuote
+{
+    float: left;
+    width: 600px;
+    padding-left: 15px;
+}
+#mainContent
+{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear
+{
+    clear: both;
+}
+
+
+/*----  Homepage ----*/
+#homeColumn1
+{
+    width: 245px;
+    float: left;
+}
+#homeColumn2
+{
+    width: 400px;
+    float: left;
+    padding: 0 0 0 20px;
+    background-image: url(../images/common/verticalRule.jpg);
+    background-position: 0px 0;
+    background-repeat: repeat-y;
+}
+#homeColumn3
+{
+    width: 234px;
+    float: left;
+    padding: 0 0 0 40px;
+    background-image: url(../images/common/verticalRule.jpg);
+    background-position: 20px 0;
+    background-repeat: repeat-y;
+}
+.headline
+{
+    margin-bottom: 20px;
+}
+.newsBox
+{
+    width: 214px;
+    background-image: url(../images/common/newsIcon.jpg);
+    background-position: 0 4px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    clear: both;
+    margin-bottom: 40px;
+}
+.details
+{
+    margin-top: 10px;
+}
+
+.eventBox
+{
+    margin-bottom: 44px;
+}
+.calendarDate
+{
+    width: 35px;
+    height: 33px;
+    background-image: url(../images/common/calendarbox.gif);
+    float: left;
+    text-align: center;
+}
+.event
+{
+    float: left;
+    margin-left: 10px;
+    width: 189px;
+}
+.month
+{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.date
+{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*----  Interior ----*/
+#interiorColumn1
+{
+    width: 230px;
+    float: left;
+    margin-bottom: 25px;
+}
+#interiorColumn1 ul
+{
+    margin-left: 20px;
+}
+#interiorColumn1 li
+{
+    list-style: disc outside url(../images/common/bullet.jpg);
+    background-image: url(../images/common/hr.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 8px;
+    margin-top: 8px;
+}
+#interiorColumn1 li a
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #ab7a07;
+    text-decoration: none;
+}
+#interiorColumn1 li a:hover
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #48443c;
+    text-decoration: none;
+}
+#interiorColumn2
+{
+    width: 650px;
+    float: left;
+    margin: 0 0 25px 0px;
+    padding-left: 40px;
+    background-image: url(../images/common/verticalRule.jpg);
+    background-position: 10px 0;
+    background-repeat: repeat-y;
+    min-height: 500px;
+}
+
+
+/*----  Footer ----*/
+#whiteFooterBar
+{
+    height: 10px;
+    background-color: #FFFFFF;
+    clear: both;
+}
+#footer
+{
+    background-color: #f4f3f1;
+    height: 300px;
+    background-image: url(../images/common/footerBG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    clear: both;
+}
+#footerContent
+{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+#footerLinks
+{
+    width: 600px;
+    color: #626262;
+    float: left;
+}
+#footerLinks hr
+{
+    height: 1px;
+    border: none;
+    color: #999999;
+    background-color: #999999;
+    margin: 20px 0;
+}
+#footerLinks ul
+{
+    margin-bottom: 10px;
+}
+#footerLinks li
+{
+    display: inline;
+}
+#footerLinks a
+{
+    color: #626262;
+}
+#footerLinks a:hover
+{
+    color: #cc0001;
+}
+#bottomLogo
+{
+    float: left;
+    width: 229px;
+    margin-left: 100px;
+}
+
+
+
+
+.contactName
+{
+    color: #48443c;
+    text-transform: uppercase;
+    font-family: "GeoSlab703MdBTMedium" , sans-serif;
+    font: 16px 'GeoSlab703MdBTMedium' , Georgia, "Times New Roman" , Times, serif;
+    letter-spacing: 0;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/common/hIEfix.png,sizingMethod=crop);
+    zoom: 1;
+}
+.contactTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 13px;
+}
+#contactHeading
+{
+    font-style: italic;
+    color: Gray;
+    padding-top: 20px;
+}
+
+
+
+#pageBanner
+{
+    width: 956px;
+    height: 222px;
+    background-image: url('/images/common/pagebanners/title_350.png');
+}
+
+
+#pageBannerText
+{
+    position: relative;
+    left: -154px;
+    text-align: right;
+    top: 108px;
+}
+
+
+/****** Styles from the orginal site - added 12/29/10 ******/
+
+.subhead
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #cc0001;
+    font-weight: bold;
+}
+
+.subheadlarge
+{
+    font-family: Arial;
+    font-size: 13px;
+    color: #cc0001;
+    font-weight: bold;
+}
+
+.subheadextralarge
+{
+    font-family: Arial;
+    font-size: 16px;
+    color: #cc0001;
+    font-weight: bold;
+}
+.calendar
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.title
+{
+    font-family: Arial;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.testli
+{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    color: #cc0001;
+}
+
+
+.email
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.redbold
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #cc0001;
+    font-weight: bold;
+}
+.redboldbig
+{
+    font-family: Arial;
+    font-size: 13px;
+    color: #cc0001;
+    font-weight: bold;
+}
+.main
+{
+    font-family: Arial;
+    font-size: 11px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.smallBrownText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 11px;
+}
+.mediumBrownText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 14px;
+}
+.largeBrownText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 18px;
+}
+.extraLargeBrownText
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab7a07;
+    font-weight: bold;
+    font-size: 20px;
+}
+

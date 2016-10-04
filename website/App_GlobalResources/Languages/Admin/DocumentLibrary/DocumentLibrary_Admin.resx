@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Document_AddEdit_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Document_AddEdit_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Document_AddEdit_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Document_AddEdit_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Document_AddEdit_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Document_AddEdit_ExpirationDate" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="Document_AddEdit_Expired" xml:space="preserve">
+    <value>Expired!</value>
+  </data>
+  <data name="Document_AddEdit_Header" xml:space="preserve">
+    <value>Add/Edit Document Library Entries</value>
+  </data>
+  <data name="Document_AddEdit_PublicationDate" xml:space="preserve">
+    <value>Publication Date</value>
+  </data>
+  <data name="Document_AddEdit_RequiredMessage" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="Document_AddEdit_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Document_AddEdit_Tab_Content" xml:space="preserve">
+    <value>Document Library Content</value>
+  </data>
+  <data name="Document_AddEdit_Tab_Content_Heading" xml:space="preserve">
+    <value>Basic Document Library Information</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SearchTags_AddSearchTags" xml:space="preserve">
+    <value>Add Additional Search Tags</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SearchTags_Heading" xml:space="preserve">
+    <value>Content Search Tags</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SearchTags_SubHeading" xml:space="preserve">
+    <value>Assign content search tags for advanced searching and taxonomy.</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SearchTags" xml:space="preserve">
+    <value>Search Tags</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO" xml:space="preserve">
+    <value>SEO Content</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO_Heading" xml:space="preserve">
+    <value>SEO Head Tag Information</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO_MetaDescription" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO_MetaKeywords" xml:space="preserve">
+    <value>Meta Keywords</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO_MetaTitle" xml:space="preserve">
+    <value>Meta Title</value>
+  </data>
+  <data name="Document_AddEdit_Tab_SEO_SubHeading" xml:space="preserve">
+    <value>Enter meta data to be inserted into the head section of the page for better SEO.</value>
+  </data>
+  <data name="Document_AddEdit_Title" xml:space="preserve">
+    <value>Document Title</value>
+  </data>
+  <data name="Document_AddEdit_Uncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Document_AddEdit_UploadDocument" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Document_AddEdit_UploadDocument_InvalidFileType" xml:space="preserve">
+    <value>Invalid File Type.</value>
+  </data>
+  <data name="Document_AddEdit_UploadDocument_MaxFileSizeError" xml:space="preserve">
+    <value>Max file size exceeded.</value>
+  </data>
+  <data name="Document_AddEdit_UploadDocument_Requirements" xml:space="preserve">
+    <value>Accepted file types: (.csv, .doc, .docx, .txt, .jpg, .mht, .pdf, .ppt, .odt, .ods, .rtf, .wpd, .wps, .xls, .xlsx, .zip). Maximum Filesize: 20 MB</value>
+  </data>
+  <data name="Document_AddEdit_Tab_Content_SubHeading" xml:space="preserve">
+    <value>Enter the basic document library information below.</value>
+  </data>
+  <data name="Document_Default_ActiveRecords" xml:space="preserve">
+    <value>Document Library Entries</value>
+  </data>
+  <data name="Document_Default_Grid_AddNewEntry" xml:space="preserve">
+    <value>Add a new document</value>
+  </data>
+  <data name="Document_Default_ArchiveRecords" xml:space="preserve">
+    <value>Archived Document Library Entries</value>
+  </data>
+  <data name="Document_Default_BodyHeading" xml:space="preserve">
+    <value>Below you can add, edit and delete document library entries.</value>
+  </data>
+  <data name="Document_Default_Configure" xml:space="preserve">
+    <value>Configure Document Library</value>
+  </data>
+  <data name="Document_Default_GridCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Document_Default_GridComments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Document_Default_GridDateUploaded" xml:space="preserve">
+    <value>Date Uploaded</value>
+  </data>
+  <data name="Document_Default_GridDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Document_Default_GridDeleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Document_Default_GridEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Document_Default_GridFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Document_Default_GridTitle" xml:space="preserve">
+    <value>Document Title</value>
+  </data>
+  <data name="Document_Default_GridUncategorized" xml:space="preserve">
+    <value>Uncategorized</value>
+  </data>
+  <data name="Document_Default_Header" xml:space="preserve">
+    <value>Manage Document Library Entries</value>
+  </data>
+  <data name="Document_Default_ManageCategories" xml:space="preserve">
+    <value>Manage Document Library Categories</value>
+  </data>
+  <data name="Document_FolderActions_ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Document_FolderActions_Heading_AddFolder" xml:space="preserve">
+    <value>Add a Folder</value>
+  </data>
+  <data name="Document_FolderActions_BodyHeading_AddFolder" xml:space="preserve">
+    <value>Add Folder To</value>
+  </data>
+  <data name="Document_FolderActions_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Document_FolderActions_BodyHeading_DeleteFolder" xml:space="preserve">
+    <value>Folder to Delete</value>
+  </data>
+  <data name="Document_FolderActions_ButtonDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Document_FolderActions_Heading_DeleteFolder" xml:space="preserve">
+    <value>Delete this Folder</value>
+  </data>
+  <data name="Document_FolderActions_DeleteMessage" xml:space="preserve">
+    <value>You cannot delete this directory as it still contains files.</value>
+  </data>
+  <data name="Document_FolderActions_FolderName" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="Document_FolderActions_BodyHeading_RenameFolder" xml:space="preserve">
+    <value>Folder to Rename </value>
+  </data>
+  <data name="Document_FolderActions_Heading_RenameFolder" xml:space="preserve">
+    <value>Rename this Folder</value>
+  </data>
+  <data name="Document_FolderActions_RootFolder" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="Document_FolderActions_ButtonUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Document_FolderAdmin_AddFolder" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="Document_FolderAdmin_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Document_FolderAdmin_BackToDocuments" xml:space="preserve">
+    <value>Go Back to Document List</value>
+  </data>
+  <data name="Document_FolderAdmin_Heading" xml:space="preserve">
+    <value>Select Upload Folder</value>
+  </data>
+  <data name="Document_FolderAdmin_DocumentTree_LoadingMessage" xml:space="preserve">
+    <value>Please wait while the files load</value>
+  </data>
+  <data name="Document_FolderAdmin_PublishedDate" xml:space="preserve">
+    <value>Published Date</value>
+  </data>
+  <data name="Document_FolderAdmin_UploadHere" xml:space="preserve">
+    <value>Upload Here</value>
+  </data>
+  <data name="_SiteWide_Category_BodyHeading" xml:space="preserve">
+    <value>Below you can modify your document library categories.</value>
+  </data>
+  <data name="_SiteWide_Category_Heading" xml:space="preserve">
+    <value>Document Library Categories</value>
+  </data>
+  <data name="_SiteWide_Category_ReturnToModule" xml:space="preserve">
+    <value>Return to Document Library</value>
+  </data>
+  <data name="_SiteWide_Comment_AddEditModule_Heading" xml:space="preserve">
+    <value>Document Library Comment Moderation</value>
+  </data>
+  <data name="_SiteWide_Comment_AddEditModule_HeadingBody" xml:space="preserve">
+    <value>Below you can edit and delete document library comments.</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Heading" xml:space="preserve">
+    <value>Document Library Comment Moderation</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_HeadingBody" xml:space="preserve">
+    <value>Below you can edit and delete document library comments.</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_ModuleName" xml:space="preserve">
+    <value>Document Library</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_ReturnToModule" xml:space="preserve">
+    <value>Return to Document Library</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_BodyHeading" xml:space="preserve">
+    <value>Below you can modify your document module options.</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_Heading" xml:space="preserve">
+    <value>Document Module Configuration</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_ReturnToModule" xml:space="preserve">
+    <value>Return to Document Library</value>
+  </data>
+  <data name="_SiteWide_SearchTags_ReturnToModule" xml:space="preserve">
+    <value>Return to Document Library</value>
+  </data>
+  <data name="_SiteWide_RichTemplate_List_Modules_ModuleName" xml:space="preserve">
+    <value>Document Library</value>
+  </data>
+  <data name="Document_AddEdit_StatusActive" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="Document_AddEdit_StatusArchive" xml:space="preserve">
+    <value>archive</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups" xml:space="preserve">
+    <value>Users &amp; Groups</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_Groups" xml:space="preserve">
+    <value>Groups with access to this content</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_Heading" xml:space="preserve">
+    <value>Content Security Settings</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_SubHeading" xml:space="preserve">
+    <value>Select who can view this content below. Individual accounts override group accounts.</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_Users" xml:space="preserve">
+    <value>Individual Users with access to this content</value>
+  </data>
+  <data name="Document_AddEdit_UploadDocument_Message" xml:space="preserve">
+    <value>Use the upload boxes below to upload a file for this document</value>
+  </data>
+  <data name="Document_FolderAdmin_DeleteFolder" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Document_AddEdit_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Document_FolderAdmin_RenameFolder" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_GroupsUnAuthenticated" xml:space="preserve">
+    <value>All UN-AUTHENTICATED Users</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_GroupsUnAuthenticatedDescription" xml:space="preserve">
+    <value>Content avaliable to all un-authenticated users ONLY</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_GroupsAuthenticated" xml:space="preserve">
+    <value>All AUTHENTICATED Members</value>
+  </data>
+  <data name="Document_AddEdit_Tab_UserGroups_GroupsAuthenticatedDescription" xml:space="preserve">
+    <value>Content avaliable to all authenticated members ONLY</value>
+  </data>
+  <data name="_SiteWide_AdminUser_Default_ModuleName" xml:space="preserve">
+    <value>Document Library</value>
+  </data>
+  <data name="_SiteWide_AdminUser_AddEdit_ModuleName" xml:space="preserve">
+    <value>Document Library</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_AddNewEntry" xml:space="preserve">
+    <value>Add a new document category</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>document categories in</value>
+  </data>
+  <data name="_SiteWide_Category_Default_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Document_Default_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>documents in</value>
+  </data>
+  <data name="Document_Default_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Grid_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>document comments in</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_Grid_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Document_Default_Grid_Expired" xml:space="preserve">
+    <value>Expired!</value>
+  </data>
+  <data name="Document_Default_Key_Expired" xml:space="preserve">
+    <value>This represents a document that has expired and therefore is no longer active.</value>
+  </data>
+  <data name="Document_Default_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected documents?</value>
+  </data>
+  <data name="_SiteWide_Category_Default_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected document categories?</value>
+  </data>
+  <data name="_SiteWide_Comment_DefaultModule_GridDeleteButton_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete these selected document comments?</value>
+  </data>
+  <data name="Document_AddEdit_AssociateWithSite" xml:space="preserve">
+    <value>Associate this document with this site only or all sites</value>
+  </data>
+  <data name="Document_AddEdit_AssociateWithSite_AllSites" xml:space="preserve">
+    <value>All Sites</value>
+  </data>
+  <data name="Document_AddEdit_AssociateWithSite_ThisSiteOnly" xml:space="preserve">
+    <value>This Site Only</value>
+  </data>
+  <data name="Document_AddEdit_AssociateWithSite_PublicMessage" xml:space="preserve">
+    <value>This is a public document created by</value>
+  </data>
+  <data name="Document_Default_Key_AvailableToAllSites" xml:space="preserve">
+    <value>Document record is available to all sites</value>
+  </data>
+  <data name="_SiteWide_ModuleConfiguration_ModuleLocation" xml:space="preserve">
+    <value>Document Module URL</value>
+  </data>
+  <data name="Document_Default_BackToFolders" xml:space="preserve">
+    <value>Go Back to Document Folders</value>
+  </data>
+  <data name="Document_FolderAdmin_DocumentTree_Configure" xml:space="preserve">
+    <value>Configure Document Library</value>
+  </data>
+  <data name="Document_FolderAdmin_DocumentTree_ManageCategories" xml:space="preserve">
+    <value>Manage Document Library Categories</value>
+  </data>
+</root>

@@ -1,0 +1,251 @@
+//body {
+//margin-bottom: 	10px;
+//margin-left: 	10px;
+//margin-right: 	10px;
+//margin-top: 	10px;
+
+scrollbar-face-color: 		#F5F5F5; 
+scrollbar-shadow-color: 	#F6F6F4;
+scrollbar-highlight-color: 	#F6F6F4; 
+scrollbar-3dlight-color: 	#9C9E9C;
+scrollbar-darkshadow-color: #9C9E9C; 
+scrollbar-track-color: 		#F4F4F2;
+scrollbar-arrow-color: 		#838383;
+}
+
+.textxsm {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 7.5pt; 
+color: #004835;
+}
+.textsm {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 8pt; 
+color: #504941;
+}
+.text {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt; 
+color: #504941;
+}
+.textmed {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 10pt; 
+color: #504941;
+}
+.textlg {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12pt; 
+color: #504941;
+}
+
+.linkxsm {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 7.5pt; 
+color: gray;
+}
+.linkxsm:hover {
+color: #65A2DA;
+}
+.linksm {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 8pt; 
+color: gray;
+}
+.linksm:hover {
+color: #65A2DA;
+}
+.link {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt; 
+color: gray;
+}
+.link:hover {
+color: #65A2DA;
+}
+.linkmed {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 10pt; 
+color: gray;
+}
+.linkmed:hover {
+color: #65A2DA;
+}
+.linklg {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12pt; 
+color: gray;
+}
+.linklg:hover {
+color: #65A2DA;
+}
+
+.footer {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 7.5pt; 
+color: gray;
+}
+.footer:hover {
+color: #65A2DA;
+}
+
+.paging {
+font-family: Verdana, Arial, Helvetica; 
+font-size: 7.5pt; 
+color: #5F708F;
+}
+.paging:hover {
+color: #0065CE;
+}
+
+.toolbar {
+border: 1px solid #DDDDDD; 
+background-color: #EFEFEF;
+}
+
+.displayretainer {
+width: 130; 
+height: 100%; 
+filter:progid:DXImageTransform.Microsoft.Matrix(M11='1.0', sizingmethod='auto expand');
+}
+
+#additionalFields {
+display: block; 
+}
+
+.menu_on {
+color: #BC1B00;
+text-decoration: none;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+}
+.menu_on:hover {
+color: #BC1B00;
+text-decoration: underline;
+}
+
+.menu_off {
+color: #616D7E;
+text-decoration: none;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+}
+.menu_off:hover {
+color: #BC1B00;
+text-decoration: underline;
+}
+
+.smallheader {
+color: #616D7E;
+text-decoration: none;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+}
+
+.mediumheader {
+color: #616D7E;
+text-decoration: none;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+.largeheader {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; 
+font-size: 12pt; 
+color: #000000; 
+font-weight: bold;
+}
+
+.mainbg {
+background: url(../images/bg-main.gif) 0 0 no-repeat;
+}
+
+.selectbox {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt;
+}
+
+.input {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt; 
+border: solid 1px #706F6B; 
+background: #ffffff;
+height: 21px;
+padding-left: 3px;
+padding-top: 1px;
+}
+
+.textarea {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 9pt; 
+border: solid 1px #706F6B; 
+padding-left: 3px;
+padding-top: 1px;
+}
+
+.shadow				{filter:progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=3);} 
+.shadow1			{filter:progid:DXImageTransform.Microsoft.Shadow(color='#a9a9a9', Direction=135, Strength=2);}
+
+div#footer {
+padding-top: 10px;
+padding-bottom: 14px;
+}
+
+div#mainpad {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+.calevent {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 9pt;
+line-height: 130%;
+color: #ffffff;
+text-decoration: none;
+}
+
+.calevent:hover {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 9pt;
+line-height: 130%;
+color: #ffffff;
+text-decoration: underline;
+}
+
+.calunsel {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 9pt;
+line-height: 140%;
+color: 636563;
+text-decoration: none;
+}
+.calSel {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+font-size: 9pt;
+line-height: 140%;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+a.menumain:link {
+width: 95%;
+display: inline;
+padding: 3;
+margin: 0;
+background: #b88728;
+color: #ffffff;
+border-bottom: 1px solid#ccc;
+/*background-image : url(../images/ustu-menubtns-5.jpg);*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 11px;
+}
+a.menumain:hover {
+background-color: #c39257;
+color: #000000;
+text-decoration   : bold;
+}

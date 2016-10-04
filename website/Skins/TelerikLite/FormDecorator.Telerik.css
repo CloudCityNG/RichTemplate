@@ -1,0 +1,222 @@
+.RadForm_Telerik {
+  background-color: white;
+  color: black;
+  /* button styles */
+  /* Checkbox and radiobutton */
+  /* Webkit provides full support for checkbox and radiobutton */
+  /* DropDown Styles */
+  /* Skin-specific Scrollbar Settings for WebKit  */
+  /* the scrollbar face color */
+  /* IE Scrollbars */
+  /*GridView, FormView, DetailsView*/
+  /* Validation Summary Control and Login Control  */ }
+  .RadForm_Telerik.rfdZone {
+    background-color: white; }
+  .RadForm_Telerik.rfdHeading h4, .RadForm_Telerik.rfdHeading h5, .RadForm_Telerik.rfdHeading h6 {
+    border-bottom-color: #8e8e8e; }
+  .RadForm_Telerik fieldset {
+    border-color: #828282;
+    background-color: white; }
+  .RadForm_Telerik legend {
+    background-color: white; }
+  .RadForm_Telerik .rfdSkinnedButton {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    border-color: #cccccc; }
+  .RadForm_Telerik .rfdSkinnedButton:hover {
+    border-color: #2ebf00;
+    color: black;
+    background-color: #63ac39;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadForm_Telerik .rfdSkinnedButton:active,
+  .RadForm_Telerik .rfdClickedButton,
+  .RadForm_Telerik .rfdFocusedButton {
+    border-color: #239500;
+    color: black;
+    background-color: #93da59;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadForm_Telerik .rfdSkinnedButton.rfdInputDisabled {
+    border-color: #d2d2d2;
+    color: #8a8a8a;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+  .RadForm_Telerik .rfdTextInput,
+  .RadForm_Telerik textarea {
+    background-color: white;
+    color: black;
+    border-color: #8e8e8e; }
+  .RadForm_Telerik .rfdTextInput:hover,
+  .RadForm_Telerik textarea:hover {
+    background-color: white;
+    color: black;
+    border-color: #2ebf00; }
+  .RadForm_Telerik .rfdTextInput:active,
+  .RadForm_Telerik textarea:active,
+  .RadForm_Telerik .rfdTextInput:focus,
+  .RadForm_Telerik textarea:focus {
+    background-color: white;
+    color: black;
+    border-color: #239500; }
+  .RadForm_Telerik .rfdTextInput:disabled,
+  .RadForm_Telerik textarea:disabled {
+    background-color: white;
+    color: #8a8a8a;
+    border-color: #d0d0d0; }
+  .RadForm_Telerik .rfdCheckboxChecked .rfdToggleImage,
+  .RadForm_Telerik .rfdCheckboxUnchecked .rfdToggleImage,
+  .RadForm_Telerik .rfdRadioChecked .rfdToggleImage,
+  .RadForm_Telerik .rfdRadioUnchecked .rfdToggleImage {
+    background-image: url('../Telerik/Common/radFormToggleSprite.png');
+    _background-image: url('../Telerik/Common/radFormToggleSpriteIE6.png'); }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .RadForm_Telerik.rfdRadio input[type="radio"], .RadForm_Telerik.rfdCheckbox input[type="checkbox"] {
+      background-image: url('../Telerik/Common/radFormToggleSprite.png'); } }
+  .RadForm_Telerik .rfdSelect_Telerik {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    border-color: #cccccc; }
+  .RadForm_Telerik .rfdSelect_Telerik:hover {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    border-color: #2ebf00;
+    color: black;
+    background-color: #63ac39;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadForm_Telerik .rfdSelect_Telerik:active,
+  .RadForm_Telerik .rfdSelect_Telerik:focus {
+    background-image: url('../Common/Gradients/radGradientLightV20.png');
+    _background-image: none;
+    border-color: #239500;
+    color: black;
+    background-color: #93da59;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadForm_Telerik .rfdDropDownArrow {
+    background-image: url('../Telerik/Common/radActionsSprite.png');
+    _background-image: url('../Telerik/Common/radActionsSpriteIE6.png'); }
+  .RadForm_Telerik.rfdScrollBars {
+    /* scrollbar track background color */
+    /* increment / decrement button settings */ }
+    .RadForm_Telerik.rfdScrollBars body::-webkit-scrollbar,
+    .RadForm_Telerik.rfdScrollBars body::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Telerik.rfdScrollBars body::-webkit-scrollbar-thumb:horizontal,
+    .RadForm_Telerik.rfdScrollBars div::-webkit-scrollbar,
+    .RadForm_Telerik.rfdScrollBars div::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Telerik.rfdScrollBars div::-webkit-scrollbar-thumb:horizontal
+    form::-webkit-scrollbar,
+    .RadForm_Telerik.rfdScrollBars form::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Telerik.rfdScrollBars form::-webkit-scrollbar-thumb:horizontal {
+      background-color: #ececec; }
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-track-piece,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-corner {
+      background-color: #e6e6e6; }
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-thumb:vertical,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-thumb:horizontal {
+      border-color: #828282;
+      background-color: #ececec; }
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:vertical:decrement,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:vertical:increment,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:horizontal:decrement,
+    .RadForm_Telerik.rfdScrollBars ::-webkit-scrollbar-button:horizontal:increment {
+      background-image: url('../Telerik/Common/radActionsSprite.png');
+      _background-image: url('../Telerik/Common/radActionsSpriteIE6.png');
+      background-color: #ececec; }
+  .RadForm_Telerik.rfdScrollBars {
+    scrollbar-3dlight-color: #a0ad8a;
+    scrollbar-arrow-color: #7f7f7f;
+    scrollbar-base-color: #f5f5f5;
+    scrollbar-darkshadow-color: #5f6e93;
+    scrollbar-face-color: #e4e4e4;
+    scrollbar-highlight-color: #fff;
+    scrollbar-shadow-color: #a0ad8a;
+    scrollbar-track-color: #f0f0f0; }
+  .RadForm_Telerik.rfdGrids .rfdTable {
+    border: 1px solid #828282;
+    background: white;
+    color: black;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 12px; }
+  .RadForm_Telerik.rfdGrids .rfdTable th {
+    border-bottom: 1px solid #828282;
+    border-left: 1px solid #8e8e8e;
+    background-color: #e6e6e6;
+    color: black; }
+  .RadForm_Telerik.rfdGrids .rfdTable a {
+    color: black; }
+  .RadForm_Telerik .rfdValidationSummaryControl,
+  .RadForm_Telerik .rfdLoginControl {
+    background-color: #ececec;
+    border: 1px solid #828282; }
+  .RadForm_Telerik a.rfdLoginControl,
+  .RadForm_Telerik a.rfdLoginControl:active,
+  .RadForm_Telerik a.rfdLoginControl:visited {
+    color: black; }
+  .RadForm_Telerik a.rfdLoginControl:hover {
+    color: black; }
+
+/* Listbox Styles */
+/* Must be out of the SASS Box */
+.rfdSelectBox_Telerik {
+  border-color: #828282; }
+
+.rfdSelectBox_Telerik li {
+  color: black;
+  background-color: white; }
+
+.rfdSelectBox_Telerik li:hover,
+.rfdSelectBox_Telerik .rfdSelect_hovered,
+.rfdSelectBox.rfdSelectBox_Telerik li:hover {
+  color: black;
+  background-color: #9ddf6c; }
+
+.rfdSelectBox_Telerik .rfdSelect_selected,
+.rfdSelectBox.rfdSelectBox_Telerik .rfdSelect_selected:hover {
+  color: black;
+  background-color: #63ac39; }
+
+.rfdSelectBox_Telerik .rfdSelectBox_optgroup_label:hover {
+  background: none;
+  color: black; }

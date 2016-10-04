@@ -1,0 +1,22 @@
+.RadTileList_Default {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333; }
+  .RadTileList_Default .rtlistWideTile,
+  .RadTileList_Default .rtlistSquareTile,
+  .RadTileList_Default .rtlistPeekContent {
+    background-color: #eeeeee; }
+  .RadTileList_Default .rtlistGroupSeparatorVisible {
+    background-color: #d9d9d9; }
+  .RadTileList_Default .rtlistSelectedTile {
+    border-color: #666; }
+  .RadTileList_Default .rtlistHoveredTile {
+    border-color: #9f9f9f; }
+  .RadTileList_Default .rtlistSelectedTile.rtlistHoveredTile {
+    border-color: rgba(102, 102, 102, 0.7); }
+  .RadTileList_Default .rtlistSelectedTile .rtlistSelectedIcon {
+    background-image: url('TileList/rtlistSprite.png');
+    _background-image: url('TileList/rtlistSpriteIE6.png'); }
+  .RadTileList_Default.RadTileList .rtlistTitle {
+    color: #333333; }
+

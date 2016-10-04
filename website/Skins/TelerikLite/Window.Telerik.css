@@ -1,0 +1,83 @@
+.RadWindow_Telerik {
+  background-color: #f3f3f3;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282;
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Telerik .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -moz-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -ms-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -o-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcbcb', endColorstr='#f3f3f3',GradientType=0 ); }
+  .RadWindow_Telerik.rwCollapsed .rwTitleBar {
+    border-bottom-color: #828282; }
+  .RadWindow_Telerik .rwIcon {
+    background-image: url('../Telerik/Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Telerik .rwTitleWrapper .rwTitle {
+    color: black; }
+  .RadWindow_Telerik .rwListItem .rwCommandButton,
+  .RadWindow_Telerik .rwResize {
+    background-image: url('../Telerik/Common/radActionsSprite.png');
+    _background-image: url('../Telerik/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Telerik .rwContent {
+    background-color: white;
+    border-color: #828282; }
+  .RadWindow_Telerik .rwStatusBar {
+    background-color: #eeeeee;
+    border-color: #eeeeee #828282 #828282; }
+  .RadWindow_Telerik.rwLoading .rwExternalContent {
+    background-image: url('../Telerik/Common/loading.gif'); }
+  .RadWindow_Telerik .rwLoading.rwStatusBar {
+    background-image: url('../Telerik/Common/loading_small.gif'); }
+  .RadWindow_Telerik .rwDialogButtons input {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    border-color: #cccccc; }
+  .RadWindow_Telerik .rwDialogButtons input:hover {
+    border-color: #2ebf00;
+    color: black;
+    background-color: #63ac39;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Telerik .rwDialogButtons input:active {
+    border-color: #239500;
+    color: black;
+    background-color: #93da59;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Telerik .rwPromptInput {
+    background-color: white;
+    color: black;
+    border-color: #8e8e8e;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Telerik .rwPromptInput:hover {
+    background-color: white;
+    color: black;
+    border-color: #2ebf00; }
+  .RadWindow_Telerik .rwPromptInput:active,
+  .RadWindow_Telerik .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #239500; }
+  .RadWindow_Telerik .rwPromptInput:disabled {
+    background-color: white;
+    color: #8a8a8a;
+    border-color: #d0d0d0; }

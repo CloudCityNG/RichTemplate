@@ -1,0 +1,97 @@
+/*Turn off margins, set default font*/
+
+body {
+	font-family: verdana, arial, sans-serif;
+	background-color: #ffffff;
+	margin:0px;
+	font-size: 12px;
+}
+
+/*Styles for the div that holds the module content*/
+.modulebody
+{
+    padding: 15px 15px 15px 15px;
+}
+
+/*Styles for module header */
+h3.module_header {
+	color:#000000;
+	font-weight:bold;;
+	font-size: 16px;
+}
+
+/*Styles for subnav div class */
+.subnav
+{
+    font-weight:normal;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size:11px;
+    background-color:#F4F4F4;
+    padding: 5px 5px 5px 5px;
+    width:95%;
+    border:solid 1px #DAD9D9;
+}
+
+/*Styles for Data Listing Tables */
+.dataGridTable {
+	width: 95%;
+}
+
+.dataGridHeader {
+	background-color: #2857AA;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+	padding:3px;
+}
+.dataGridHeader a {
+	background-color: #2857AA;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.dataGridCell {
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.dataGridCellAlternating {
+	background-color: #efefef;
+	color: #000000;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.required
+{
+	color:red;
+}
+
+.error
+{
+	padding:10px 10px 10px 10px;
+	color:red;
+	background-color: #ffffcc;
+}
+
+/*Styles for Form Tables and Inputs */
+
+.formTable TD {
+	padding:5px;
+	font-weight:normal;
+	font-size:12px;
+
+}
+
+input, select {
+	width:200px;
+}
+
+input.submit {
+	width:100px;
+}

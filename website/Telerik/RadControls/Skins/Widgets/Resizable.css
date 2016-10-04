@@ -1,0 +1,74 @@
+.RadResizable {
+	position: absolute;
+	z-index: 99999;
+	-webkit-transform: rotate3d(0, 0, 1, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+	-moz-transform: rotate3d(0, 0, 1, 0);
+	-moz-backface-visibility: hidden;
+	-moz-perspective: 1000;
+	-o-transform: rotate3d(0, 0, 1, 0);
+	-o-backface-visibility: hidden;
+	-o-perspective: 1000;
+	-ms-transform: rotate3d(0, 0, 1, 0);
+	-ms-backface-visibility: hidden;
+	-ms-perspective: 1000;
+}
+
+.rrHandle {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	z-index:1;
+}
+.rrhTop {
+	top: 0;
+}
+.rrhMiddle {
+	top: 0;
+	bottom: 0;
+	height: auto;
+	cursor: ew-resize;
+}
+.rrhBottom {
+	bottom: 0;
+}
+.rrhLeft {
+	left: 0;
+}
+.rrhCenter {
+	left: 0;
+	right: 0;
+	width: auto;
+	cursor: ns-resize;
+}
+.rrhRight {
+	right: 0;
+}
+.rrhTop.rrhLeft, 
+.rrhBottom.rrhRight {
+	cursor: nwse-resize;
+}
+.rrhTop.rrhRight, 
+.rrhBottom.rrhLeft {
+	cursor: nesw-resize;
+}
+
+.rrhTop.rrhLeft, 
+.rrhTop.rrhRight, 
+.rrhBottom.rrhLeft, 
+.rrhBottom.rrhRight {
+	z-index:2;
+}
+
+.rrhCustom.rrhTop,
+.rrhCustom.rrhBottom,
+.rrhCustom.rrhLeft,
+.rrhCustom.rrhRight,
+.rrhCustom.rrhMiddle,
+.rrhCustom.rrhCenter{
+	top: auto;
+	bottom: auto;
+	left: auto;
+	right: auto;
+}

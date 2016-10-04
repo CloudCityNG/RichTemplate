@@ -1,0 +1,19 @@
+.RadNotification_Windows7 {
+  border: 1px solid #b8cbde;
+  background-color: white;
+  color: black;
+  /* base overwrites */ }
+  .RadNotification_Windows7.rnShadows {
+    box-shadow: 2px 2px 3px #dde6f1; }
+  .RadNotification_Windows7 .rnTitleBar,
+  .RadNotification_Windows7 .rnCommands a {
+    background-image: url('Notification/NotificationSprite.png'); }
+  .RadNotification_Windows7 .rnTitleBar {
+    border-top: 1px solid #fff; }
+  .RadNotification_Windows7 .rnTitleBarTitle {
+    color: black; }
+  .RadNotification_Windows7 .rnContentWrapper {
+    border-top: 1px solid #c2cedb; }
+  .RadNotification_Windows7 .rnCommands li {
+    margin-right: 1px; }
+

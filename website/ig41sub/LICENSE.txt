@@ -1,0 +1,32 @@
+Please read this License Carefully. This is a legal agreement between the end user ("Licensee") and Blue-Collar Productions. The enclosed software and documentation are licensed by Blue-Collar Productions to the original individual customer for use only on the terms described in this License Agreement (this "License"). Opening the enclosed diskette envelope, downloading and/or using the Software indicates that the end user accepts and agrees to comply with these terms. If there is any disagreement on these terms, (a) the software may be returned in the unopened diskette envelope to the place where it was obtained, or (b) write to Blue-Collar Productions with a request to modify any term of this License. 
+
+1. LICENSES. 
+(a) Blue-Collar Productions hereby grants to Licensee a worldwide, non-exclusive, nontransferable, license (without the ability to sublicense) to (i) use this product ON A SINGLE COMPUTER and make one copy of the Software in machine-readable form for backup purposes. 
+(b) Blue-Collar Productions retains title to the Software in all forms whatsoever. 
+(c) All rights not expressly granted herein are reserved by Blue-Collar Productions. 
+
+2. LICENSE FEES. 
+No fees.
+
+3. NO WARRANTY. 
+(a) Blue-Collar Productions warrants that for zero (0) days following delivery of the Software to Licensee, the Software, unless modified in any way by Licensee, will perform substantially the functions described in any associated product documentation provided by Blue-Collar Productions. Blue-Collar Productions does not warrant that the Software will meet Licensee's specific requirements or that operation of the Software will be uninterrupted or error-free. Blue-Collar Productions is not responsible for any problem, including any problem which would otherwise be a breach of warranty, caused by (i) changes in the operating characteristics of computer hardware or computer operating systems, (ii) interaction of the Software with software not supplied or approved by Blue-Collar Productions, or (iii) accident, abuse, or misapplication. 
+(b) Blue-Collar Productions entire liability and Licensee's sole remedy under the foregoing warranty during the warranty period is that Blue-Collar Productions shall, at its sole and exclusive option, either use reasonable efforts to correct any reported deviation from the relevant product documentation, replace the Software with a functionally equivalent program, or refund all license fees paid, in which case, this License shall immediately terminate. 
+(c) THE ABOVE WARRANTIES ARE EXCLUSIVE AND NO OTHER WARRANTIES ARE MADE BY BLUE-COLLAR-PRODUCTIONS OR ITS LICENSORS, WHETHER EXPRESSED OR IMPLIED, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. 
+(d) SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY. IN THAT EVENT, ANY IMPLIED WARRANTIES ARE LIMITED IN DURATION TO THIRTY (30) DAYS FROM THE DATE OF DELIVERY OF THE SOFTWARE. THIS WARRANTY GIVES THE END USER SPECIFIC LEGAL RIGHTS. THE END USER MAY HAVE OTHER RIGHTS, WHICH VARY FROM STATE TO STATE. 
+
+4. LIMITATION OF LIABILITY. 
+UNDER NO CIRCUMSTANCES SHALL BLUE-COLLAR PRODUCTIONS BE LIABLE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, EVEN IF BLUE-COLLAR PRODUCTIONS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY. 
+In no event shall Blue-Collar Productions total liability to Licensee for all damages, losses, and causes of action (whether in contract, tort (including negligence) or otherwise) exceed the amount paid by Licensee for the Software. 
+
+5. BREACH AND TERMINATION. 
+(a) This License is effective until terminated. This License may be terminated by the non-defaulting party if either party materially fails to perform or comply with this License or any provision hereof. 
+(b) Termination due to a breach of this license shall be effective upon notice. In all other cases termination shall be effective thirty (30) days after notice of termination to the defaulting party if the defaults have not been cured within such thirty (30) day period. The rights and remedies of the parties provided herein shall not be exclusive and are in addition to any other rights and remedies provided by law or this Agreement. 
+(c) Upon termination of this Agreement, all rights and licenses granted hereunder shall immediately terminate and all Software and other Proprietary Information of Blue-Collar Productions in the possession of Licensee or under its control, shall be immediately returned to Blue-Collar Productions. End user licenses properly granted pursuant to this Agreement and prior to termination of this Agreement shall not be diminished or abridged by the termination of this Agreement. 
+
+6. GOVERNING LAW. 
+The rights and obligations under this Agreement shall be governed by the laws of the State of California excluding its conflicts of law rules and United States law and international treaties governing copyrights. 
+
+7. GOVERNMENT END USERS. 
+(a) If this Software is acquired by or on behalf of a unit or agency of the United States Government through Licensee, Licensee hereby undertakes to insert in its contract with the Government the appropriate restricted rights language. 
+(b) If this Software is acquired by or on behalf of a unit or agency of the United States Government directly from Blue-Collar Productions, this provision applies. This Software: (i) was developed at private expense, and no part of it was developed with government funds; (ii) is a trade secret of Blue-Collar Productions for all purposes of the Freedom of Information Act; (iii) is "commercial computer software" subject to limited utilization as provided in the contract between vendor and the government entity; and (iv) in all respects is proprietary data belonging solely to Blue-Collar Productions. 
+(c) For units of the Department of Defense (DOD), this Software is sold only with "Restricted Rights" as that term is defined in the DOD Supplement to the Federal Acquisition Regulations ("DFARS") 52.227-7013 (c)(1)(ii) and use, duplication or disclosure is subject to restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in Technical Data and Computer Software clause of DFARS 52.227-7013. Manufacturer: Blue-Collar Productions 

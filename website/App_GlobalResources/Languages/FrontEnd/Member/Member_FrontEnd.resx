@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Member_AddProfile_ButtonAdd" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Member_AddProfile_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Member_AddProfile_EmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Member_AddProfile_EmailAddress_AlreadyExists" xml:space="preserve">
+    <value>This email address is already assigned to an active account.</value>
+  </data>
+  <data name="Member_AddProfile_EmailAddress_AlreadyExists_TryAgain" xml:space="preserve">
+    <value>Click Here to Try Login Again</value>
+  </data>
+  <data name="Member_AddProfile_EmailAddress_AlreadyExists_UseForgotPassword" xml:space="preserve">
+    <value>Please use the forgot password reminder to remember or reset the password.</value>
+  </data>
+  <data name="Member_AddProfile_EmailAddress_InvalidEmail" xml:space="preserve">
+    <value>Invalid email (user@domain.com)</value>
+  </data>
+  <data name="Member_AddProfile_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Member_AddProfile_Heading" xml:space="preserve">
+    <value>Register for Restricted Members Website</value>
+  </data>
+  <data name="Member_AddProfile_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Member_AddProfile_Language_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_AddProfile_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Member_AddProfile_PasswordConfirm" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Member_AddProfile_PasswordNew" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Member_AddProfile_Password_CharacterRule" xml:space="preserve">
+    <value>6-12 characters</value>
+  </data>
+  <data name="Member_AddProfile_Password_CharacterRuleInvalid" xml:space="preserve">
+    <value>Must be 6-12 characters.</value>
+  </data>
+  <data name="Member_AddProfile_Password_NotEqual" xml:space="preserve">
+    <value>Your password does not match.</value>
+  </data>
+  <data name="Member_AddProfile_PhoneDaytime" xml:space="preserve">
+    <value>Daytime Phone</value>
+  </data>
+  <data name="Member_AddProfile_PhoneEvening" xml:space="preserve">
+    <value>Evening Phone</value>
+  </data>
+  <data name="Member_AddProfileSuccessful_ProfileCreated_Body" xml:space="preserve">
+    <value>You have now registered your account</value>
+  </data>
+  <data name="Member_AddProfileSuccessful_ProfileCreated_Heading" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="Member_AddProfileSuccessful_ProfileCreated_LoginEmailNotification" xml:space="preserve">
+    <value>You will receive notification via email.</value>
+  </data>
+  <data name="Member_AddProfileSuccessful_ProfileCreated_Login" xml:space="preserve">
+    <value>Click here to login. </value>
+  </data>
+  <data name="Member_AddProfile_RequiredMessage" xml:space="preserve">
+    <value>(Required)</value>
+  </data>
+  <data name="Member_AddProfile_Salutation" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="Member_AddProfile_SecurityAnswer" xml:space="preserve">
+    <value>Security Answer</value>
+  </data>
+  <data name="Member_AddProfile_SecurityQuestion" xml:space="preserve">
+    <value>Security Question</value>
+  </data>
+  <data name="Member_AddProfile_UploadImage" xml:space="preserve">
+    <value>Upload Image</value>
+  </data>
+  <data name="Member_AddProfile_UploadImage_InvalidFileType" xml:space="preserve">
+    <value>Invalid File Type.</value>
+  </data>
+  <data name="Member_AddProfile_UploadImage_MaxFileSizeExceeded" xml:space="preserve">
+    <value>Max file size exceeded.</value>
+  </data>
+  <data name="Member_AddProfile_UploadImage_Message" xml:space="preserve">
+    <value>Use the upload boxes below to upload an image for your profile</value>
+  </data>
+  <data name="Member_AddProfile_UploadImage_Requirements" xml:space="preserve">
+    <value>Accepted file types:(.jpg, .gif, .png). Maximum size limit: 100kb</value>
+  </data>
+  <data name="Member_Default_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Member_Default_ForgotYourPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+  </data>
+  <data name="Member_Default_Login_ButtonLogin" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="Member_Default_Login_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Member_Default_Login_ExistingMembers" xml:space="preserve">
+    <value>Existing Members Login</value>
+  </data>
+  <data name="Member_Default_Login_InvalidEmail" xml:space="preserve">
+    <value>Invalid email (user@domain.com)</value>
+  </data>
+  <data name="Member_Default_Login_NewMembers" xml:space="preserve">
+    <value>New Members Sign Up</value>
+  </data>
+  <data name="Member_Default_Login_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Member_Default_RequiredMessage" xml:space="preserve">
+    <value>Required!</value>
+  </data>
+  <data name="Member_Default_SuccessBody" xml:space="preserve">
+    <value>You have successfully logged into the secure members area.</value>
+  </data>
+  <data name="Member_Default_SuccessHeading" xml:space="preserve">
+    <value>Congratulations!</value>
+  </data>
+  <data name="Member_Default_Success_MemberSectionMessage" xml:space="preserve">
+    <value>Click here to gain access to the secure members content.</value>
+  </data>
+  <data name="Member_Default_Success_NewMember" xml:space="preserve">
+    <value>Click here to sign up today!</value>
+  </data>
+  <data name="Member_Default_Success_UpdateProfileMessage" xml:space="preserve">
+    <value>Click here to update your member profile.</value>
+  </data>
+  <data name="Member_Default_UsernamePasswordInvalid" xml:space="preserve">
+    <value>There has been error. Please double-check your credentials and try to login again.  If you recently signed up, your account may be pending verification.</value>
+  </data>
+  <data name="Member_ForgottenPassword_Heading" xml:space="preserve">
+    <value>Forgotten your Password?</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_AccountNotFound" xml:space="preserve">
+    <value>Your email account can not be found. Please try again. For further assistance please contact the system administrator</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_Body" xml:space="preserve">
+    <value>Please enter your registered email address.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_ButtonFindPassword" xml:space="preserve">
+    <value>Find my Password</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_InvalidEmail" xml:space="preserve">
+    <value>Invalid email (user@domain.com)</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_RequiredMessage" xml:space="preserve">
+    <value>Required!</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepThree_CheckEmailForPassword" xml:space="preserve">
+    <value>Please check your email and login with your password.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepThree_EmailSentTo" xml:space="preserve">
+    <value>An email reminder has been sent to</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepThree_Heading" xml:space="preserve">
+    <value>Your password has been reset and an Email has been Sent!</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepThree_Login" xml:space="preserve">
+    <value>Click here to login</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_ButtonFindPassword" xml:space="preserve">
+    <value>Find my Password</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_EmailPassword" xml:space="preserve">
+    <value>Email my Password</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_EnterEmailAddress" xml:space="preserve">
+    <value>You may also choose to have your login details reset then emailed to you.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_EnterSecurityQuestionAnswer" xml:space="preserve">
+    <value>Please answer your security question to edit your account details.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_IncorrectAnswer_Body" xml:space="preserve">
+    <value>Your answer to your security question was incorrect.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_IncorrectAnswer_EmailPassword" xml:space="preserve">
+    <value>Click here to have your password reset then emailed to you.</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_IncorrectAnswer_Heading" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_RequiredMessage" xml:space="preserve">
+    <value>Required!</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_ResendPassword_EmailSentTo" xml:space="preserve">
+    <value>Email will be sent to</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_ResendPassword_Heading" xml:space="preserve">
+    <value>Reset your password and send via email</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_SecurityAnswer" xml:space="preserve">
+    <value>Security Answer</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepTwo_SecurityQuestion" xml:space="preserve">
+    <value>Security Question</value>
+  </data>
+  <data name="Member_UpdateProfile_ButtonUpdate" xml:space="preserve">
+    <value>Update Profile</value>
+  </data>
+  <data name="Member_UpdateProfile_DenotesRequired" xml:space="preserve">
+    <value>Denotes Required Information</value>
+  </data>
+  <data name="Member_UpdateProfile_EmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Member_UpdateProfile_EmailAddress_AlreadyExists" xml:space="preserve">
+    <value>This email address is already assigned to an active account.</value>
+  </data>
+  <data name="Member_UpdateProfile_EmailAddress_InvalidEmail" xml:space="preserve">
+    <value>Invalid email (user@domain.com)</value>
+  </data>
+  <data name="Member_UpdateProfile_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Member_UpdateProfile_Heading" xml:space="preserve">
+    <value>Update your Members Profile</value>
+  </data>
+  <data name="Member_UpdateProfile_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Member_UpdateProfile_Language_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_UpdateProfile_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Member_UpdateProfile_PasswordConfirm" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="Member_UpdateProfile_PasswordNew" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+  <data name="Member_UpdateProfile_Password_CharacterRule" xml:space="preserve">
+    <value>6-12 characters</value>
+  </data>
+  <data name="Member_UpdateProfile_Password_CharacterRuleInvalid" xml:space="preserve">
+    <value>Must be 6-12 characters.</value>
+  </data>
+  <data name="Member_UpdateProfile_Password_NotEqual" xml:space="preserve">
+    <value>Your password does not match.</value>
+  </data>
+  <data name="Member_UpdateProfile_PhoneDaytime" xml:space="preserve">
+    <value>Daytime Phone</value>
+  </data>
+  <data name="Member_UpdateProfile_PhoneEvening" xml:space="preserve">
+    <value>Evening Phone</value>
+  </data>
+  <data name="Member_UpdateProfileSuccessful_ProfileUpdated_Body" xml:space="preserve">
+    <value>Your member account information has been updated!</value>
+  </data>
+  <data name="Member_UpdateProfileSuccessful_ProfileUpdated_Heading" xml:space="preserve">
+    <value>Thank You</value>
+  </data>
+  <data name="Member_UpdateProfileSuccessful_ProfileUpdated_Login" xml:space="preserve">
+    <value>Click Here to return to the home page.</value>
+  </data>
+  <data name="Member_UpdateProfile_RequiredMessage" xml:space="preserve">
+    <value>(Required)</value>
+  </data>
+  <data name="Member_UpdateProfile_Salutation" xml:space="preserve">
+    <value>Salutation</value>
+  </data>
+  <data name="Member_UpdateProfile_SecurityAnswer" xml:space="preserve">
+    <value>Security Answer</value>
+  </data>
+  <data name="Member_UpdateProfile_SecurityQuestion" xml:space="preserve">
+    <value>Security Question</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage" xml:space="preserve">
+    <value>Upload Image</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage_InvalidFileType" xml:space="preserve">
+    <value>Invalid File Type.</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage_MaxFileSizeExceeded" xml:space="preserve">
+    <value>Max file size exceeded.</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage_Message" xml:space="preserve">
+    <value>Use the upload boxes below to upload an image for your profile</value>
+  </data>
+  <data name="Member_UpdateProfile_UploadImage_Requirements" xml:space="preserve">
+    <value>Accepted file types:(.jpg, .gif, .png). Maximum size limit: 100kb</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepThree_ResendPassword_EmailSentTo" xml:space="preserve">
+    <value>An email was sent to</value>
+  </data>
+  <data name="Member_UpdateProfile_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Member_AddProfileSuccessful_HeaderTitle" xml:space="preserve">
+    <value>Add Profile Successful</value>
+  </data>
+  <data name="Member_AddProfile_HeaderTitle" xml:space="preserve">
+    <value>Add Profile</value>
+  </data>
+  <data name="Member_Default_HeaderTitle" xml:space="preserve">
+    <value>Member Login</value>
+  </data>
+  <data name="Member_ForgottenPassword_HeaderTitle" xml:space="preserve">
+    <value>Forgot your Password</value>
+  </data>
+  <data name="Member_UpdateProfileSuccessful_HeaderTitle" xml:space="preserve">
+    <value>Update Profile Successful</value>
+  </data>
+  <data name="Member_UpdateProfile_HeaderTitle" xml:space="preserve">
+    <value>Update Profile</value>
+  </data>
+  <data name="Member_Default_NoAccessToThisSite" xml:space="preserve">
+    <value>You do not have access to this particular site, please contact the system administrator for access</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_NoAccessToThisSite" xml:space="preserve">
+    <value>You do not have access to this particular site, please contact the system administrator for access</value>
+  </data>
+  <data name="Member_Default_IncorrectEmailAddress_Heading" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Member_ForgottenPassword_StepOne_IncorrectEmailAddress_Heading" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Member_UpdateProfile_ActiveDirectoryMember_Message" xml:space="preserve">
+    <value>This Member is stored in Active Directory. To update read-only fields, please contact your System Administrator.</value>
+  </data>
+  <data name="Member_AddProfile_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Member_AddProfile_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Member_AddProfile_Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="Member_AddProfile_Title" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Member_UpdateProfile_Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Member_UpdateProfile_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Member_UpdateProfile_Office" xml:space="preserve">
+    <value>Office</value>
+  </data>
+  <data name="Member_UpdateProfile_Title" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Member_Default_Introduction" xml:space="preserve">
+    <value>Welcome to Rich Template, this is where you can login or if you do not have an account with us, feel free to signup.</value>
+  </data>
+  <data name="Member_MemberDetail_DaytimePhone" xml:space="preserve">
+    <value>Daytime Phone</value>
+  </data>
+  <data name="Member_MemberDetail_Email" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Member_MemberDetail_EveningPhone" xml:space="preserve">
+    <value>Evening Phone</value>
+  </data>
+  <data name="Member_MemberDetail_HeaderTitle" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="Member_MemberDetail_StartDateLabel" xml:space="preserve">
+    <value>Joined on</value>
+  </data>
+  <data name="Member_MemberDetail_Thumbnail_NoImageAvailable" xml:space="preserve">
+    <value>No Image Available</value>
+  </data>
+  <data name="Member_MemberDetail_ViewAllMembers" xml:space="preserve">
+    <value>View all Members</value>
+  </data>
+  <data name="Member_MemberSearch_HeaderTitle" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="Member_MemberSearch_Heading" xml:space="preserve">
+    <value>Member Search</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_EmailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_FullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_Pager_PagerTextFormat_ItemsIn" xml:space="preserve">
+    <value>members in</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_Pager_PagerTextFormat_Page" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_ButtonSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_State_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Department_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_Department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Location_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Site" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_Site_PleaseSelect" xml:space="preserve">
+    <value>Please Select</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearchResults_Site" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Member_MemberSearch_MemberSearch_ViewAll" xml:space="preserve">
+    <value>View All</value>
+  </data>
+  <data name="Member_MemberDetail_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+</root>

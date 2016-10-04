@@ -1,0 +1,83 @@
+.RadDropDownList_Telerik {
+  color: black;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadDropDownList_Telerik .rddlInner {
+    border-radius: 3px;
+    background-image: url('Common/radGradientButtonSprite.png');
+    _background-image: none;
+    border-color: #cccccc;
+    color: black;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+  .RadDropDownList_Telerik .rddlEmptyMessage,
+  .RadDropDownList_Telerik .rddlDefaultMessage {
+    color: #8a8a8a;
+    font-style: italic; }
+  .RadDropDownList_Telerik .rddlIcon {
+    background-image: url('Common/radActionsSprite.png');
+    background-position: -1px -20px; }
+  .RadDropDownList_Telerik .rddlHovered {
+    border-color: #2ebf00;
+    color: black;
+    background-color: #63ac39;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }
+    .RadDropDownList_Telerik .rddlHovered .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Telerik .rddlFocused {
+    border-color: #239500;
+    color: black;
+    background-color: #93da59;
+    background-image: -webkit-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -moz-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -ms-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: -o-linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%);
+    background-image: linear-gradient(top, #a8d687 0%, #8cc569 50%, #65b33f 50%, #63ac39 100%); }
+    .RadDropDownList_Telerik .rddlFocused .rddlIcon {
+      background-position: -21px -20px; }
+  .RadDropDownList_Telerik .rddlDisabled {
+    border-color: #d2d2d2;
+    color: #8a8a8a;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #dddddd 50%, #cbcbcb 50%, #eeeeee 100%); }
+    .RadDropDownList_Telerik .rddlDisabled .rddlIcon {
+      background-position: -1px -20px;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+
+.rddlPopup_Telerik {
+  border-color: #828282;
+  color: black;
+  background: white;
+  font: normal 12px/16px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .rddlPopup_Telerik .rddlHeader,
+  .rddlPopup_Telerik rddlFooter {
+    color: black;
+    background-color: #e6e6e6; }
+  .rddlPopup_Telerik .rddlHeader {
+    border-bottom-color: #828282; }
+  .rddlPopup_Telerik rddlFooter {
+    border-top-color: #828282; }
+  .rddlPopup_Telerik .rddlItemHovered {
+    color: black;
+    background-color: #9ddf6c; }
+  .rddlPopup_Telerik .rddlItemSelected {
+    color: black;
+    background-color: #63ac39; }
+  .rddlPopup_Telerik .rddlItemDisabled {
+    color: #8a8a8a;
+    background-color: transparent; }
+  .rddlPopup_Telerik .rddlItemLoading {
+    color: black;
+    background-color: #9ddf6c; }

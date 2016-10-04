@@ -1,0 +1,34 @@
+﻿/* TELERIK RAD EDITOR  - STYLES START */
+.reTool .InsertSpecialLink
+{
+    background-image: url(/editorConfig/icons/newSpecialLink.gif);
+    background-position: -2px -80px;
+}
+
+.reTool .InsertAnchorLink
+{
+    background-image: url(/editorConfig/icons/newAnchorLink.gif);
+    background-position: -2px -80px;
+}
+
+.reTool .InsertSpecialLink:hover, .reTool .InsertAnchorLink:hover
+{
+    background-position: -2px -104px;
+}
+
+.rwControlButtons li
+{
+    margin-bottom: 0px !important;
+    list-style: none !important;
+}
+
+/* TELERIK RAD EDITOR  - STYLES END */
+
+
+/* InsertAnchorLink - Styles Start */
+.selectList
+{
+    font: 12px "segoe ui",arial,sans-serif;
+}
+
+/* InsertAnchorLink - Styles End */

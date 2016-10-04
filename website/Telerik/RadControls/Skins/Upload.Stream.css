@@ -1,0 +1,235 @@
+/* RadGrid skin */
+.RadGrid_Default .rgSelectedRow
+{
+    color: #FF6600 !important; background:#DDE5F2 !important;
+}
+.rgDataDiv 
+{
+	height:300px !important;
+}
+.GridItemDropIndicator_Default
+{
+	    border-top:2px dashed #666 !important;
+}
+
+
+/*RadUpload skin */
+
+.RadUpload_Stream *
+{
+    font-size:11px;
+    line-height:1.24;
+    font-family:arial,verdana,sans-serif;
+}
+
+.RadUpload li
+{
+ list-style-type:none;
+}
+/*file inputs and buttons*/
+
+.RadUpload_Stream .ruInputs li
+{
+    margin:0 0 0.8em;
+}
+
+.RadUpload_Stream .ruInputs li.ruActions
+{
+    margin:1.4em 0 0;
+}
+
+.RadUpload_Stream .ruFileWrap
+{
+    padding-right:0.8em;
+}
+
+.RadUpload_Stream_rtl .ruFileWrap
+{
+    padding-left:0.8em;
+    padding-right: 0;
+}
+
+.RadUpload_Stream .ruCheck
+{
+    top:2px;
+}
+
+.RadUpload_Stream .ruFileInput
+{
+    height:25px !important;
+    top:-5px;
+    left:0;
+}
+
+.RadUpload_Stream .ruStyled .ruFileInput
+{
+    border:1px solid #a7a7a7;
+}
+
+* html .RadUpload_Stream .ruFileInput{top:0;left:2px;}/*IE6*/
+*+html .RadUpload_Stream .ruFileInput{top:0;left:2px;}/*IE7*/
+
+.RadUpload_Stream .ruFakeInput
+{
+   padding:1px; font-size:11px; color:#000000; background-color: #ffffff; border:inset 1px #708090; width:200px;
+}
+
+* html .RadUpload_Stream .ruFakeInput /*IE6*/
+{
+    height:17px;
+    margin-top:-1px;
+    padding-top:1px;
+    padding-right:0.6em;
+}
+*+html .RadUpload_Stream .ruFakeInput /*IE7*/
+{
+    height:21px;
+    margin-top:-1px;
+    padding-top:1px;
+    padding-right:0.6em;
+}
+
+* html .RadUpload_Stream_rtl .ruFakeInput /*IE6*/
+{
+    padding-right:0;
+    padding-left: 0.6em;
+}
+
+*+html .RadUpload_Stream_rtl .ruFakeInput /*IE7*/
+{
+    padding-right:0;
+    padding-left: 0.6em;
+}
+
+.RadUpload_Stream .ruReadOnly .ruFakeInput
+{
+	background:#eee;
+}
+
+.RadUpload_Stream .ruButton
+{
+    width:68px !important;
+    height:21px !important;
+    border:0;
+    margin-left:0.8em !important;
+    padding:0 !important;
+    background:url('Upload/ruButtonSmall.gif') 100% 0 no-repeat !important;
+    color:#fff !important;
+    text-align:center !important;
+}
+
+.RadUpload_Stream_rtl .ruButton
+{
+	background-position: 0 0;
+    margin-left:0;
+    margin-right:0.8em;
+}
+
+.RadUpload_Stream .ruBrowse
+{
+	padding:2px !important; font-size:11px !important; color:#393B4A !important; background-color: #ADAEBF !important; border:inset 1px #708090 !important; background-image: url(/admin/images/button_form.gif) !important; background-repeat: no-repeat !important;
+}
+
+.RadUpload_Stream_rtl .ruBrowse
+{
+	background-position: 0 0;
+    margin-right:0;
+}
+
+.RadUpload_Stream .ruRemove
+{
+	border:0;
+	background:url('Upload/ruRemove.gif') 5px 50% no-repeat;
+	padding-left:14px;
+	color:#333;
+}
+
+.RadUpload_Stream_rtl .ruRemove
+{
+	background-position: 100% 50%;
+	padding-left:0;
+	padding-right:14px;
+}
+
+.RadUpload_Stream .ruActions .ruButton
+{
+    width:115px;
+    margin:0 0.8em 0 0;
+    background:url('Upload/ruButtonMedium.gif') no-repeat;
+}
+
+.RadUpload_Stream_rtl .ruActions .ruButton
+{
+    margin:0 0 0 0.8em;
+}
+
+.RadUploadSubmit_Stream
+{
+    width:115px;
+    height:25px;
+    border:0;
+    margin:0;
+    padding:0;
+    background:url('Upload/ruButtonMedium.gif') no-repeat;
+    font:11px/1.24 arial,verdana,sans-serif;
+    color:#fff;
+    text-align:center;
+}
+
+/*progress area*/
+
+.RadUpload_Stream .ruProgress
+{
+    border:8px solid #424242;
+    background:#fff;
+    padding:15px;
+}
+
+.RadUpload_Stream .ruProgress li
+{
+    margin:0 0 0.8em;
+    color:#999;
+}
+
+.RadUpload_Stream .ruProgress li.ruCurrentFile
+{
+	margin:0 0 0.3em;
+    font-size:16px;
+    color:#333;
+}
+
+.RadUpload_Stream .ruProgress li.ruCurrentFile span
+{
+    font-size:16px;
+    color:#379d00;
+}
+
+.RadUpload_Stream .ruProgress div
+{
+    margin-bottom:0.4em;
+}
+
+.RadUpload_Stream .ruProgress .ruBar
+{
+    margin-bottom:0.4em;
+    border:1px solid #666;
+    height:18px;
+}
+ 
+.RadUpload_Stream .ruProgress .ruBar div
+{
+    background:#cbecb0;
+	height:18px;
+	margin:0;
+}
+ 
+.RadUpload_Stream .ruProgress .ruActions
+{
+	margin:1.2em 0 0;
+}
+
+ 
+
+
+
+

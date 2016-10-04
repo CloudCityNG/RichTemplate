@@ -1,0 +1,16 @@
+.RadToolTip_Telerik {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadToolTip_Telerik .rtTitleWrapper .rtTitle {
+    color: black; }
+  .RadToolTip_Telerik .rtClose {
+    background-image: url('../Telerik/ToolTip/ToolTipSprites.png'); }
+  .RadToolTip_Telerik .rtContent {
+    background-color: white;
+    color: black; }
+  .RadToolTip_Telerik .rtCallout {
+    background-image: url('../Telerik/ToolTip/Callouts.gif'); }
+  .RadToolTip_Telerik.rtLoading {
+    background-image: url('../Telerik/Common/loading.gif'); }

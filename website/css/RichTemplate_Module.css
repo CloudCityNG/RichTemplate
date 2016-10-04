@@ -1,0 +1,1179 @@
+﻿/* RichTemplate Core START */
+.errorStyle, .importantStyle
+{
+    color: Red;
+}
+.correctStyle
+{
+    color: Green;
+}
+.imgLinkDiv
+{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.imgLinkDiv a
+{
+    text-decoration: none;
+    padding-top: 0px;
+    line-height: 20px;
+}
+.imgLinkDiv img
+{
+    float: left;
+    border-width: 0px;
+    padding-top: 0px;
+    margin-top: 2px;
+}
+.imgLinkDiv span
+{
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.advSearch span
+{
+    margin-top: 3px;
+}
+
+.grayText
+{
+    color: Gray;
+    font-size: 12px;
+}
+.grayTextSml_10
+{
+    color: Gray;
+    font-size: 10px;
+}
+
+.grayTextSml_11
+{
+    color: Gray;
+    font-size: 11px;
+}
+
+.mailtoSml, .linkSml
+{
+    font-weight: normal !important;
+    font-size: 11px;
+}
+.mailtoSml:hover, .linkSml:hover
+{
+    color: Gray !important;
+    font-weight: normal !important;
+    font-size: 11px;
+    text-decoration: underline !important;
+}
+.mailto, .link
+{
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
+.mailto:hover, .link:hover
+{
+    color: Gray !important;
+    font-weight: normal !important;
+    text-decoration: underline !important;
+}
+.leftPad
+{
+    padding-left: 10px;
+}
+.leftPadDbl
+{
+    padding-left: 20px;
+}
+
+.topPad
+{
+    padding-top: 10px;
+}
+.floatL
+{
+    float: left;
+}
+.floatR
+{
+    float: right;
+}
+.cBoth
+{
+    clear: both;
+}
+.bCollapsed
+{
+    border-collapse: collapse;
+}
+
+.RadUpload li, .RadComboBoxDropDown li
+{
+    list-style-type: none !important;
+}
+/* RichTemplate Core END */
+
+/* Module START */
+
+.moduleLargeTitle
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.moduleTitleRss a
+{
+    text-decoration: none;
+    float: left;
+    line-height: 19px;
+}
+.moduleTitleRss img
+{
+    margin: 2px 5px 0px 0px;
+}
+.moduleViewAll
+{
+    text-decoration: none;
+}
+.categoryHeader
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.divActiveArchive
+{
+    float: right;
+    margin-right: 10px;
+}
+.divCategoryListContainer
+{
+    max-width: 220px;
+    float: left;
+    width: 220px;
+}
+.divCategoryList
+{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.divCategoryList .RadTreeView .rtIn
+{
+    margin-left: 0px !important;
+}
+
+ul.ulCategoryList
+{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ul.ulCategoryList li
+{
+    clear: both;
+    list-style-type: none;
+}
+ul.ulCategoryList .cat_link
+{
+    float: left;
+    margin-right: 10px;
+    max-width: 155px;
+}
+ul.ulCategoryList .rss
+{
+    float: right;
+    margin-top: 2px;
+}
+
+.divModuleContent
+{
+    clear: both;
+}
+.divModuleContent table tr td
+{
+    vertical-align: top;
+}
+
+.divModuleContent .moduleLabel
+{
+    font-weight: bold;
+}
+
+.divModuleRepeater, .divModuleDetail
+{
+    width: 550px;
+    float: left;
+}
+
+.divModuleRepeater .RadDataPager, .divModuleDetail .RadDataPager
+{
+    font-size: 13px;
+}
+
+.divModuleRepeater .divModuleSortBy, .divModuleRepeater .divModuleSortBy div
+{
+    float: left;
+    line-height: 18px;
+}
+
+.divModuleRepeater .divModuleSortBy .divModuleSortBy_SortFieldLabel
+{
+    margin-left: 10px;
+}
+
+.divModuleRepeater .divModuleSortBy .divModuleSortBy_Asc
+{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.divModuleRepeater .divModuleSortBy .divModuleSortBy_Desc
+{
+    margin-left: 2px;
+    margin-top: 1px;
+}
+
+.divModuleRepeater .divModuleSortBy .divModuleSortBy_Seperator
+{
+    margin-left: 10px;
+    width: 1px;
+    height: 18px;
+    border-left: solid 1px black;
+}
+
+.divModuleRepeater table, .divModuleDetail table
+{
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+}
+
+.divModuleRepeater .Date
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.divModuleRepeater .Heading2
+{
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #CA0101;
+}
+
+.divModuleRepeaterShort .newsBox .read_more, .divModuleRepeaterShort .eventBox .read_more
+{
+    text-decoration: none;
+    margin-top: 10px;
+}
+.divModuleRepeaterShort .newsBox .read_more img, .divModuleRepeaterShort .eventBox .read_more img
+{
+    border: none;
+    float: left;
+}
+.divModuleRepeaterShort .newsBox .read_more div, .divModuleRepeaterShort .eventBox .read_more div
+{
+    height: 20px;
+    color: Black;
+    background: url('/images/common/detailsButton_middle.png') repeat-x;
+    font-family: Arial;
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 22px;
+    float: left;
+}
+
+.divModuleDetail .Heading2
+{
+    color: #CA0101;
+    font-weight: bold;
+    font-size: 18px;
+}
+.divModuleDetail .Date
+{
+    font-size: 13px;
+}
+.divSearchBoxHeading
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+.divSearchBox
+{
+    float: left;
+    padding: 0px 5px 5px 5px;
+    width: 220px;
+}
+.divSearchResults
+{
+    float: left;
+    width: 98%;
+}
+.divModuleSearchTagList a
+{
+    text-decoration: none;
+}
+
+.divModuleSearchTagList a:hover
+{
+    text-decoration: underline;
+}
+
+.divModuleSearchTagList span
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: #CA0101;
+}
+
+.addthis_button
+{
+    text-decoration: none;
+}
+
+/* Module END */
+
+/* Address START - NOTE SHOULD BE THE SAME in the ADMIN CSS */
+.pnlAddress .divAddressInner
+{
+    width: 480px;
+    float: left;
+}
+.pnlAddress .addressLabel
+{
+    float: left;
+}
+
+.pnlAddress .divLocationStreet textarea
+{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    resize: none;
+    width: 260px;
+}
+
+.pnlAddress .divLocationCity input
+{
+    width: 256px;
+    float: left;
+}
+
+.pnlAddress .divLocationState select
+{
+    width: 262px;
+    height: 22px;
+    float: left;
+    margin-left: 0px;
+}
+
+.pnlAddress .divLocationCountry select
+{
+    height: 22px;
+    float: left;
+    margin-left: 0px;
+}
+
+.pnlAddress .divLocationZip input
+{
+    width: 70px;
+    float: left;
+}
+.pnlAddress .divLocationStreetSeperator, .pnlAddress .divLocationCountrySeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress .pnlAddressValidation span, .pnlAddressValidation a
+{
+    font-size: 12px;
+    color: Red;
+    text-decoration: none;
+}
+.pnlAddress .pnlAddressValidation
+{
+    width: 360px;
+    float: left;
+}
+
+.pnlAddress .pnlAddressValidation.AddressValidation_Below_Layout
+{
+    float: none;
+}
+
+.pnlAddress .pnlAddressValidation.AddressValidation_Below_Layout .divGoogleAddressPossibilities, .pnlAddress .pnlAddressValidation.AddressValidation_SideBySide_RelativeListPosition_Layout .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+
+
+.pnlAddress .pnlAddressValidation a:hover
+{
+    text-decoration: underline !important;
+}
+.pnlAddress .errorStyle
+{
+    float: left;
+    padding-left: 4px;
+}
+.pnlAddress .correctStyle, .pnlAddress .importantStyle
+{
+    float: left;
+}
+
+.pnlAddress .anchor_validate, .pnlAddress .anchor_continue_unvalidated
+{
+    font-weight: bold;
+}
+.pnlAddress .pnlAddressValidation ul
+{
+    padding-left: 0px;
+}
+.pnlAddress .pnlAddressValidation li
+{
+    float: left;
+    font-size: 12px;
+    list-style: none;
+}
+.pnlAddress .pnlAddressValidation li a
+{
+    font-size: 11px;
+    text-decoration: none;
+}
+.pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: absolute;
+    width: 100%;
+}
+
+/* HORIZONTAL LAYOUT */
+.pnlAddress.Address_Horizontal_Layout
+{
+    width: 700px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationStreet textarea
+{
+    width: 420px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationCity
+{
+    float: left;
+    width: 150px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationCity input
+{
+    width: 130px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationState
+{
+    float: left;
+    width: 195px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationState select
+{
+    width: 180px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationCountry
+{
+    float: left;
+    width: 300px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationZip
+{
+    float: left;
+    width: 100px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .pnlAddressValidation
+{
+    padding-top: 14px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationNotValidated
+{
+    float: left;
+}
+/* VERTICAL LAYOUT - Text Left */
+.pnlAddress.Address_Vertical_TextLeft_Layout .addressLabel
+{
+    width: 120px;
+}
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationStreet
+{
+    float: left;
+    width: 100%;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCity
+{
+    float: left;
+    width: 100%;
+}
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationZip
+{
+    float: left;
+    width: 100%;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCityStateZipSeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .pnlAddressValidation.AddressValidation_Below_Layout
+{
+    float: none;
+    margin-left: 125px;
+}
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationStreet textarea
+{
+    margin-left: 3px;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCity input
+{
+    margin-left: 3px;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationState select
+{
+    margin-left: 3px;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationZip input
+{
+    margin-left: 3px;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCountry select
+{
+    margin-left: 3px;
+}
+
+/* VERTICAL LAYOUT - Text Above */
+.pnlAddress.Address_Vertical_TextAbove_Layout .divAddressInner
+{
+    width: 300px;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCityStateZipSeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationStreet textarea
+{
+    clear: both;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCity
+{
+    float: left;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCity input
+{
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationState select
+{
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationZip input
+{
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCountry select
+{
+    clear: both;
+}
+/* Address END */
+
+/* Blog START */
+
+.divCategoryList_withRSS
+{
+    margin-left: 20px;
+}
+
+/* Blog END */
+
+
+/* DOCUMENT START */
+.tblDocumentManager .save img
+{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.docRss
+{
+    float: right;
+    margin: -20px 0px 0px 0px;
+}
+
+.docLibrary .rgRow TD
+{
+    background-color: #EBEFF3 !important;
+    border-color: #EBEFF3 !important;
+}
+.docLibrary .rgAltRow TD
+{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.moduleAddLink
+{
+    float: left;
+    margin-top: -15px;
+    text-decoration: none;
+}
+
+.moduleAddLink img
+{
+    float: left;
+    margin-top: 1px;
+}
+
+.moduleAddLink a
+{
+    float: left;
+    text-decoration: none;
+    margin-left: 2px;
+    line-height: 20px;
+}
+
+.docSearch
+{
+    margin-top: -2px;
+}
+
+.docDownload
+{
+    vertical-align: middle !important;
+}
+.docDownload a
+{
+    text-decoration: none; /*padding-top: 5px;*/
+}
+.docDownload img
+{
+    float: left;
+    border-width: 0px;
+}
+.docRating
+{
+    margin-top: -1px;
+}
+
+.aModuleEdit, .aModuleEdit:hover
+{
+    text-decoration: none;
+}
+
+.aModuleEdit img
+{
+    padding-top: 2px;
+    width: 18px;
+    height: 18px;
+}
+
+.docInfo a
+{
+    text-decoration: none;
+    line-height: 20px;
+}
+.docInfo .grayText
+{
+    line-height: 20px;
+}
+
+.docDetail .imgLinkDiv
+{
+    margin-top: 0px;
+}
+.docDetail .save
+{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.docDetail .save img
+{
+    width: 15px;
+    height: 15px;
+}
+.docDetail .RadRating
+{
+    margin-top: -3px;
+}
+
+.divViewBy
+{
+    float: right;
+}
+
+.divViewBy a
+{
+    text-decoration: none;
+}
+/* DOCUMENT START */
+
+/* EMPLOYMENT START */
+.tdEmploymentAddressSignup .pnlAddress
+{
+    width: auto !important;
+}
+.tdEmploymentAddressSignup .pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+
+.tdEmploymentAddressSignup .addressLabel
+{
+    font-weight: bold;
+}
+.tdEmploymentAddress .pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+
+.tdEmploymentAddress .addressLabel
+{
+    font-weight: bold;
+}
+/* EMPLOYMENT END */
+
+/* LOCATIONS START */
+.divLetterListTop
+{
+    margin: 5px 0px 10px 0px;
+}
+
+.divLetterListBottom
+{
+    margin: 10px 0px 5px 0px;
+}
+
+.divLetterListTop > span, .divLetterListBottom > span
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+.divLetterListTop > a, .divdivLetterListBottom > a
+{
+    font-size: 13px;
+}
+/* LOCATIONS END */
+
+/* Event START */
+.divSignupHeading div
+{
+    float: left;
+    margin-bottom: 10px;
+}
+.divSignupHeading b
+{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.tdEventAddress .pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+
+.tdEventAddressSignup .pnlAddress
+{
+    width: auto !important;
+}
+
+.tdEventAddressSignup .pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+.divEventAddress .addressLabel
+{
+    font-weight: bold;
+}
+.divEventAddress
+{
+}
+.tdEventAddressSignup .addressLabel
+{
+    font-weight: bold;
+}
+/* Event END */
+
+/* SEARCH TAGS START */
+
+.divSearchResults .moduleLargeTitle
+{
+    margin-bottom: 25px;
+}
+.divSearchResults .Heading2
+{
+    color: #CA0101;
+    font-weight: bold;
+    font-size: 18px;
+    float: left;
+}
+
+.divSearchResults .Date
+{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    color: #000000;
+    float: right;
+    margin-right: 10px;
+}
+
+.cblSearchTags TD
+{
+    padding-right: 20px;
+}
+
+.divSearchSeperator
+{
+    width: 100%;
+    border-top: dashed 1px black;
+}
+/* SEARCH TAGS END */
+
+/* STAFF START */
+.pnlStaffSearch .searchButton
+{
+    float: right;
+    margin-top: 60px;
+}
+
+.staffRss
+{
+    float: right;
+    margin: -20px 10px 0px 0px;
+}
+
+.divSearchParams
+{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.divStaffList .rgRow TD
+{
+    background-color: #EBEFF3 !important;
+    border-color: #EBEFF3 !important;
+}
+
+.divStaffList .rgRow TD
+{
+    background-color: #EBEFF3 !important;
+    border-color: #EBEFF3 !important;
+}
+.divStaffList .rgAltRow TD
+{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.divModuleRepeater .vcard
+{
+    margin-left: 10px;
+}
+.vcard
+{
+    text-decoration: none;
+}
+
+.divStaffList .vcard img
+{
+    float: left;
+    padding-top: 2px;
+    width: 18px;
+}
+
+.divDirStaffHead .divStaffFullName
+{
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+    line-height: 20px;
+}
+
+.divDirStaffHead .vcard
+{
+    margin-top: 0px; /*margin-top: 3px;*/
+}
+.divDirStaffHead .moduleViewAll
+{
+    right: 10px;
+}
+.divStaffRepeaterTabs
+{
+    border-left: solid 1px #DFE9F5;
+    border-right: solid 1px #BDCBDE;
+}
+.divStaffRepeaterTabs > div
+{
+    border-left: solid 1px #BDCBDE;
+    border-right: solid 0px #BDCBDE;
+    border-bottom: solid 1px #BDCBDE;
+    padding: 5px 5px 5px 5px;
+}
+
+/* STAFF END */
+
+/* Comment System START */
+.divRatings
+{
+    background-color: #fff3c8;
+    color: #000;
+    border: 1px solid #ffe58a;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+/* Comment System END */
+
+/* Master Page Single Column START */
+.singleColumn
+{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+/* Master Page Single Column END */
+
+/* Members Start */
+
+.divNewMemberColumn
+{
+    max-width: 220px;
+    float: left;
+    width: 220px;
+    padding-left: 2px;
+}
+
+.divMemberSubHeading
+{
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.divMemberAddress
+{
+    padding: 2px;
+}
+.divMemberAddress .pnlAddress.Address_Vertical_TextLeft_Layout .divAddressInner
+{
+    width: 480px;
+}
+.divMemberAddress .pnlAddress.Address_Vertical_TextLeft_Layout .addressLabel
+{
+    width: 132px;
+}
+
+.divMemberAddress .pnlAddress .errorStyle
+{
+    padding-left: 4px;
+    padding-top: 4px;
+}
+.divMemberAddress .pnlAddress .divLocationStreetSeperator, .divMemberAddress .pnlAddress .divLocationCityStateZipSeperator, .divMemberAddress .pnlAddress .divLocationCountrySeperator
+{
+    padding-top: 2px;
+}
+
+.divMemberAddress .pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    background-color: White;
+    border: solid 4px #AAAAAA;
+    margin-top: 5px;
+    padding: 0px 10px 10px 10px;
+    width: 500px;
+}
+
+
+.error_panel
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error_panel .error_text
+{
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.pnlMemberSearch .divSearchParams
+{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.divMemberList .rgRow TD
+{
+    background-color: #EBEFF3 !important;
+    border-color: #EBEFF3 !important;
+}
+
+.divMemberList .rgRow TD
+{
+    background-color: #EBEFF3 !important;
+    border-color: #EBEFF3 !important;
+}
+.divMemberList .rgAltRow TD
+{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.divModuleRepeater .vcard
+{
+    margin-left: 10px;
+}
+.vcard
+{
+    text-decoration: none;
+}
+
+.divMemberList .vcard img
+{
+    float: left;
+    padding-top: 2px;
+    width: 18px;
+}
+
+.divDirMemberHead .divMemberFullName, .divDirMemberHead .divMemberFullName h1
+{
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+    line-height: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.divDirMemberHead .divMemberTitle
+{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.divDirMemberHead .vcard
+{
+    margin-top: 0px; /*margin-top: 3px;*/
+}
+.divDirMemberHead .moduleViewAll
+{
+    /*position:absolute;*/
+    right: 10px;
+}
+/* Members End */
+
+
+/* LOGIN CONTROL START */
+.divLoginControl
+{
+    float: left;
+}
+.divLoginControl ul
+{
+    padding-left: 0px;
+}
+
+/* LOGIN CONTROL END */
+
+/* BREAD CRUMB CONTROL START */
+.divBreadCrumbs
+{
+    clear: both;
+    margin-left: 5px;
+    position: absolute;
+    top: 80px;
+}
+
+.divBreadCrumbs a
+{
+    color: #000000; /*color: #333333;*/
+    font-size: 11px;
+    text-decoration: none;
+}
+.divBreadCrumbs a:hover
+{
+    color: #A90000;
+    cursor: pointer;
+}
+/* BREAD CRUMB CONTROL END */
+
+/* ULTIMATE SEARCH CONTROL - START */
+.SuggestBox
+{
+    z-index: 9000 !important;
+}
+.divSearchInput
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.divSearchInput > span > input
+{
+    border:solid 1px #AAAAAA;
+    height:20px;
+    float:left;
+}
+.divSearchInput > span > span > input
+{
+
+    height:22px;
+    float:left;
+}
+
+.divSearchText
+{
+    font-weight: bold;
+    float: left;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.txtSearch
+{
+    height: 20px;
+    width: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+}
+.btn_search
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: top;
+}
+/* ULTIMATE SEARCH CONTROL - END */
+
+/* SELECT SITE CONTROL - START */
+.select_site
+{
+    color: #000000; /*color: #525252;*/
+    font-size: 11px;
+    top: 2px;
+    right: 2px;
+    position: absolute;
+}
+
+.select_site select
+{
+    font-size: 11px;
+}
+/* SELECT SITE CONTROL - END */

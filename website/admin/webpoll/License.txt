@@ -1,0 +1,146 @@
+Web Wiz Guide License Contract
+------------------------------
+
+Last modified: September 6th 2005
+Copyright 2001-2005 Bruce Corkhill. All Rights Reserved.
+Web Wiz Guide, Unit 10E, Dawkins Road Industrial Estate, Poole, Dorset, BH15 4JD, UK
+
+
+Commercial/Non-Profit Making Use 
+--------------------------------
+The ‘Non-Commercial License’ is limited to non-profit making websites. Web Wiz Guide reserves the right to qualify if your website is non-profit making or not. 
+
+The ‘Linkware License’, the ‘Commercial License’ and the ‘Developer License’ can be used for commercial or non-profit making websites. 
+
+
+Single/Multiple Instances
+-------------------------
+The ‘Non-Commercial License’ and the ‘Commercial License’ grant you the right to install, view and run one (1) instance of licensed programs from Web Wiz Guide on the licensed registered URL only. 
+
+The ‘Linkware License’, and the ‘Developer License’ grant you the right to install, view and run multiple instances of all programs from Web Wiz Guide. 
+
+
+Source Code Modifications 
+-------------------------
+You may modify source code (at your own risk), but the software (altered or otherwise) may not be distributed to entities beyond the license holder  without the explicit written permission of the copyright holder.
+
+
+Powered by Link Removal and Advert Removal
+------------------------------------------
+You may not deactivate, change or remove all or any hyperlinks or links to Web Wiz Guide, it’s associates, the Web Wiz Guide programs powered by logos, text, or images, and any adverts shown within the program. All must remain intact (font size unchanged) and visible when the pages are viewed unless you first obtain explicit written permission from Web Wiz Guide. 
+
+If  the program requires a ‘link removal key’ code to remove the powered by logo's, text or,  images to Web Wiz Guide and/or adverts you can not use a ‘link removal key’ code unless obtained legally from Web Wiz Guide. 
+
+The program may not be changed or modified in any way, shape, or form to by pass the ‘link removal key’ code to remove adverts and the powered by logo's, text or, images.
+
+Permission can be obtained from Web Wiz Guide to remove the adverts and the powered by logo's, text or, images, by purchasing the appropriate license from Web Wiz Guide at:  http://www.webwizguide.info/purchase. 
+
+
+Distribution 
+------------
+You may use parts of this program including source code and images in your own private work, but you may NOT redistribute, repackage, sublicense, copy, or sell the whole or any part of this program even if it is modified or reverse engineered in whole or in part without the explicit written permission of the copyright holder.
+
+Copyright notices must be transferred to any file that any source code from this program in whole or in part used within.
+
+It is forbidden to repackage in full or any part of this software including source code and images as your own work and redistribute for profit or for free without the explicit written permission of the copyright holder.
+
+A copy of this license must be supplied with any programs or works that derive whether in whole or part from this program.
+ 
+ 
+Copyright
+--------- 
+Under all licenses, copyright notices must be transferred to any file that any source code from this program in whole or in part used within.
+
+You may not pass off the whole or any part of Web Wiz Guide programs, including source code and images, as your own work. 
+
+You may not make imitations of this or other works from Web Wiz Guide, or associate, imply, or make it look like any of your own work. 
+
+You will keep all copyright notices intact, including the notices embedded in all parts of Web Wiz Guide programs. 
+
+
+Concurrence 
+-----------
+When using the ‘Developer License’: -
+
+You may not resell Web Wiz Guide programs for less than the listed ‘Commercial License’ per unit price on http://www.webwizguide.info for each copy, services excluded.
+
+You may not use a domain, product or service name looking and/or sounding like ‘Web Wiz Guide’ and ‘Web Wiz’, or containing the wording, ‘Web Wiz’ or ‘Web Whiz’.
+
+Your product may not be in direct competition with Web Wiz Guide programs or services. 
+
+A copy of this license must be supplied with any programs or works that derive whether in whole or part from this program. 
+
+
+Support
+------- 
+Free support for all licenses, including the ‘Linkware License’ is given through Web Wiz Guide ‘Support Forum’ at http:///www.webwizguide.info/forum.  
+
+Support requested by email is not provided and will not be answered unless you have purchased ‘Email Support’ from http://www.webwizguide.info/purchase. 
+
+
+Refunds 
+-------
+Everything has been made available for you to test our programs before any money transactions are conducted. Full source code of all programs is supplied. Therefore Web Wiz Guide do not accept returns and no refunds will be provided on purchased programs. 
+
+
+No Warranty 
+-----------
+There is no warranty for this program, to the extent permitted by applicable law, except when otherwise stated in writing the copyright holders and/or other parties provide the program ‘AS IS’ without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the program is with you. Should the program prove defective, you assume the cost of all necessary servicing, repair or correction. 
+
+In no event unless required by applicable law or agreed to in writing will any copyright holder, be liable to you for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use the program (including but not limited to loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the program to operate with any other programs), even if such holder or other party has been advised of the possibility of such damages. 
+
+
+Ownership
+--------- 
+The license holder is the legal owner of the magnetic medium on which the software is recorded. However, the software itself is not sold: the copyright holder retains the property rights on the software itself, whichever medium is used to store it upon and at any moment in time: original disks, plus any and all copies of the same which may have been produced subsequently.
+
+Material form Web Wiz Guide including programs, applications, tutorials, scripts, and images may not be used for anything that would represent or is associated with an Intellectual Property Violation, including, but not limited to, engaging in any activity that infringes or misappropriates the intellectual property rights of others, including copyrights, trademarks, service marks, trade secrets, software piracy, and patents held by individuals, corporations, or other entities. 
+
+
+Termination
+-----------
+Any attempt to copy, sublicense, reverse engineer or distribute any part of this work is prohibited, when using the ‘Linkware License’, the ‘Non-Commercial License’ and the ‘Commercial License’. In the event, your rights under these licenses will automatically be terminated.
+ 
+Your use of Web Wiz Guide  programs will not tarnish the reputation of Web Wiz Guide 's integrity and you cannot use Web Wiz Guide  programs for; child pornography, nazism, terrorism, slandering an individual/organisation, sending unsolicited spam email or any illegal or unethical activity.
+ 
+If you own a license that does not match the use of it, you will be requested to upgrade to the appropriate license and pay the difference within five days. Otherwise, your rights under your license will automatically be terminated.
+
+If any terms are violated, Web Wiz Guide reserves the right to revoke the license at any time without prior notice. Thus, you must uninstall and delete all copies of Web Wiz Guide programs.
+
+No refunds will be granted for revoked licenses.
+
+
+Law
+---
+This Agreement shall be governed by and construed in accordance with English law and you hereby submit to the non-exclusive jurisdiction of the English courts. 
+
+Any disagreement which may arise between the parties with regard to the interpretation and/or execution of the present contract shall by default  come under the jurisdiction of the English Courts.
+
+
+Headings
+--------
+Headings are included in this Agreement for convenience only and shall not affect the construction or interpretation of this Agreement. 
+
+
+Entire Agreement
+----------------
+You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to download, install, run, use, view, modify, the Program or its derivative works.  These actions are prohibited by law if you do not accept this License. Therefore, by downloading, installing, using, viewing, modifying the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its  terms and conditions for using, copying, or modifying the Program or works based  on it.
+
+This License together with any documents expressly referred to in them, contain the entire License between us relating to the subject matter covered and supersede any previous License, arrangements, undertakings or proposals, written or oral: between us in relation to such matters. No oral explanation or oral information given by any party shall alter the interpretation of this License. In agreeing to this License, you have not relied on any representation other than those expressly stated in these terms and conditions and you agree that you shall have no remedy in respect of any misrepresentation which has not been made expressly in this Agreement.
+
+Web Wiz Guide reserves the right  to add, delete, or modify any provision of this License at any time without prior notice. 
+
+The free editions of Web Wiz Guide programs can be discontinued at any time without prior notice.
+
+
+Correspondence 
+--------------
+For correspondence contact: -
+Web Wiz Guide, Unit 10E, Dawkins Road Industrial Estate, Poole, Dorset, BH15 4JD, UK
+UK Tel: 020 799 32366               
+Int Tel: 0044 20 799 32366 
+Email: info@webwizguide.info
+
+Or via The Web Wiz Guide Support Forum: -
+http://www.webwizguide.info/forum 
+

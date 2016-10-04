@@ -1,0 +1,84 @@
+.RadWindow_Default {
+  background-color: #eaeaea;
+  color: #333333;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282;
+  /* External content iframe styles */
+  /* Dialog styles */ }
+  .RadWindow_Default .rwTitleBar {
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#eaeaea',GradientType=0 ); }
+  .RadWindow_Default.rwCollapsed .rwTitleBar {
+    border-bottom-color: #828282; }
+  .RadWindow_Default .rwIcon {
+    background-image: url('../Default/Window/WindowHorizontalSprites.gif'); }
+  .RadWindow_Default .rwTitleWrapper .rwTitle {
+    color: #333333; }
+  .RadWindow_Default .rwListItem .rwCommandButton,
+  .RadWindow_Default .rwResize {
+    background-image: url('../Default/Common/radActionsSprite.png');
+    _background-image: url('../Default/Common/radActionsSpriteIE6.png'); }
+  .RadWindow_Default .rwContent {
+    background-color: white;
+    border-color: #828282; }
+  .RadWindow_Default .rwStatusBar {
+    background-color: #f1eded;
+    border-color: white #828282 #828282; }
+  .RadWindow_Default.rwLoading .rwExternalContent {
+    background-image: url('../Default/Common/loading.gif'); }
+  .RadWindow_Default .rwLoading.rwStatusBar {
+    background-image: url('../Default/Common/loading_small.gif'); }
+  .RadWindow_Default .rwDialogButtons input {
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+    border-color: #8a8a8a;
+    color: #333333;
+    background-color: #e8e8e8;
+    background-image: -webkit-linear-gradient(top, #faf9f9 0%, #e8e8e8 100%);
+    background-image: -moz-linear-gradient(top, #faf9f9 0%, #e8e8e8 100%);
+    background-image: -ms-linear-gradient(top, #faf9f9 0%, #e8e8e8 100%);
+    background-image: -o-linear-gradient(top, #faf9f9 0%, #e8e8e8 100%);
+    background-image: linear-gradient(top, #faf9f9 0%, #e8e8e8 100%);
+    border-color: #8a8a8a; }
+  .RadWindow_Default .rwDialogButtons input:hover {
+    border-color: #515151;
+    color: black;
+    background-color: #c3c3c3;
+    background-image: -webkit-linear-gradient(top, #e2e2e2 0%, #c3c3c3 100%);
+    background-image: -moz-linear-gradient(top, #e2e2e2 0%, #c3c3c3 100%);
+    background-image: -ms-linear-gradient(top, #e2e2e2 0%, #c3c3c3 100%);
+    background-image: -o-linear-gradient(top, #e2e2e2 0%, #c3c3c3 100%);
+    background-image: linear-gradient(top, #e2e2e2 0%, #c3c3c3 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Default .rwDialogButtons input:active {
+    border-color: #888888;
+    color: black;
+    background-color: #dedede;
+    background-image: -webkit-linear-gradient(top, #c7c7c7 0%, #dedede 100%);
+    background-image: -moz-linear-gradient(top, #c7c7c7 0%, #dedede 100%);
+    background-image: -ms-linear-gradient(top, #c7c7c7 0%, #dedede 100%);
+    background-image: -o-linear-gradient(top, #c7c7c7 0%, #dedede 100%);
+    background-image: linear-gradient(top, #c7c7c7 0%, #dedede 100%);
+    box-shadow: inset 0 0 1px white; }
+  .RadWindow_Default .rwPromptInput {
+    background-color: white;
+    color: #333333;
+    border-color: #8e8e8e;
+    font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadWindow_Default .rwPromptInput:hover {
+    background-color: white;
+    color: black;
+    border-color: #515151; }
+  .RadWindow_Default .rwPromptInput:active,
+  .RadWindow_Default .rwPromptInput:focus {
+    background-color: white;
+    color: black;
+    border-color: #515151; }
+  .RadWindow_Default .rwPromptInput:disabled {
+    background-color: white;
+    color: #a5a5a5;
+    border-color: #d0d0d0; }
+

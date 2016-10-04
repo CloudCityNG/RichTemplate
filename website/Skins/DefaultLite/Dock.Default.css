@@ -1,0 +1,24 @@
+.RadDock_Default {
+  background-color: white;
+  color: #333333;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadDock_Default .rdTitleWrapper {
+    border-bottom-color: #828282; }
+  .RadDock_Default .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -moz-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -ms-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: -o-linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    background-image: linear-gradient(top, #fdfdfd 0%, #eaeaea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#eaeaea',GradientType=0 ); }
+  .RadDock_Default .rdTitleWrapper .rdTitle {
+    color: #333333; }
+  .RadDock_Default .rdListItem button {
+    background-image: url('../Default/Common/radActionsSprite.png');
+    _background-image: url('../Default/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Default .rdContentWrapper {
+    color: #333333; }
+  .RadDock_Default.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #828282; }
+

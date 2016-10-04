@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTemplate_List_Pages_CheckInAllPages" xml:space="preserve">
+    <value>CHECK IN ALL PAGES IN THIS SECTION</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_AddSection" xml:space="preserve">
+    <value>Add a new Web Page Section</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_AddSubPage" xml:space="preserve">
+    <value>Add a new Web Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_UpdateSection" xml:space="preserve">
+    <value>Update Web Page Section</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_UpdateSubPage" xml:space="preserve">
+    <value>Update Web Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateInternalPage" xml:space="preserve">
+    <value>This will be a link to an existing web page within your domain</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateInternalPage_ButtonCreate" xml:space="preserve">
+    <value>Create New Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateInternalPage_ButtonUpdate" xml:space="preserve">
+    <value>Update Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateInternalPage_ExistingUrl" xml:space="preserve">
+    <value>Existing URL</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateInternalPage_SelectPage" xml:space="preserve">
+    <value>Select Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateOutsidePage" xml:space="preserve">
+    <value>This will be a link to a web page outside your domain</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateOutsidePage_ButtonCreate" xml:space="preserve">
+    <value>Create New Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateOutsidePage_ButtonUpdate" xml:space="preserve">
+    <value>Update Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateOutsidePage_LinkName" xml:space="preserve">
+    <value>Link Name</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateOutsidePage_LinkUrl" xml:space="preserve">
+    <value>Link URL</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_CreateWithWYSIWYG" xml:space="preserve">
+    <value>This page will be created within the WYSIWYG editor</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_NavigationLayout" xml:space="preserve">
+    <value>Navigation Layout</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_NavigationLayout_Column1" xml:space="preserve">
+    <value>Column 1</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_NavigationLayout_Column2" xml:space="preserve">
+    <value>Column 2</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_NavigationLayout_Column3" xml:space="preserve">
+    <value>Column 3</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_Target" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_Target_NewWindow" xml:space="preserve">
+    <value>New Window</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_Target_SameWindow" xml:space="preserve">
+    <value>Same Window</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_AddSubPageHeading" xml:space="preserve">
+    <value>Add&lt;br/&gt;sub-page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_AddSubPageLabel" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_AddSubPageLink" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_Archive" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_CheckedAuthor" xml:space="preserve">
+    <value>Checked&lt;br/&gt;&amp;nbsp;Author</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_CheckedInOut" xml:space="preserve">
+    <value>Checked&lt;br/&gt;&amp;nbsp;IN/OUT</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_CheckInLabel" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_CheckInLink" xml:space="preserve">
+    <value>CHECK&lt;br/&gt;IN</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_CheckOutLabel" xml:space="preserve">
+    <value>OUT</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeleteHeading" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeleteLabel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeletePageLink" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeletePage_PopupMessage" xml:space="preserve">
+    <value>CAUTION! Are you sure you want to delete this page and all of its sub pages?</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeleteSectionLink" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_DeleteSection_PopupMessage" xml:space="preserve">
+    <value>CAUTION! Are you sure you want to delete this entire section and all pages under this?</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_EditLink" xml:space="preserve">
+    <value>Edit Link</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_EditPage" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_LoadingMessage" xml:space="preserve">
+    <value>Please wait while the sections load</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_MakeLive" xml:space="preserve">
+    <value>Make&lt;br/&gt;Live</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_OfflineLabel" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_PageIsLinkOnly" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_PageIsOffline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_PageIsRoot" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_TakeOffline" xml:space="preserve">
+    <value>Take&lt;br/&gt;Offline</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_WebpageName" xml:space="preserve">
+    <value>Webpage Name</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Heading" xml:space="preserve">
+    <value>Web Page Listing For</value>
+  </data>
+  <data name="RichTemplate_List_Pages_RequiredMessage" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="RichTemplate_List_Pages_SectionLabel" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_HeaderFolder" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_FooterFolder" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="RichTemplate_List_Pages_Grid_HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="RichTemplate_List_Sections_Grid_DragDropError_ExceedsMaximumPageDepth" xml:space="preserve">
+    <value>This will create a page at a depth that exceeds the maximum page depth</value>
+  </data>
+  <data name="RichTemplate_List_Sections_Grid_DragDropError_HeaderNotInDroppedInHeaderContainer" xml:space="preserve">
+    <value>This is a header webpage and therefore can only be dropped within the header container</value>
+  </data>
+  <data name="RichTemplate_List_Sections_Grid_DragDropError_FooterNotInDroppedInFooterContainer" xml:space="preserve">
+    <value>This is a footer webpage and therefore can only be dropped within the footer container</value>
+  </data>
+  <data name="RichTemplate_List_Sections_Grid_DragDropError_NotAboveOrBelowRootPage" xml:space="preserve">
+    <value>You can only drag a webpage ONTO the Root page, not above or below the Root</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateInternalPage_ButtonBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateInternalPage_ButtonFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateInternalPage_Heading" xml:space="preserve">
+    <value>This will be a link to an existing web page within your domain</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateOutsidePage_ButtonBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateOutsidePage_ButtonFinish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_CreateOutsidePage_Heading" xml:space="preserve">
+    <value>This will be a link to a web page outside your domain</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupNotSelectedInParentPage" xml:space="preserve">
+    <value>Not Selected in Parent Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_Groups" xml:space="preserve">
+    <value>Groups with access to this page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsAuthenticatedDescription_MemberPage" xml:space="preserve">
+    <value>Webpage avaliable to all logged in authenticated members ONLY</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsAuthenticatedDescription_PublicPage" xml:space="preserve">
+    <value>Webpage avaliable to All Authenticated members ONLY</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsAuthenticated_MemberPage" xml:space="preserve">
+    <value>All AUTHENTICTED Members</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsAuthenticated_PublicPage" xml:space="preserve">
+    <value>All Authenticated Members</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsUnAuthenticatedDescription_PublicPage" xml:space="preserve">
+    <value>Webpage avaliable to All UN-Authenticated users ONLY</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_GroupsUnAuthenticated_PublicPage" xml:space="preserve">
+    <value>All UN-Authenticated Users</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_Heading" xml:space="preserve">
+    <value>Webpage Security Settings</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_SubHeading" xml:space="preserve">
+    <value>Select who can view this webpage below. Individual accounts override group accounts.</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_UserNotSelectedInParentPage" xml:space="preserve">
+    <value>Not Selected in Parent Page</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UserGroups_Users" xml:space="preserve">
+    <value>Individual Users with access to this webpage</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepTwo_UsersGroups" xml:space="preserve">
+    <value>Users &amp; Groups</value>
+  </data>
+  <data name="RichTemplate_List_Pages_SectionName_NewSection" xml:space="preserve">
+    <value>New Section</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_WebPageSectionAlreadyExists" xml:space="preserve">
+    <value>Section/Header/Footer Page already exists at this level</value>
+  </data>
+  <data name="RichTemplate_List_Pages_AddEditPage_StepOne_WebPageSubPageAlreadyExists" xml:space="preserve">
+    <value>Webpage already exists at this page level</value>
+  </data>
+</root>

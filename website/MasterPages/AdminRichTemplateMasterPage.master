@@ -1,0 +1,63 @@
+<%@ Master Language="VB" CodeFile="AdminRichTemplateMasterPage.master.vb" Inherits="MasterPages_AdminRichTemplateMasterPage" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="/admin/css/RichTemplate.css" rel="stylesheet" type="text/css" />
+    <link href="/skins/RichTemplate/TreeView.RichTemplate.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/js/multiplePageLoadFunctions.js"></script>
+    <script language="JavaScript" src="/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+</head>
+<body style="margin: 0" id="Body" runat="server">
+    <script type="text/javascript" language="javascript">
+
+        //Function to confirm delete on filemanager page
+        function DeleteConfirmation(strAreYouSureText) {
+            if (confirm(strAreYouSureText) == true)
+                return true;
+            else
+                return false;
+        }
+
+        //Function to check-all checkboxes on filemanager page
+        function check_uncheck(Val) {
+            var ValChecked = Val.checked;
+            var ValId = Val.id;
+            var frm = document.forms[0];
+            // Loop through all elements
+            for (i = 0; i < frm.length; i++) {
+                // Look for Header Template's Checkbox
+                //As we have not other control other than checkbox we just check following statement
+                if (this != null) {
+                    if (ValId.indexOf('CheckAll') != -1) {
+                        // Check if main checkbox is checked,
+                        // then select or deselect datagrid checkboxes
+                        if (ValChecked)
+                            frm.elements[i].checked = true;
+                        else
+                            frm.elements[i].checked = false;
+                    }
+                    else if (ValId.indexOf('deleteRec') != -1) {
+                        // Check if any of the checkboxes are not checked, and then uncheck top select all checkbox
+                        if (frm.elements[i].checked == false)
+                            frm.elements[1].checked = false;
+                    }
+                } // if
+            } // for
+        } // function
+   
+    </script>
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
+    <div>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style="padding-left: 20px; padding-right: 20px; padding-top: 10px" class="body">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

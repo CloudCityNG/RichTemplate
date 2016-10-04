@@ -1,0 +1,1306 @@
+﻿
+body
+{
+    font: 12px "segoe ui" ,arial,sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tblContents a
+{
+    cursor:pointer;
+    text-decoration:none;
+}
+.nav_bg
+{
+    background-color: #F0F0F0;
+}
+
+.pageTitle
+{
+    font-family: Georgia,Times New Roman, Times, serif;
+    color: #4c607a;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 30px;
+}
+.moduleLabel
+{
+    font-family: Georgia,Times New Roman, Times, serif;
+    color: #777777;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+.callout
+{
+    font-family: Georgia,Times New Roman, Times, serif;
+    color: #777777;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.infoPanel
+{
+    background-color: #f3f3f3;
+    width: 95%;
+    border: solid 1px #c8d6e5;
+}
+
+.Windows7_MultipageBorder
+{
+    border-bottom: solid 1px #c8d6e5;
+    border-left: solid 1px #c8d6e5;
+    border-right: solid 1px #c8d6e5;
+    padding: 10px;
+}
+.requiredStar
+{
+    color: Red;
+    padding-left: 5px;
+}
+.requiredText
+{
+    float: right;
+}
+.errorStyle, .importantStyle
+{
+    color: Red;
+}
+.correctStyle
+{
+    color: Green;
+}
+.graySubText
+{
+    color: Gray;
+    font-size: .9em;
+}
+
+.grayText
+{
+    color: Gray;
+    font-size: 12px;
+}
+.grayTextSml_10
+{
+    color: Gray;
+    font-size: 10px;
+}
+
+.grayTextSml_11
+{
+    color: Gray;
+    font-size: 11px;
+}
+
+.fLeft
+{
+    float: left;
+}
+.fRight
+{
+    float: right;
+}
+.cBoth
+{
+    clear: both;
+}
+
+/* Text Box formatting */
+.tb100
+{
+    width: 100px;
+    font: 12px "segoe ui" ,arial,sans-serif;
+}
+.tb200
+{
+    width: 200px;
+    font: 12px "segoe ui" ,arial,sans-serif;
+}
+.tb300
+{
+    width: 300px;
+    font: 12px "segoe ui" ,arial,sans-serif;
+}
+.tb400
+{
+    width: 400px;
+    font: 12px "segoe ui" ,arial,sans-serif;
+}
+
+
+/*Job Application Styles*/
+
+.appStyle
+{
+    font-style: italic;
+    padding-left: 10px;
+}
+
+
+/*Legacy RichTemplate Styles */
+
+.SSHeaderLink
+{
+    font-weight: bold;
+    color: White;
+    text-decoration: none;
+}
+
+.rightPad
+{
+    padding-right: 10px;
+}
+.leftPad
+{
+    padding-left: 10px;
+}
+.leftPadModuleConfig
+{
+    padding-left: 20px;
+}
+
+.img_link_left
+{
+    float: left;
+}
+
+.img_link_right
+{
+    float: right;
+    margin-right:5px;
+}
+
+.img_link_right img
+{
+    margin-top: 2px;
+    float: left;
+}
+
+img
+{
+    border-width: 0px;
+}
+
+.activeField
+{
+    color: Green;
+}
+.inactiveField
+{
+    color: Red;
+}
+
+.clear_both
+{
+    clear: both;
+}
+
+.footerIcon, .gridImg
+{
+    padding-left:5px;
+}
+
+.footerIcon img, .gridImg img, .divAssociateWithSite_PublicMessage img, .spanExpired img
+{
+    width:16px;
+    height:17px;
+    vertical-align:bottom;
+}
+
+.divFooter > div
+{
+    padding-top:20px;
+}
+.divFooter .footerIcon
+{
+    clear:both;
+    margin-bottom:10px;
+}
+
+.divFooterHistory div
+{
+    padding-top:5px;
+}
+
+/* Admin Default */
+.divAdminDefault
+{
+    background-image: url('/admin/images/header2-0_repeat.gif');
+    background-repeat: repeat-x;
+    background-position: left top;
+    height:50px;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+.divFrameLeft
+{
+    border: solid 1px red;
+    width: 100%;
+}
+
+.divFrameLeftTop
+{
+    border: solid 1px blue;
+    width: 100%;
+}
+
+.divFrameLeftBottom
+{
+    border: solid 1px green;
+    width: 100%;
+}
+
+.divFrameRight
+{
+    border: solid 1px red;
+    width: 100%;
+}
+
+/* Langauge/editLanguageFile.aspx */
+.rblLanguageSection label
+{
+    margin-right:10px;
+}
+.divLanguageFileKeys
+{
+    width:990px;
+}
+.divLanguageFileKeys table th, .divLanguageFileKeys table td
+{
+    text-align:left;
+}
+
+.divLanguageFileKeys table td, .divLanguageFileKeys table td input
+{
+    font-size:11px;
+}
+
+.divLanguageFileKeys .divCopyAll
+{
+    float:left;
+    margin-top:12px;
+    margin-left:50px;
+}
+
+.divLanguageFileKeys .divCopyAll a
+{
+    float:left;
+    text-decoration:none;
+    margin-top:5px;
+}
+
+.divLanguageFileKeys .divCopyAll a span
+{
+    font-size:12px;
+    font-weight:bold;
+    margin-right:5px;
+}
+
+
+/* RichTemplate_Help_Items */
+.help_item_border
+{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top: 1px solid #BDD7F7;
+    border-bottom-width: 1px;
+}
+
+.helpBackground
+{
+    /*background-attachment:fixed;*/
+    background-position: left top;
+    background-repeat: repeat-y;
+    background-image: url(        "/admin/images/help_left2_bg_blue.gif" );
+    width: 80px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+/* RichTemplate_List_Pages */
+.style1
+{
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* RichTemplate Admin List Pages Tree */
+.divPagesTree
+{
+    margin-top: 10px;
+    border: 1px solid #A5B3C5;
+    min-width: 825px;
+}
+
+.divPagesTree .divItem
+{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    padding-left: 10px;
+    color: #4C607A;
+    font-size: 12px;
+    font-family: Segoe UI,Arial,sans-serif;
+    width: 100%;
+    float: left;
+    white-space: normal !important;
+    text-align: left;
+    line-height: 20px;
+}
+
+.divPagesTree .vAlign
+{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.divPagesTree .dndUpDown_head
+{
+    width: 40px;
+    float: left;
+}
+.divPagesTree .dndUpDown
+{
+    margin-top: 6px;
+    width: 20px;
+    float: left;
+}
+
+.divPagesTree .rtHover .dndUpDown
+{
+    background-image: url(        "/admin/images/icon_updown.gif" );
+}
+
+.divPagesTree .dndUpDownDisabled
+{
+    float:left;
+    margin-top: 2px;
+    width:20px;
+}
+
+.divPagesTree .lft_col_list
+{
+    float: left;
+    width: 300px;
+    overflow: hidden;
+    white-space: normal;
+    line-height: 16px;
+}
+
+.divPagesTree .spacer
+{
+    float: left;
+    height: 30px;
+}
+
+.divPagesTree .webpage_head
+{
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.divPagesTree .webpageIcon, .divDragging .webpageIcon
+{
+    float: left;
+    width: 20px;
+    height: 100%;
+}
+
+.divPagesTree .webpageIcon img
+{
+    padding-top: 0px;
+}
+
+.divPagesTree .webpage
+{
+    overflow: hidden;
+}
+
+.divPagesTree .ryt_col_list
+{
+    float: right;
+    width: 500px;
+}
+
+.divPagesTree .ryt_col_lft
+{
+    float: left;
+    width: 70px;
+    text-align: left;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.divPagesTree .ryt_col_ctr
+{
+    float: left;
+    width: 70px;
+    text-align: center;
+    line-height: 16px;
+    height: 30px;
+}
+
+.divPagesTree .ryt_col_lft .vAlign
+{
+    width: 70px;
+    height: 30px;
+}
+
+.divPagesTree .ryt_col_ctr .vAlign
+{
+    width: 70px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.divPagesTree .rtHover .rtIn, .divPagesTree .rtSelected .rtIn
+{
+    background: none !important;
+    border: none !important;
+}
+
+.divPagesTree .rtHover .divItem .lft_col_list, .divPagesTree .rtSelected .divItem .lft_col_list
+{
+    font-weight: bold !important;
+    background: none !important;
+    
+}
+
+
+.divPagesTree .rtHover .divItem .lft_col_list
+{
+    font-weight: bold !important;
+    overflow:hidden;
+}
+
+
+
+.divDragging
+{
+    border: solid 1px black;
+    width: 400px !important;
+}
+.divDragging .divItem
+{
+    border: solid 2px red !important;
+    width: 100% !important;
+}
+.divDragging .spacer
+{
+    float: left;
+}
+.divDragging .spacer, .divDragging .dndUpDown
+{
+    display: none;
+}
+
+.divDragging ul, .divDragging li
+{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.divDragging .ryt_col_list
+{
+    display: none;
+}
+
+
+
+.tblWebInfos tr.highlight .dndUpDown
+{
+    background-image: url(                "/admin/images/icon_updown.gif" );
+}
+
+.tblWebInfos tr td, .tblWebInfos tr th
+{
+    border-bottom: solid 1px #D2E3FC !important;
+    border-top-width: 0px !important;
+    border-left-width: 0px !important;
+    border-right-width: 0px !important;
+}
+.dndUpDown
+{
+    cursor: move;
+    float: left;
+    width: 16px;
+    height: 16px;
+}
+
+.root_page_icon
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-image: url(                "/admin/images/icon_root_page.gif" );
+}
+.root_page_text
+{
+    color: Red;
+}
+.sub_page_icon
+{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-image: url(                "/admin/images/icon_subpage.gif" );
+}
+.sub_page_text
+{
+    color: #3055A9;
+}
+.tblWebInfos th.rgHeader, .tblWebInfos .rgRow td, .tblWebInfos .rgAltRow td
+{
+    padding-left: 0px !important;
+}
+.tblWebInfos .rgSelectedRow td
+{
+    background: none !important;
+    background: url(            "/admin/images/blue_back_fade_taller.gif" ) !important;
+}
+
+/* RichTemplate_List_Section.aspx */
+.divSections
+{
+    padding: 10px 10px 10px 10px;
+}
+.divSections TD
+{
+    font-size: 11px;
+    font-family: verdana,helvetica;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.divSections A
+{
+    text-decoration: none;
+    color: black;
+}
+.divSections .specialClass
+{
+    font-family: garamond;
+    font-size: 12pt;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.divAddSection
+{
+    padding-bottom:25px;
+}
+.divAddSection img
+{
+    float:left;
+}
+.divAddSection a
+{
+    float:left;
+    margin-left:5px;
+}
+
+.divSectionTree
+{
+    clear:both;
+}
+
+.divSectionTree .dndUpDown
+{
+    margin-top: 2px;
+}
+.divSectionTree .dndUpDownDisabled
+{
+    float:left;
+    margin-top: 2px;
+    width:15px;
+}
+.divSectionTree .rtHover .dndUpDown
+{
+    background-image: url(                "/admin/images/icon_updown.gif" );
+}
+
+
+/* RichTemplate_List_Modules.aspx */
+.spanPublicModuleRecord
+{
+    color: Red;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.divModules
+{
+    padding: 10px 10px 10px 10px;
+}
+.divModules TD
+{
+    font-size: 11px;
+    font-family: verdana,helvetica;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.divModules A
+{
+    text-decoration: none;
+    color: black;
+}
+.divModules .specialClass
+{
+    font-family: garamond;
+    font-size: 12pt;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* RichTemplate_List_Administration.aspx */
+.divWebsiteAdministration
+{
+    padding: 10px 10px 10px 10px;
+}
+.divWebsiteAdministration TD
+{
+    font-size: 11px;
+    font-family: verdana,helvetica;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.divWebsiteAdministration A
+{
+    text-decoration: none;
+    color: black;
+}
+.divWebsiteAdministration .specialClass
+{
+    font-family: garamond;
+    font-size: 12pt;
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* RichTemplate_List_Contents.aspx */
+.divRichTemplateContent
+{
+    width: 200px;
+    height: 33px;
+}
+.divRichTemplateContent .spanContentName
+{
+    float: left;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Category Folder for drag 'n drop */
+div.folder
+{
+    width: 24px;
+    height: 24px;
+    background-image: url(          "/admin/images/folder.png" );
+}
+
+/* Admin Usercontrol Header */
+.white
+{
+    color: #FFFFFF;
+}
+
+
+
+/* RAD WINDOW STYLES */
+.RadWindowTable, .RadToolTipTable
+{
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    background-color: #FFFFFF !important;
+    border-collapse: collapse;
+}
+.rtWrapperTopLeft, .rtWrapperTopCenter, .rtWrapperTopRight, .rtWrapperLeftMiddle, .rtWrapperRightMiddle, .rtWrapperBottomLeft, .rtWrapperBottomCenter, .rtWrapperBottomRight
+{
+    display: none;
+}
+
+
+/* MODAL POPUP STYLES */
+.modalBackground
+{
+    background-color: Gray;
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+}
+.modalPopup
+{
+    display: none;
+}
+.ModalTable
+{
+    border-collapse: collapse;
+    border: 1px solid #B7B8B8;
+    background-color: #f4f4f4;
+}
+.ModalTableRowHeading td
+{
+    width: 100%;
+    height: 30px;
+    vertical-align: top;
+    text-align: left;
+    background-image: url(/admin/images/editcontentbg.gif);
+    background-repeat: repeat-x;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 7px 5px 5px 15px;
+    background-color: #f4f4f4;
+}
+.ModalTableRowHeading td .img_link_right img
+{
+    margin-top: 0px;
+}
+.ModalTableRowData
+{
+    vertical-align: top;
+    text-align: left; /*padding: 5px 15px 5px 15px;*/
+    width: 100%;
+}
+.ModalTableRowData td
+{
+    vertical-align: top;
+}
+.ModalTableRowButtons td
+{
+    vertical-align: top;
+    text-align: right;
+    padding: 15px 0px 0px 15px;
+}
+
+.PopupCellInnerContentScroller
+{
+    width: 100%;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+/* Admin Header Usercontrol: /admin/usercontrols/header.ascx' */
+.tblEditContent
+{
+    width: 100%;
+    font-family: Arial;
+    color: #FFFFFF;
+    background-image: url(         '/admin/images/editcontentbg.gif' );
+    font-weight: bold;
+}
+.tblEditContent td
+{
+    vertical-align: top;
+}
+.tblEditContent img
+{
+    float: left;
+}
+.tblEditContent a, .tblEditContent b
+{
+    float: left;
+    padding: 6px 5px 0px 5px;
+}
+.tblEditContent .img_link
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.tblEditContent img.seperator
+{
+    padding-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tblEditContent .ModalTableRowData td
+{
+    vertical-align: middle;
+}
+.divFindBugOurContactDetails
+{
+    background-color: #F4F4F4;
+    width: 100%;
+}
+
+.divFindBugOurContactDetails td
+{
+    padding-right: 10px;
+}
+
+
+/* ADMIN document library */
+.divDocumentFileAndLocation img, .divDocumentFileAndLocation span
+{
+    float: left;
+}
+.divDocumentFileAndLocation span
+{
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+
+/* Address START - NOTE SHOULD BE THE SAME in the FRONT-END CSS */
+.pnlAddress .divAddressInner
+{
+    width: 480px;
+    float: left;
+}
+.pnlAddress .addressLabel
+{
+    float: left;
+}
+
+.pnlAddress .divLocationStreet textarea
+{
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    resize: none;
+    width: 260px;
+}
+
+.pnlAddress .divLocationCity input
+{
+    width: 256px;
+    float: left;
+}
+
+.pnlAddress .divLocationState select
+{
+    width: 262px;
+    height: 22px;
+    float: left;
+    margin-left: 0px;
+}
+
+.pnlAddress .divLocationCountry select
+{
+    height: 22px;
+    float: left;
+    margin-left: 0px;
+}
+
+.pnlAddress .divLocationZip input
+{
+    width: 70px;
+    float: left;
+}
+.pnlAddress .divLocationStreetSeperator, .pnlAddress .divLocationCountrySeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress .pnlAddressValidation span, .pnlAddressValidation a
+{
+    font-size: 12px;
+    color: Red;
+    text-decoration: none;
+}
+.pnlAddress .pnlAddressValidation
+{
+    width: 360px;
+    float: left;
+}
+
+.pnlAddress .pnlAddressValidation.AddressValidation_Below_Layout
+{
+    float: none;
+}
+
+.pnlAddress .pnlAddressValidation.AddressValidation_Below_Layout .divGoogleAddressPossibilities, .pnlAddress .pnlAddressValidation.AddressValidation_SideBySide_RelativeListPosition_Layout .divGoogleAddressPossibilities
+{
+    position: relative;
+}
+
+
+.pnlAddress .pnlAddressValidation a:hover
+{
+    text-decoration: underline !important;
+}
+.pnlAddress .errorStyle
+{
+    float: left;
+    padding-left: 4px;
+}
+.pnlAddress .correctStyle, .pnlAddress .importantStyle
+{
+    float: left;
+}
+
+.pnlAddress .anchor_validate, .pnlAddress .anchor_continue_unvalidated
+{
+    font-weight: bold;
+}
+.pnlAddress .pnlAddressValidation ul
+{
+    padding-left: 0px;
+}
+.pnlAddress .pnlAddressValidation li
+{
+    float: left;
+    font-size: 12px;
+    list-style: none;
+}
+.pnlAddress .pnlAddressValidation li a
+{
+    font-size: 11px;
+    text-decoration: none;
+}
+.pnlAddress .pnlAddressValidation .divGoogleAddressPossibilities
+{
+    position: absolute;
+    width: 100%;
+}
+
+/* HORIZONTAL LAYOUT */
+.pnlAddress.Address_Horizontal_Layout
+{
+    width: 900px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationStreet textarea
+{
+    width: 420px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationCity
+{
+    float: left;
+    width: 150px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationCity input
+{
+    width: 130px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationState
+{
+    float: left;
+    width: 195px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationState select
+{
+    width: 180px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationCountry
+{
+    float: left;
+    width: 300px;
+}
+.pnlAddress.Address_Horizontal_Layout .divLocationZip
+{
+    float: left;
+    width: 100px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .pnlAddressValidation
+{
+    padding-top: 14px;
+}
+
+.pnlAddress.Address_Horizontal_Layout .divLocationNotValidated
+{
+    float: left;
+}
+/* VERTICAL LAYOUT - Text Left */
+.pnlAddress.Address_Vertical_TextLeft_Layout .addressLabel
+{
+    width: 120px;
+}
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationStreet
+{
+    float: left;
+    width:100%;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCity
+{
+    float: left;
+    width:100%;
+}
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationZip
+{
+    float: left;
+    width:100%;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .divLocationCityStateZipSeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextLeft_Layout .pnlAddressValidation.AddressValidation_Below_Layout
+{
+    float: none;
+    margin-left: 125px;
+}
+
+/* VERTICAL LAYOUT - Text Above */
+.pnlAddress.Address_Vertical_TextAbove_Layout .divAddressInner
+{
+    width: 300px;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCityStateZipSeperator
+{
+    padding-top: 5px;
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationStreet textarea
+{
+    clear: both;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCity
+{
+    float: left;
+}
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCity input
+{
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationState select
+{
+    clear: both;
+    
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationZip input
+{
+    clear: both;
+}
+
+.pnlAddress.Address_Vertical_TextAbove_Layout .divLocationCountry select
+{
+    clear: both;
+}
+/* Address END */
+
+/* AdminUser Module Address styles - Start */
+.tdAdminUserAddress .pnlAddress.Address_Vertical_TextLeft_Layout .addressLabel
+{
+    text-align: right;
+    width: 116px;
+    margin-right: 8px;
+    padding-top: 4px;
+}
+
+.tblAdminUserPermissions
+{
+    width:100%;
+    margin-bottom:20px;
+}
+.tblAdminUserPermissions TD
+{
+    background-color:#F7F7F7;
+    
+}
+
+.divPasswordChanger a
+{
+    font-weight:bold;
+    margin-left:10px;
+    text-decoration:none;
+}
+/* AdminUser Module Address styles - End */
+
+
+/* Comment Module Styles - Start */
+.commentTextApproved
+{
+    color:Green;
+    font-size:13px;
+}
+
+.commentTextPending
+{
+    color:Red;
+    font-size:13px;
+}
+/* Comment Module Styles - End */
+
+
+/* Member Access Module Address styles - Start */
+.tdMemberAddress .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.tdMemberAddress .pnlAddress .divLocationCityStateZipSeperator
+{
+    padding-top: 0px;
+}
+.tdMemberAddress .pnlAddress .divLocationCountrySeperator
+{
+    padding-top: 0px;
+}
+
+.tdMemberAddress .pnlAddress .pnlAddressValidation
+{
+    position:absolute !IMPORTANT;
+    left:350px !IMPORTANT;
+}
+/* Member Access Module Address styles - End */
+
+/* Employment Module Addres Styles - Start */
+.tdEmploymentAddress .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+.tdEmploymentAddressSignup .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+/* Event Module Address styles - Start */
+.tdEventAddress .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.tdEventAddressSignup .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+/* Member Access Module Address styles - End */
+
+/* Poll Module - Start */
+.rgPollAnswers .dndUpDown
+{
+    margin-top: 2px;
+}
+.rgPollAnswers .highlight .dndUpDown
+{
+    background-image: url("/admin/images/icon_updown.gif" );
+}
+/* Poll Module - End */
+
+/* Staff Module - Start */
+.tdStaffAddress .divLocationOfficeNumber
+{
+    width: 220px;
+}
+.tdStaffAddress .divLocationOfficeNumber .addressLabel, .tdStaffAddress .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+.tdStaffAddress . divLocationOfficeNumber input
+{
+    float: left;
+    width: 200px;
+}
+.tdStaffAddress .divLocationOfficeNumberSeperator
+{
+    clear: both;
+    padding-top: 5px;
+}
+/* Staff Module - End
+
+
+/* Select Site - Start */
+.divSelectSite
+{
+    float:right;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:2px;
+    margin-right:2px;
+}
+
+.divSelectSite select
+{
+    font-size:12px;
+}
+/* Select Site - End */
+
+/* Site Module Address styles - Start */
+.tdSiteAddress .pnlAddress .addressLabel
+{
+    color: #777777;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.tdSiteAddress .pnlAddress .divLocationCityStateZipSeperator
+{
+    padding-top: 0px;
+}
+.tdSiteAddress .pnlAddress .divLocationCountrySeperator
+{
+    padding-top: 0px;
+}
+.tdSiteAddress .pnlAddress .pnlAddressValidation
+{
+    margin-top:10px;
+}
+
+
+/* Site Module Address styles - End */
+/* Alphabet Selector - Start */
+.letter_sel
+{
+    color:Red;
+    font-size:14px;
+}
+/* Alphabet Selector - End

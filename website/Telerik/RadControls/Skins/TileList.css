@@ -1,0 +1,204 @@
+.RadTileList {
+  zoom: 1;
+  *position: relative;
+  overflow-x: auto;
+  /* Content */
+  /* Content styles end */
+  /* RTL support */ }
+  .RadTileList:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .RadTileList div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default; }
+  .RadTileList div:hover,
+  .RadTileList div:active,
+  .RadTileList div:focus {
+    cursor: default; }
+  .RadTileList .rtlistScrollWrapper {
+    zoom: 1;
+    width: 3000px; }
+  .RadTileList .rtlistScrollWrapper:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .RadTileList .rtlistGroup {
+    vertical-align: top;
+    float: left; }
+  .RadTileList .rtlistGroupSeparator {
+    width: 30px;
+    vertical-align: top;
+    float: left;
+    margin: 0 15px 0 10px;
+    _margin: 0 15px 0 10px;
+    visibility: hidden; }
+  .RadTileList .rtlistGroupSeparatorVisible {
+    visibility: visible; }
+  .RadTileList .rtlistWrapper {
+    width: 320px;
+    vertical-align: top;
+    float: left;
+    font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+    font-size: 12px; }
+  .RadTileList .rtlistWideTile,
+  .RadTileList .rtlistSquareTile {
+    position: relative;
+    float: left;
+    height: 150px;
+    margin: 0 6px 6px 0;
+    vertical-align: top;
+    overflow: hidden;
+    background-clip: padding-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent; }
+  .RadTileList .rtlistWideTile {
+    width: 310px; }
+  .RadTileList .rtlistSquareTile {
+    width: 150px; }
+  .RadTileList .rtlistSelectedTile {
+    background-position: 0 0; }
+  .RadTileList .rtlistSelectedTile .rtlistSelectedIcon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    z-index: 99; }
+  .RadTileList .rtlistTextTile .rtlistContent {
+    padding: 8px 8px 0 8px; }
+  .RadTileList .rtlistNavigationTile:hover {
+    cursor: pointer; }
+  .RadTileList .rtlistSelectIntention .rtlistSelectedIcon {
+    opacity: .5;
+    filter: alpha(opacity=50); }
+  .RadTileList .rtlistContent {
+    vertical-align: middle; }
+  .RadTileList .rtlistTopContent {
+    height: 115px;
+    overflow: hidden;
+    vertical-align: top; }
+  .RadTileList .rtlistImageAndTextTile .rtlistTopContent {
+    height: 100%; }
+  .RadTileList .rtlistIconTile .rtlistTopContent {
+    text-align: center; }
+  .RadTileList .rtlistTopContent .rtlistIconImage {
+    margin-top: 30px; }
+  .RadTileList .rtlistTextWrap {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline; }
+  .RadTileList .rtlistBottomContent {
+    height: 38px;
+    padding: 7px 10px 0;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden; }
+  .RadTileList .rtlistBottomContent.rtlistTitleIndent,
+  .RadTileList .rtlistBottomContent.rtlistBadgeIndent {
+    width: 275px; }
+  .RadTileList .rtlistBottomContent.rtlistTitleIndent.rtlistBadgeIndent {
+    width: 231px; }
+  .RadTileList .rtlistSquareTile .rtlistBottomContent {
+    width: 150px; }
+  .RadTileList .rtlistSquareTile .rtlistBottomContent.rtlistTitleIndent,
+  .RadTileList .rtlistSquareTile .rtlistBottomContent.rtlistBadgeIndent {
+    width: 115px; }
+  .RadTileList .rtlistSquareTile .rtlistBottomContent.rtlistTitleIndent.rtlistBadgeIndent {
+    width: 80px; }
+  .RadTileList .rtlistTitleIndent .rtlistTitle,
+  .RadTileList .rtlistTitleIndent .rtlistBadgeIndent {
+    width: 20px;
+    overflow: hidden; }
+  .RadTileList .rtlistTitleIndent {
+    padding-left: 44px; }
+  .RadTileList .rtlistTitleIndent {
+    padding-right: 35px; }
+  .RadTileList .rtlistTitleIndent img.rtlistTitle {
+    height: auto;
+    width: auto; }
+  .RadTileList h6.rtlistTitle {
+    width: 70%;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    bottom: 10px;
+    left: 10px;
+    z-index: 99; }
+  .RadTileList div.rtlistWrapper h6.rtlistTitle {
+    border-bottom: 0; }
+  .RadTileList img.rtlistTitle {
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 99; }
+  .RadTileList .rtlistBadge {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 99; }
+  .RadTileList .rtlistBadgeIcon {
+    background-image: url('Common/TileList/rtlistBadgeIconsLight.png');
+    _background-image: url('Common/TileList/rtlistBadgeIconsLightIE6.png');
+    background-repeat: no-repeat;
+    min-width: 16px;
+    min-height: 16px; }
+  .RadTileList .rtlistActivityBadge {
+    background-position: 3px 3px; }
+  .RadTileList .rtlistAlertBadge {
+    background-position: 2px -18px; }
+  .RadTileList .rtlistAvailableBadge {
+    background-position: 2px -38px; }
+  .RadTileList .rtlistAwayBadge {
+    background-position: 2px -58px; }
+  .RadTileList .rtlistBusyBadge {
+    background-position: 2px -78px; }
+  .RadTileList .rtlistUnavailableBadge {
+    background-position: 2px -98px; }
+  .RadTileList .rtlistNewMessageBadge {
+    background-position: 1px -114px; }
+  .RadTileList .rtlistPausedBadge {
+    background-position: 7px -134px; }
+  .RadTileList .rtlistPlayingBadge {
+    background-position: 8px -154px; }
+  .RadTileList .rtlistErrorBadge {
+    background-position: 2px -178px; }
+  .RadTileList .rtlistAttentionBadge {
+    background-position: 2px -195px; }
+  .RadTileList .rtlist_Rtl .rtlistGroup,
+  .RadTileList .rtlist_Rtl .rtlistGroupSeparator {
+    float: right; }
+  .RadTileList .rtlist_Rtl .rtlistImageWrap {
+    margin: 6px 0 0 5px; }
+  .RadTileList .rtlist_Rtl .rtlistSelectedTile .rtlistSelectedIcon {
+    right: auto;
+    top: -2px;
+    left: -2px;
+    background-position: -30px 0; }
+  .RadTileList .rtlist_Rtl .rtlistTitle {
+    bottom: 10px;
+    right: 10px;
+    left: auto; }
+  .RadTileList .rtlist_Rtl img.rtlistTitle {
+    bottom: 10px;
+    right: 10px;
+    left: auto; }
+  .RadTileList .rtlist_Rtl .rtlistBadge {
+    bottom: 10px;
+    left: 10px;
+    right: auto; }
+

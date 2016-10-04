@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://richtemplate.com", "http://richtemplate.com", "{1FCE750B-3FE4-47E0-9332-4FB0439379D5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{8f117a2f-f2a4-47d8-a216-a77eeb044b7e}|rich.Models.dll;{6bf1d0e9-40a0-4892-a02f-ef1f2b955815}|rich.Business.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/richtemplate.com"
+		Debug.AspNetCompiler.PhysicalPath = "website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\richtemplate.com\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/richtemplate.com"
+		Release.AspNetCompiler.PhysicalPath = "website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\richtemplate.com\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "website\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rich.Models", "rich.Models\rich.Models.csproj", "{8F117A2F-F2A4-47D8-A216-A77EEB044B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rich.Business", "rich.Business\rich.Business.csproj", "{6BF1D0E9-40A0-4892-A02F-EF1F2B955815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rich.Tests", "rich.Tests\rich.Tests.csproj", "{9D012AFC-0498-4C41-A30C-0582E6F89004}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCE750B-3FE4-47E0-9332-4FB0439379D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCE750B-3FE4-47E0-9332-4FB0439379D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCE750B-3FE4-47E0-9332-4FB0439379D5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCE750B-3FE4-47E0-9332-4FB0439379D5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8F117A2F-F2A4-47D8-A216-A77EEB044B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F117A2F-F2A4-47D8-A216-A77EEB044B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F117A2F-F2A4-47D8-A216-A77EEB044B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F117A2F-F2A4-47D8-A216-A77EEB044B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BF1D0E9-40A0-4892-A02F-EF1F2B955815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF1D0E9-40A0-4892-A02F-EF1F2B955815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF1D0E9-40A0-4892-A02F-EF1F2B955815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF1D0E9-40A0-4892-A02F-EF1F2B955815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D012AFC-0498-4C41-A30C-0582E6F89004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D012AFC-0498-4C41-A30C-0582E6F89004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D012AFC-0498-4C41-A30C-0582E6F89004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D012AFC-0498-4C41-A30C-0582E6F89004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,146 @@
+.RadDock {
+  /*position: absolute;*/
+  font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  word-wrap: break-word;
+  border-width: 1px;
+  border-style: solid;
+  /* improves drag&drop in mobile browsers */
+  -webkit-transform: rotate3d(0, 0, 1, 0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -moz-transform: rotate3d(0, 0, 1, 0);
+  -moz-backface-visibility: hidden;
+  -moz-perspective: 1000;
+  -o-transform: rotate3d(0, 0, 1, 0);
+  -o-backface-visibility: hidden;
+  -o-perspective: 1000;
+  -ie-transform: rotate3d(0, 0, 1, 0);
+  -ie-backface-visibility: hidden;
+  -ie-perspective: 1000;
+  /* Collapsed dock */
+  /* Right to Left mode */ }
+  .RadDock.rdRoundedCorner {
+    border-radius: 5px; }
+  .RadDock.rdShadow {
+    box-shadow: 2px 3px 4px #828282; }
+  .RadDock.RadDock_Pinned {
+    /*position: fixed;*/ }
+  .RadDock.rdDragHelper {
+    opacity: .5 !important;
+    filter: alpha(opacity=50) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)  !important"; }
+  .RadDock .rdTitleWrapper {
+    position: relative;
+    height: 17px;
+    padding: 4px 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid; }
+  .RadDock.rdGripTop .rdTitleWrapper {
+    height: 10px;
+    padding: 0 10px; }
+  .RadDock.rdNone .rdTitleWrapper {
+    display: none; }
+  .RadDock.rdRoundedCorner .rdTitleWrapper {
+    border-radius: 5px 5px 0 0; }
+  .RadDock .rdTitleWrapper .rdTitle {
+    width: 60%;
+    min-height: 17px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: normal;
+    border-bottom: 0 none;
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    line-height: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; }
+  .RadDock .rdCommands {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .RadDock .rdCommands:hover {
+    cursor: auto; }
+  .RadDock .rdListItem {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent; }
+  .RadDock .rdListItem:last-child {
+    margin-right: 0; }
+  .RadDock .rdListItem button {
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    display: inline-block;
+    *zoom: 1;
+    *display: block;
+    text-indent: -9999px;
+    *font-size: 0;
+    *line-height: 0; }
+  .RadDock .rdListItem button:hover {
+    cursor: pointer; }
+  .RadDock .rdExpand {
+    background-position: -2px -662px; }
+  .RadDock .rdExpand:hover {
+    background-position: -22px -662px; }
+  .RadDock .rdCollapse {
+    background-position: -2px -622px; }
+  .RadDock .rdCollapse:hover {
+    background-position: -22px -622px; }
+  .RadDock button,
+  .RadDock .rdCustom {
+    background-position: -2px -1002px; }
+  .RadDock button:hover,
+  .RadDock .rdCustom:hover {
+    background-position: -22px -1002px; }
+  .RadDock .rdClose {
+    background-position: -1px -762px; }
+  .RadDock .rdClose:hover {
+    background-position: -21px -762px; }
+  .RadDock .rdPin {
+    background-position: -2px -482px; }
+  .RadDock .rdPin:hover {
+    background-position: -22px -482px; }
+  .RadDock .rdUnpin {
+    background-position: -2px -502px; }
+  .RadDock .rdUnpin:hover {
+    background-position: -22px -502px; }
+  .RadDock.rdRoundedCorner .rdContentWrapper {
+    border-radius: 0 0 5px 5px; }
+  .RadDock.rdNone .rdContentWrapper {
+    border-radius: 5px; }
+  .RadDock .rdContent {
+    margin: 5px 10px;
+    overflow-x: auto; }
+  .RadDock.rdCollapsed {
+    height: 25px !important;
+    overflow: hidden; }
+  .RadDock.rdCollapsed.rdRoundedCorner, .RadDock.rdCollapsed.rdRoundedCorner .rdTitleWrapper {
+    border-radius: 5px 5px 0 0; }
+  .RadDock.rdRtl .rdCommands {
+    left: 10px;
+    right: auto; }
+
+.RadDockZone {
+  min-width: 100px;
+  min-height: 50px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid; }
+

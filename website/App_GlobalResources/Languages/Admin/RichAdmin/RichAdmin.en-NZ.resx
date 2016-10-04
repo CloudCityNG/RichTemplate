@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richadmin_Default_AccessDenied_AdminUserNotAssignedPermissions" xml:space="preserve">
+    <value>NZ-This Admin User has not been assigned permissions to any site!</value>
+  </data>
+  <data name="richadmin_Default_AccessDenied_Expired" xml:space="preserve">
+    <value>NZ-ACCESS DENIED, USER ACCOUNT HAS EXPIRED</value>
+  </data>
+  <data name="richadmin_Default_AccessDenied_InvalidUsernamePassword" xml:space="preserve">
+    <value>NZ-ACCESS DENIED, INVALID USERNAME AND/OR PASSWORD</value>
+  </data>
+  <data name="richadmin_Default_AccessDenied_LoginLimitReached" xml:space="preserve">
+    <value>NZ-ACCESS DENIED, USER ACCOUNT HAS REACHED LOGIN LIMIT</value>
+  </data>
+  <data name="richadmin_Default_AccessDenied_NotActive" xml:space="preserve">
+    <value>NZ-ACCESS DENIED, USER ACCOUNT IS NOT ACTIVE</value>
+  </data>
+  <data name="richadmin_Default_Copyright" xml:space="preserve">
+    <value>NZ-Copyright</value>
+  </data>
+  <data name="richadmin_Default_FindPasswordButton" xml:space="preserve">
+    <value>NZ-Find Password</value>
+  </data>
+  <data name="richadmin_Default_ForgotYourPassword" xml:space="preserve">
+    <value>NZ-Forgot your password?</value>
+  </data>
+  <data name="richadmin_Default_Heading" xml:space="preserve">
+    <value>NZ-RichTemplate Login</value>
+  </data>
+  <data name="richadmin_Default_LoginButton" xml:space="preserve">
+    <value>NZ-Login</value>
+  </data>
+  <data name="richadmin_Default_Password" xml:space="preserve">
+    <value>NZ-Password</value>
+  </data>
+  <data name="richadmin_Default_SessionTimeout" xml:space="preserve">
+    <value>NZ-Your Session has timed out.  Please Login again.</value>
+  </data>
+  <data name="richadmin_Default_Username" xml:space="preserve">
+    <value>NZ-User Name</value>
+  </data>
+  <data name="richadmin_Default_Version" xml:space="preserve">
+    <value>NZ-Version</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_BackToLoginPage" xml:space="preserve">
+    <value>NZ-Click Here to Return to the Login Page</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_Copyright" xml:space="preserve">
+    <value>NZ-Copyright</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_EmailAddress" xml:space="preserve">
+    <value>NZ-Email Address</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_Heading" xml:space="preserve">
+    <value>NZ-RichTemplate Login</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_Instructions" xml:space="preserve">
+    <value>NZ-Please enter the user name or registered email address and your password sent to the email address associated with this account</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_NoEmailAddressExists" xml:space="preserve">
+    <value>NZ-Sorry this email address does not exist</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_NoUsernameExists" xml:space="preserve">
+    <value>NZ-Sorry this is not a valid username</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_RequiredMessage" xml:space="preserve">
+    <value>NZ-Please enter either your username or email address</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_SuccessMessage" xml:space="preserve">
+    <value>NZ-Your password has been sent to</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_SuccessMessageClickToLogin" xml:space="preserve">
+    <value>NZ-Please Check that account and click here to login</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_Username" xml:space="preserve">
+    <value>NZ-User Name</value>
+  </data>
+  <data name="richadmin_ForgottenPassword_Version" xml:space="preserve">
+    <value>NZ-Version</value>
+  </data>
+</root>

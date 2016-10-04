@@ -1,0 +1,23 @@
+.RadDock_Telerik {
+  background-color: white;
+  color: black;
+  font: normal 12px "Segoe UI", Arial, Helvetica, sans-serif;
+  border-color: #828282; }
+  .RadDock_Telerik .rdTitleWrapper {
+    background-image: -webkit-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -moz-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -ms-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: -o-linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    background-image: linear-gradient(top, #cbcbcb 0%, #f3f3f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cbcbcb', endColorstr='#f3f3f3',GradientType=0 );
+    color: black;
+    border-bottom-color: #828282; }
+  .RadDock_Telerik .rdTitleWrapper .rdTitle {
+    color: black; }
+  .RadDock_Telerik .rdListItem button {
+    background-image: url('../Telerik/Common/radActionsSprite.png');
+    _background-image: url('../Telerik/Common/radActionsSpriteIE6.png'); }
+  .RadDock_Telerik .rdContentWrapper {
+    color: black; }
+  .RadDock_Telerik.RadDock_Collapsed .rdTitleWrapper {
+    border-bottom-color: #828282; }

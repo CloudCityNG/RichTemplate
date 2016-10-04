@@ -1,0 +1,13 @@
+
+div.RadMenu_RichTemplate
+{
+  float:right !important;
+    text-align:right;
+    color:Blue !important;
+}
+.ThreeColumnMenu .rmSlide ul
+{
+    /* width:600px !IMPORTANT;     left:-200px !IMPORTANT; */
+	padding: 10px 15px;
+}
+

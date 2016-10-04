@@ -1,0 +1,21 @@
+.RadSiteMap_Telerik {
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+  .RadSiteMap_Telerik .rsmManyLevels .rsmLink {
+    border-bottom: 0; }
+  .RadSiteMap_Telerik .rsmTwoLevels .rsmLink, .RadSiteMap_Telerik .rsmThreeLevels .rsmLink, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel1 .rsmLink {
+    border-bottom: 0; }
+  .RadSiteMap_Telerik .rsmOneLevel .rsmLink, .RadSiteMap_Telerik .rsmTwoLevels .rsmLevel1 .rsmLink, .RadSiteMap_Telerik .rsmThreeLevels .rsmLevel1 .rsmLink, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel2 .rsmLink {
+    border: 0;
+    border-radius: 3px;
+    color: #000000; }
+    .RadSiteMap_Telerik .rsmOneLevel .rsmLink:hover, .RadSiteMap_Telerik .rsmTwoLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Telerik .rsmThreeLevels .rsmLevel1 .rsmLink:hover, .RadSiteMap_Telerik .rsmManyLevels .rsmLevel2 .rsmLink:hover {
+      color: black;
+      background-position: 0 -1000px; }
+  .RadSiteMap_Telerik .rsmLink,
+  .RadSiteMap_Telerik .rsmTemplate {
+    color: #316300; }
+  .RadSiteMap_Telerik .rsmLink {
+    background-image: url('Common/radGradientListSprite.png'); }
+  .RadSiteMap_Telerik .rsmLink:hover {
+    color: #51a300; }

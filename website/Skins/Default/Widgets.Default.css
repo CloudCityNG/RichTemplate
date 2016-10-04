@@ -1,0 +1,27 @@
+/* this is the topmost cell of the dialogs that have RadTabStrip */
+.reTopcell {
+  background-color: #f0f0f0; }
+
+/* File Manager dialogs */
+.selectedFileName {
+  border-top: 1px solid #8a8a8a; }
+
+/* background for the bottom positioned RadTabStrip */
+.RadTabStripBottom_Default {
+  background: #f0f0f0;
+  width: 264px;
+  border-bottom: 1px solid #8a8a8a;
+  padding-bottom: 6px !important; }
+
+.reTableWizardSelectAllBtn {
+  color: #333333; }
+
+.imagePreviewer {
+  overflow: hidden; }
+
+/*Sprite from RFE*/
+.RadToolBar_Default .rtbText {
+  background-image: url('FileExplorer/FileExplorerToolbarSprites.png');
+  _background-image: url('FileExplorer/FileExplorerToolbarSpritesIE6.gif') !important;
+  background-repeat: no-repeat; }
+
